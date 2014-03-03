@@ -1,0 +1,111 @@
+#homepage
+  - if current_user
+    .row
+      .span12
+        %h1= t('welcome_back', name: current_user.name)
+        %hr
+
+        - if current_user.students.length > 0 || current_user.teacher?
+          %h4 #{t('home.classroom')}:
+
+          %p
+            = link_to t('home.teacher_student_count', count: current_user.students.length), manage_followers_path
+            = t('home.teacher_averages', trophy_average: ("%.1f" % current_user.average_student_trophies), trophy_max: Trophy::TROPHY_MAX)
+
+          %p
+            = render partial: 'shared/teacher_nav', locals: { current: 'home' }
+
+          %p
+            %a#printcertificates{:href=>"#"}  #{t('home.teacher_print_certificates')}
+            |
+            %a{:href=>'http://codecurriculum.tumblr.com/', :target=>'_blank'} #{t('home.teacher_read_blog')}
+
+          %form#printcertificatesform{:action=>"http://code.org/certificates", :method=>"POST"}
+            %input{:type=>'hidden', :name=>'course', :value=>'20hours'}
+            - finished_students = current_user.students.select { |student| student.prize_earned }
+            - finished_students.first(30).each do |finished_student|
+              %input{:type=>'hidden', :name=>'names[]', :value=>CGI::escape(finished_student.name)}
+        
+          :javascript
+            $("#printcertificates").click(function() {
+              $('#printcertificatesform').submit();
+            });
+
+          %hr
+
+        %h4 #{t('home.student_progress')}:
+        = t('home.student_stats', trophy_count: current_user.trophy_count, trophy_max: Trophy::TROPHY_MAX)
+        %br/
+
+        %div.padtopbottom
+          = render partial: 'shared/student_continue', locals: { include_finished: true }
+          - if !current_user.teacher? && current_user.teachers.length == 0
+            = link_to t('add_teacher_form.submit'), "#" + :teacher_email_or_code.to_s
+  - else
+    - unless Rails.configuration.minimal_mode
+      .row#signup
+
+        .span5
+          %p.medium-size-text#maintext
+            %span>=link_to t('home.student_reg_link'), new_user_registration_path
+            &nbsp;|&nbsp;  
+            %span>=link_to t('home.teacher_reg_link'), new_user_registration_path('user[user_type]' => User::TYPE_TEACHER)
+            %br/
+            #{raw t('home.signin_message', link: link_to(t('nav.user.signin'), new_user_session_path))}
+
+        .span7
+          %p.medium-size-text#helptext
+            %span>= sanitize(t('home.signin_directions'), tags: %w(br))
+
+      %br/
+
+    .row#lesson
+      .span9#heading
+        %h3.whitetext= t('k8intro')
+      .span3#trynow
+        = button_to t('home.trynow'), k8intro_chapter_path(ScriptLevel::NEXT), :method => "get", :class=>"btn btn-primary biggerbutton"
+      .span10
+        %p.smallwhitetext
+          #{t('signup_form.overview')}
+      .span12
+        %p
+          =link_to image_tag('signup_header_cropped.jpg'), k8intro_chapter_path(ScriptLevel::NEXT)
+      - if eligible_for_prize?
+        .span10
+          %p#prizes.lightgreytext
+            #{t('home.prize_info')}
+        .span12
+          = render partial: 'shared/student_prize_mini_grid'
+          %br/
+          %br/
+
+  .row#stats
+    .span1
+    .span11#rightside
+      = render partial: 'shared/user_stats', locals: { user: current_user, trophies_on_right: true }
+
+  %br/
+  - if current_user && !current_user.teacher?
+    - if current_user.teachers.length >= 1
+      = t('teacher.title', count: current_user.teachers.length, name: '')
+      = raw current_user.teachers.map{|t| t[:name] + ' ' + link_to(t('teacher.remove'), remove_follower_path(teacher_user_id: t[:id], student_user_id: current_user.id), confirm: t('teacher.confirm.remove'), method: :post)}.join(', ')
+    - else
+      %h4= t('add_teacher_form.code_or_email.label')
+      = form_for([Follower.new]) do |f|
+        .field
+          = text_field_tag :teacher_email_or_code, nil, class: 'input-xxlarge', placeholder: t('add_teacher_form.code_or_email.placeholder'), :required => true
+          = hidden_field_tag :redirect, root_path
+        .actions
+          = f.submit t('add_teacher_form.submit')
+  %br/
+
+  - if current_user && current_user.admin?
+    %h3= t(:demos)
+    %ul
+      - Script.all.each do |script|
+        %li= link_to(data_t_suffix('script.name', script.name, 'desc'), script_level_path(script, ScriptLevel::NEXT))
+    = link_to t("builder.manage"), scripts_path
+    %h3= link_to 'Admin Stats', admin_stats_path
+
+  :javascript
+    $( "#teacher_email_or_code" ).placeholder();

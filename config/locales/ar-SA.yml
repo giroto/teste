@@ -1,0 +1,365 @@
+"ar":
+  activerecord:
+    attributes:
+      user:
+        name: الاسم
+        email: البريد الإلكتروني
+        username: اسم المستخدم
+        password: كلمة المرور
+        password_confirmation: تأكيد كلمة المرور
+        current_password: كلمة المرور الحالية
+        locale: اللغة
+        gender: الجنس
+        edit_header: تعديل تفاصيل الحساب
+  hello: مرحباً بالعالم
+  welcome_back: أهلا بكم من جديد, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: 'إضف معلم عن طريق الرمز أو البريد الإلكتروني:'
+      placeholder: الرمز (ABCDEF) أو البريد الإلكتروني (teacher@school.edu)
+    submit: إضف معلم
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: المرحلة
+  puzzle: لغز
+  trophies: الجوائز
+  courses: دروس
+  of: من
+  more: أكثر
+  less: أقل
+  try_hoc: قم بتجربة ساعة من البرمجة, انقر هنا>> 
+  try_k8intro: أو جرب مقدمة عن درس "علوم الكمبيوتر" للمستوى المبتدئ والمتوسط  (من
+    15 الى 25 ساعة)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: بدأت بالفعل؟ اكمل من هنا >> 
+  demos: 'المشرف:  جميع العروض التوضيحية'
+  continue: أستمر
+  prize: جائزة
+  more_info: المزيد من المعلومات
+  auth:
+    sign_in_with: تسجيل الدخول باستخدام %{provider}
+    signed_in: تم تسجيل الدخول!
+    already_signedup: قمت بالتسجيل مسبقاً؟
+    notyet_signedup: لم تنضم إلينا بعد؟
+    google_oauth2: جوجل+
+    twitter: تويتر
+    facebook: فيس بوك
+    windowslive: ويندوز لايف
+    forgot_password: نسيت كلمة المرور؟
+    need_confirmation: لم استلم تعليمات تأكيد الحساب؟
+    need_unlock: لم أستلم تعليمات فتح الحساب؟
+  signup_form:
+    overview: هذا الكورس 20 ساعة حول مقدمة عن علوم الكمبيوتر ومفاهيم البرمجة. تم تصميم
+      هذا الكورس للاستخدام في الفصول الدراسية للصفوف الابتدائية والمتوسطة، ولكن أنها
+      متعة للتعلم لكل الإعمار.
+    no_signup_header: لاترغب بالتسجيل؟
+    no_signup_message: يمكنك<a target="_blank" href="http://learn.code.org"> تصفح
+      مختلف المراحل والالغاز</a>, ولكن سوف تحتاج إلى التسجيل لحفظ تقدمك.
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: طلاب الولايات المتحدة الذين يكسبون كل مفهوم الجوائز %{num_trophies}
+      يمكنك تحديد مجموعة متنوعة من الجوائز والتي تتضمن مساحة حرة من دروب بوكس , رصيد
+      سكايب ، والألعاب القابلة للتحميل من الفنون الإلكترونية.
+    teacher_educator_guide: راجع دليل المعلم
+    teacher_prize_header: 'اربح 1000دولار في المكافئات <a target="_blank" href="http://DonorsChoose.org">
+      DonorsChoose.org </a> '
+    teacher_prize_message: في شراكة مع <a target="_blank" href="http://DonorsChoose.org">
+      DonorsChoose.org </a> Code.org سوف يقدم عرض اكثر من 1000 دولار لتمويل المعلمين
+      في المدارس الحكومية في الولايات المتحدة الامريكية الذين يقومون بتدريس على الاقل
+      15 طالب خلال هذا الكورس <a href="http://code.org/educate/20hr"> لمزيد من المعلومات
+      انظر دليل المعلم </a>
+    teacher_prize_limits: '(Limit: $1,000 per teacher. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">See
+      FAQ for more limits</a>)'
+    teacher_pitch: اعطاء مقدمة عن علوم الكمبيوتر للمستوى المبتدئ والمتوسط في فصلك
+      الدراسي
+    teacher_title: تسجيل حساب المعلم
+    student_pitch: 'بعد اتمامك ساعة واحدة من البرمجة : جرب مقدمة عن علوم الكمبيوتر
+      للمستوئ المبتدئ والمتوسط'
+    student_title: تسجيل
+    school_name: اسم المدرسة (اختياري)
+    school_address: عنوان المدرسة (اختياري)
+    address_placeholder: العنوان، المدينة، الدولة، الرمز البريدي
+    gender: الجنس (اختياري)
+    birthday: تاريخ الميلاد (اختياري)
+    submit: تسجيل
+    teacher: هل أنت معلم؟
+    valid_username: متاح!
+    invalid_username: اسم المستخدم يجب ان يكون على الاقل 5 احرف
+    taken_username: اسم المستخدم الان موجود
+    valid_password: كلمة المرور متاحة!
+    invalid_password: كلمة المرور يجب ان تكون على الاقل 6 احرف
+    mismatch_password: كلمة المرور التي ادخلتها غير متطابقة
+    student_terms: أوافق على أن اكون ملتزم بشروط الخدمة من Code.org . إذا أنا عمري
+      أصغر من 13 سنة ، أؤكد بتقديم هذه الاستمارة أن لدى الوالدين أو الوصي القانوني
+      الإذن باستخدام خدمات Code.org.
+    teacher_terms: أوافق على أن اكون ملتزم بشروط الخدمة من Code.org.
+  signin_form:
+    title: تسجيل الدخول
+    login: البريد الإلكتروني أو اسم المستخدم
+    password: كلمة المرور
+    remember: تذكرني
+    submit: تسجيل الدخول
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: نسيت كلمة المرور؟
+      email: البريد الإلكتروني
+      submit: أرسل لي معلومات إعادة تعيين كلمة المرور
+    change_form:
+      title: تغيير كلمة مرور حسابك
+      new_password: كلمة مرور جديدة
+      confirm_password: تأكيد كلمة المرور الجديدة
+      submit: تغيير كلمة المرور الخاصة بي
+  welcome_email:
+    subject: أنضم إلى صفي (في Code.org)
+    body: "انقر على الرابط أدناه للتسجيل في دروس علوم الكمبيوتر في Code.org ( مثل
+      \"معلمك الخاص\"): \n\n%{link}\n\n\nالدروس تجلب لكم المتعة لانها تعمل بشكل مرئي
+      وتقدم لكم مجموعة من المفاهيم الأساسية لعلوم الكمبيوتر الآلي باستخدام التبسيط
+      \ والارشادات. تعلم البرمجة من بيل جيتس ومارك زوكربيرج، الطيور الغاضبة والنباتات
+      ضد الزومبيز! :-)\n\n%{name}\n"
+  follower:
+    invite_sent: تم إرسال الدعوة
+    added_teacher: '%{name} تم اضافتك كمعلم'
+    registered: لقد قمت بتسجيل %{section_name}.
+    error:
+      signed_in: من فضلك قم بتسجيل الخروج قبل المتابعة
+      username_not_found: اسم المستخدم %{username} غير موجود
+      username_in_use: '%{username} مستخدم، الرجاء اختر واحدا آخر من فضلك'
+      no_teacher: تعذر العثور على أي شخص مسجل بـ  '%{teacher_email_or_code}'. من فضلك
+        أطلب منهم التسجيل هنا و من ثم محاولة إضافتهم مرة أخرى
+      blank_code: الرجاء ادخل رمز او عنوان البريد الالكتروني الخاص بالمعلم
+    mail:
+      invite_student:
+        subject: أنضم إلى الصف مع %{teacher_name} في Code.org!
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} is no longer associated as
+          your student.'
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: لا يوجد لديك الصلاحيات للوصول إلى إحصائيات الخاصة بهذا المستخدم
+  redeem_prizes:
+    title: استبدال الجوائز :%{name}
+    provider: 'المزود:'
+    code: 'الكود البرمجي :'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: How to use your code
+    success: تم استرداد جائزتك بنجاح, راجع الكود البرمجي ادناه.
+    error: لم يتم استرداد جائزتك بنجاح, الرجاء المحاولة مرة اخرى.
+    error_us_only: عرض الجائزة صالحة فقط للمستخدمين في الولايات المتحدة.
+    error_not_earned: انت لم تكسب هذه الجائزة بعد.
+    error_already_redeemed: جائزتك تم استردادها الان.
+    no_prizes_available: نحن نعتذر لعدم توفر الجوائز حاليا.
+    teacher_info_required: 'Teacher prizes require school name and address information:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: الرجاء تأكيد
+      'no': لا
+      'yes': نعم
+      msg: هل انت متأكد من المطالبة بالجائزة %{prize_name} ؟
+      msg_student: 'ملاحظة: يمكنك فقط اختيار نوع واحد من الجائزة.'
+      msg_publicschool: الرجاء تأكيد من انك معلم في مدرسة حكومية في الولايات المتحدة
+        الامريكية.
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10 كيكا بايت من مساحة دروب بوكس
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'اختر الجائزة :'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: انت حصلت جائزة (فقط لطلاب الولايات المتحدة)
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'تعلم جميع مفاهيم علوم الكمبيوتر , اجمع جميع الجوائز%{num_trophies}،
+        واكسب جوائز العالم الحقيقي. يمكنك أن تختار بين 10 كيكا بايت للتخزين المجاني
+        من دروب بوكس، 10 دولار رصيد سكايب ، وتحميل العاب مجانية. ملاحظة: العروض فقط
+        صالحة للطلاب في الولايات المتحدة.'
+      teacher:
+        earned: 10 أو أكثر من الطلاب جمع جميع الجوائز %{num_trophies} لقد فزت بجائزة
+          معلم! (المعلمين في الولايات المتحدة فقط)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: لمكافأة معلمين علوم الكمبيوتر لاول مرة , بأمكانك كسب مكافأة مالية
+          اكثر من 1000 دولار في <a href="http://DonorsChoose.org">DonorsChoose.org</a>
+          الائتمانات من اجل توجيه الصف الدارسي من خلال اعطاء مقدمة للمستوى المبتدئ
+          والمتوسط , لكي تتأهل يحتاج منك ان تقوم بأستضافة 15 طلاب واعطائهم كورس مقدمة
+          في علوم الكمبيوتر , بعد اكمال الـ 15 طلاب جميع المحاظرات التعليمية سيحصلون
+          على جميع الجوائز %{num_trophies} .اذا كان 7 او اكثر من طلابك الذين يحصلون
+          على جميع الجوائز %{num_trophies} هم من الفتيات , مكافأتك ستصبح 1000 دولار
+          <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> من
+          الائتمانات <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+          الائتمانات يمكن استخدامها فقط من قبل المعلمين في المدارس الحكومية الامريكية.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 7 أو أكثر من الطلاب الذين جمعوا جميع الجوائز %{num_trophies} هم
+            من الفتيات. لقد فزت بجائزة مكافأة! (المعلمين في الولايات المتحدة فقط)
+          not_earned: اذا كان على الاقل 7 من طلابك الذين يحصلون على جميع الجوائز %{num_trophies}
+            هم من الفتيات , مكافأتك ستصبح 250 دولار <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+            من الائتمانات <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+            الائتمانات يمكن استخدامها فقط من قبل المعلمين في المدارس الحكومية الامريكية.
+  crud:
+    new_model: جديد %{model}
+    show: إظهار
+    edit: تعديل
+    edit_model: تعديل %{model}
+    update: تحديث
+    destroy: تدمير
+    back: العودة
+    confirm: هل أنت متأكد؟
+    created: تم بنجاح إنشاء %{model}.
+    updated: تم بنجاح تحديث %{model}.
+    destroyed: '%{model} was successfully deleted.'
+    access_denied: You do not have access to this %{model}.
+  nav:
+    header:
+      finished_hoc: 'لقد انهيت ساعة من البرمجة '
+      sign_in_to_save: قم بتسجيل الدخول لحفظ التقدم
+    user:
+      classroom: طلابي
+      label: مرحباً %{username}
+      stats: انجازاتي
+      settings: حسابي
+      prizes: الجوائز
+      logout: تسجيل الخروج
+      signin: تسجيل الدخول
+      signup: تسجيل
+    popup:
+      progress: إنجازاتك
+      lines: 'عدد أسطر الكود البرمجي : %{lines}'
+      close: إغلاق
+      mastery: مفاهيم
+      puzzle_map: مراحل
+      prizes: اجمع الجوائز الـ %{total_trophies} و فز بجوائز قيمة!
+      prize_earned: كل الجوائز %{total_trophies} جمعت . فزت بجائزة!
+      prize_us_only: (طلاب الولايات المتحدة فقط)
+      prizes_link: مزيد من المعلومات
+  teacher:
+    title:
+      one: معلمك هو %{name}
+      other: 'معلميك:'
+    remove: (إحذف المعلم)
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: أدوات المعلم
+    students:
+      manage: إدارة الطلاب
+      add: إضف الطلاب
+    rollup: لوحة معلومات التقدم
+    activity: آخر نشاطات الصف
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: (اتركه فارغاً إذا كنت لا ترغب في تغييره)
+    current_password_hint: (أدخل كلمة المرور الحالية لتأكيد التغييرات الخاصة بحسابك)
+    cancel:
+      title: إلغاء حسابي
+      hint: غير سعيد؟
+      button: إلغاء حسابي
+  user_level:
+    completed: أكمل
+    tried: حاول
+  user_stats:
+    recent_activity: آخر النشاطات
+    show_more: إظهار المزيد
+  home:
+    signin_message: أو إذا كنت مسجلا مسبقا %{link}
+    student_reg_link: الطالب
+    teacher_reg_link: المعلم
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: انظر على لوحة معلومات التقدم
+    teacher_student_count_one: لديك %{count} طلاب.
+    teacher_student_count: لديك %{count} طلاب.
+    teacher_averages: كمعدل حصل طلابك %{trophy_average} من %{trophy_max} جائزة "إتقان
+      المفهوم".
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: فصلك الدراسي
+    student_progress: تقدم تعلمك
+    student_stats: لقد حصلت %{trophy_count} من %{trophy_max}  جائزة "اتقان المفهوم".
+    student_left_off: 'اين كنت آخر مرة:'
+    student_finished_prize: لقد أتممت جميع الدروس, اطلب %{prize_link} وقم باختيار
+      صف آخر %{online_link} أو في %{local_school_link}
+    student_finished: لقد أتممت جميع الدروس, قم باختيار صف آخر %{online_link} أو في
+      %{local_school_link}
+    local_school: مدرسة محلية
+    online: متصل
+    see_details: مشاهدة التفاصيل
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: ذكر
+    female: أنثى
+    none: أفضل عدم الإجابة
+  footer:
+    help_from_html: مهندسون من <a href="http://www.google.com"> جوجل</a> و <a href="http://www.microsoft.com">
+      مايكروسوفت</a> و <a href="http://www.facebook.com"> فيس بوك</a> و <a href="http://www.twitter.com">
+      تويتر</a> ساعدوا في إنشاء هذا البرنامج التعليمي.
+    art_from_html: الطيور الغاضبة &trade; و &copy; 2009 - 2013 <a href="http://www.rovio.com">
+      رافو للترفيه المحدودة </a> جميع الحقوق محفوظة <br/> الزومبي والنباتات &trade;
+      و &copy; 2013 <a href="http://www.ea.com"> شركة الفنون الالكترونية </a> جميع
+      الحقوق محفوظة.
+    feedback: توفير التغذية الرجعية
+    translate: ساعدنا على ترجمة لغتك
+    tos: شروط الخدمة
+    privacy: سياسة الخصوصية
+  prize_mail:
+    prize_earned:
+      subject: استبدال الجائزة الخاصة بك في Code.org!
+    teacher_prize_earned:
+      subject: استبدال الجائزة الخاصة بك في Code.org!
+    teacher_bonus_prize_earned:
+      subject: استبدال جائزة المكافأة الخاصة بك في Code.org!
+  reference_area:
+    title: بحاجة إلى مساعدة؟
+    subtitle: مشاهدة اشرطة الفيديو والتلميحات
+    teacher: انظر الى الحل
+    auth_error: انت غير مسموح لك برؤية الحل.
+  video:
+    tab: فيديو.
+    notes: لا يوجد فيديو؟ اظهر الملاحظات.
+    autoplay_option: تشغيل تلقائي لاشرطة الفيديو
+    download: تحميل الفيديو
+  compatability:
+    working: نحن نعمل على دعم متصفح الأنترنت الخاص بك.
+    upgrade: من فضلك قم بتحديث متصفح الأنترنت الخاص بك.
+  slow_loading: هذا يأخذ وقتاً اطول من المعتاد...
+  try_reloading: حاول اعادة تحميل الصفحة
+  next_stage: انتهى! استمر في المرحلة القادمة
+  download_pdf: افتح خطة الدرس
+  share_code:
+    title: اضغط " تنفيذ البرنامج " لرؤية برنامجك في العمل
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

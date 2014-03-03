@@ -1,0 +1,74 @@
+"ms":
+  devise:
+    confirmations:
+      confirmed: Akaun anda telah berjaya disahkan. Anda kini didaftar masuk.
+      send_instructions: Anda akan menerima e-mel dengan arahan tentang bagaimana
+        untuk mengesahkan akaun anda dalam masa beberapa minit.
+      send_paranoid_instructions: Jika alamat e-mel anda wujud dalam pangkalan data
+        kami, anda akan menerima e-mel dengan arahan tentang bagaimana untuk mengesahkan
+        akaun anda dalam masa beberapa minit.
+    failure:
+      already_authenticated: Anda sudah mendaftar masuk.
+      inactive: Akaun anda belum diaktifkan lagi.
+      invalid: E-mel atau kata laluan tidak sah.
+      invalid_token: Token pengesahan tidak sah.
+      locked: Akaun anda telah dikunci.
+      not_found_in_database: E-mel atau kata laluan tidak sah.
+      timeout: Sesi anda telah tamat tempoh, sila daftar masuk semula untuk teruskan.
+      unauthenticated: Anda perlu daftar masuk atau mendaftar sebelum meneruskan.
+      unconfirmed: Anda perlu mengesahkan akaun anda sebelum meneruskan.
+    mailer:
+      confirmation_instructions:
+        subject: Arahan pengesahan
+      reset_password_instructions:
+        subject: Set semula kata laluan arahan
+      unlock_instructions:
+        subject: Buka arahan
+    omniauth_callbacks:
+      failure: Tidak dapat mengesahkan anda daripada %{kind} kerana "%{reason}".
+      success: Berjaya disahkan daripada akaun %{kind} account.
+    passwords:
+      no_token: Anda tidak boleh mengakses laman ini tanpa melalui e-mel set kata
+        laluan semula. Jika anda datang dari kata laluan set semula e-mel, sila pastikan
+        anda menggunakan URL penuh yang diberikan.
+      send_instructions: Anda akan menerima e-mel dengan arahan mengenai cara untuk
+        mereset semula kata laluan anda dalam beberapa minit.
+      send_paranoid_instructions: Jika alamat e-mel anda telah wujud dalam pangkalan
+        data kami, anda akan menerima link pemulihan kata laluan di alamat e-mel anda
+        dalam beberapa minit.
+      updated: Kata laluan anda berjaya ditukar. Anda kini didaftar masuk.
+      updated_not_active: Kata laluan anda berjaya ditukar.
+    registrations:
+      destroyed: selamat tinggal! Akaun anda telah berjaya dibatalkan. Kami berharap
+        untuk melihat anda semula tidak lama lagi.
+      signed_up: Selamat datang! Anda berjaya mendaftar masuk.
+      signed_up_but_inactive: Anda berjaya mendaftar. Walau bagaimanapun, kami tidak
+        dapat mendaftar anda masuk kerana akaun anda belum lagi diaktifkan.
+      signed_up_but_locked: Anda mendaftar berjaya. Walau bagaimanapun, kami tidak
+        dapat mendaftar anda masuk kerana akaun anda dikunci.
+      signed_up_but_unconfirmed: Mesej dengan link pengesahan telah dihantar ke alamat
+        e-mel anda. Sila buka pautan untuk mengaktifkan akaun anda.
+      update_needs_confirmation: Anda berjaya memperbaharui akaun anda, tetapi kami
+        perlu menguji e-mel baru anda. Sila semak e-mel dan klik talian untuk mengakhiri
+        pengesahan alamat e-mel baru anda.
+      updated: Akaun anda berjaya dikemas kini.
+    sessions:
+      signed_in: Log masuk berjaya.
+      signed_out: Berjaya didaftar keluar.
+    unlocks:
+      send_instructions: Anda akan menerima e-mel dengan arahan tentang bagaimana
+        untuk mengesahkan akaun anda dalam masa beberapa minit.
+      send_paranoid_instructions: Jika akaun anda wujud, anda akan menerima e-mel
+        dengan arahan tentang bagaimana untuk membuka kunci dalam beberapa minit.
+      unlocked: Akaun anda telah berjaya dibuka. Sila daftar masuk untuk teruskan.
+  errors:
+    messages:
+      already_confirmed: telah disahkan, sila cuba daftar masuk
+      confirmation_period_expired: perlu disahkan dalam %{period}, sila dapatkan satu
+        yang baru
+      expired: telah tamat tempoh, sila buat satu permintaan baru
+      not_found: tidak dijumpai
+      not_locked: tidak dikunci
+      not_saved:
+        one: '1 kesilapan melarang %{resource} daripada disimpan:'
+        other: '%{count} kesilapan melarang ini %{resource} daripada disimpan:'

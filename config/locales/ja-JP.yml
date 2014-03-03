@@ -1,0 +1,343 @@
+"ja":
+  activerecord:
+    attributes:
+      user:
+        name: 名前
+        email: Eメール
+        username: ユーザー名
+        password: パスワード
+        password_confirmation: パスワードの確認
+        current_password: 現在のパスワード
+        locale: 言語
+        gender: 性別
+        edit_header: アカウントの詳細を編集
+  hello: ハローワールド
+  welcome_back: Welcome Back, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: コード，メールアドレスで教師を追加
+      placeholder: コード (ABCDEF) かメール (teacher@school.edu)
+    submit: 先生を追加
+  add_hint_form:
+    placeholder: ここにあなたのヒントを入力してください。
+    submit: ヒントを追加します。
+  appname: Code.org
+  stage: ステージ
+  puzzle: パズル
+  trophies: トロフィー
+  courses: コース
+  of: の
+  more: 詳細
+  less: 隠す
+  try_hoc: ここをクリックしてコードの時間を試してください >>
+  try_k8intro: または、私たちの K- 8 イントロ計算機科学コース (15-25 時間)を試してください。
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 既に開始しましたか？ここで再開してください >>
+  demos: 管理者： 全部のデモ
+  continue: 続行しますか？
+  prize: 賞を受賞
+  more_info: 情報をもっと見る
+  auth:
+    sign_in_with: '%{provider} を使用してサインインします。'
+    signed_in: サインイン！
+    already_signedup: もう入会しましたか？
+    notyet_signedup: まだサインアップしていないですか？
+    google_oauth2: Google +
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: パスワードをお忘れですか？
+    need_confirmation: 確認イーメイルが来ませんでしたか？
+    need_unlock: ロックを解除をするインストラクションとど来ましたか？
+  signup_form:
+    overview: この20時間コースではコンピューターサイエンスの核となる部分やプログラミングの概念について紹介します。このコースは等級K-8用の授業に使われることを考慮して設計されました。しかし、ご安心ください全年齢を対象としており、楽しくプログラミングを学ぶことができます。
+    no_signup_header: 入会したくないですか？
+    no_signup_message: <a target="_blank"href="http://learn.code.org"> いろいろなステージとパズルを見られます。</a>しかし、あなたの進捗状況を保存するために入会する必要があります。
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: コンセプトトロフィー %{num_trophies} こ（全部）を獲得した米国の学生は無料Dropbox、スカイプのクレジット、とかElectronic
+      Artsからの無料ダウンロードできるゲームなど、バラエティにあふれる商品が選べます。
+    teacher_educator_guide: 教育者のガイドを参照してください。
+    teacher_prize_header: 100ドル賞金が当たります<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+      rewards
+    teacher_prize_message: <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>とパートナーを組んで,Code.orgでは
+      $1,000を上限とするクラスで使う資金を、このコースの間に少なくとも15人の学生を導いた米国の公立学校の教師へ提供します。 <a href="http://code.org/educate/20hr">詳細は教育者ガイドを参考にしてください。</a> 
+    teacher_prize_limits: '(制限: 教師 1 人あたり $1,000。<a target="_blank"href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">
+      多くの制限を参照してくださいよくあるご質問</a>）'
+    teacher_pitch: あなたの教室でK 8(幼稚園から８学年生）にコンピューター科学の紹介を教える。
+    teacher_title: 教師入会
+    student_pitch: '1 時間を超えて: 私たちのK 8 入門コンピューターサイエンスを試してみてください'
+    student_title: 入会
+    school_name: 学校名 (省略可能)
+    school_address: 学校の住所（オプションです）
+    address_placeholder: 住所、市、県、郵便番号
+    gender: 性別 （オプションです）
+    birthday: 誕生日 (optionalです)
+    submit: 入会
+    teacher: あなたは教師ですか？
+    valid_username: 利用可能 ！
+    invalid_username: ユーザー名は 5 文字以上である必要があります。
+    taken_username: ユーザー名は既に使用されています。
+    valid_password: 有効なパスワード ！
+    invalid_password: パスワードを%d文字以上で入力してください
+    mismatch_password: 入力した 2 つのパスワードが一致しません
+    student_terms: Code.org 利用規約によって拘束されることに同意します。13 歳未満の場合私の親または法定後見人の許可 Code.org
+      サービスを使用するこのフォームを送信することを確認します。
+    teacher_terms: Code.org 利用規約によって拘束されることに同意します。
+  signin_form:
+    title: ログイン
+    login: メールまたはユーザー名
+    password: パスワード
+    remember: ログインを覚えてください。
+    submit: ログイン
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: パスワードをお忘れですか？
+      email: イーメイルアドレス
+      submit: パスワードリセット手順の送信
+    change_form:
+      title: パスワードを変更します。
+      new_password: 新しいパスワード
+      confirm_password: 新しいパスワードを確認します。
+      submit: パスワードを変更します。
+  welcome_email:
+    subject: 私のクラス (Code.org) に参加します。
+    body: |
+      どうぞ下のリンクを使ってコンピュータ科学のチュートリアルにサインアップしてくださいい（Code.org から、私とあなたの「先生」として） 。
+
+      %{link}
+
+      チュートリアルは、視覚的に魅力的な楽しい、シンプル、ガイド付きのゲームのような経験を使用してコンピュータ ・ サイエンスの基本的な概念を習います。ビル ・ ゲイツ氏、Mark Zuckerbergさん、アングリーバード、地球　ｖｓ。ゾンビからコードを学ぼう ！:-)
+
+      %{name}
+  follower:
+    invite_sent: 招待状を送りました
+    added_teacher: '%{name} あなたの先生として追加'
+    registered: ' %{section_name}を登録しました。'
+    error:
+      signed_in: 続行する前にサインアウトしてください
+      username_not_found: ユーザー名 %{username} が見つかりません
+      username_in_use: '%{username} は既に取られています、別を選択してください。'
+      no_teacher: '''%{teacher_email_or_code}''を使用してサインインした人を見つけられませんでした。ここで入会をしてもらって、もう一度追加してください。'
+      blank_code: コードまたはあなたの先生のメール アドレスを入力してください。
+    mail:
+      invite_student:
+        subject: '%{teacher_name} のクラスを Code.org で参加 ！%{teacher_name}'
+      student_disassociated:
+        subject: 'Code.org の通知: % {student_name} は、もはやあなたの学生として関連付けられていません。'
+      teacher_disassociated:
+        subject: 'Code.org の通知: % {teacher_name} は、もはやあなたの先生として関連付けられていません。'
+  reports:
+    error:
+      access_denied: この人の統計情報へのアクセス権を持っていません。
+  redeem_prizes:
+    title: 交換賞品： %{name}
+    provider: 'プロバイダー:'
+    code: 'コード:'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: あなたのコードを使用する方法
+    success: あなたの賞金は獲得できました。下のコードを参照してください。
+    error: あなたの賞金は償還できませんでした、もう一度やり直してください。
+    error_us_only: 賞金提供をされるのは米国内のユーザーのみに限られています。
+    error_not_earned: あなたはまだこの賞を獲得していません。
+    error_already_redeemed: あなたの賞金は既に換金されています。
+    no_prizes_available: 申し訳ありませんが、ただ今賞品がありません。
+    teacher_info_required: 先生の賞品は学校の名前と住所の情報が必要です。
+    teacher_email_required: 先生の賞品には、確認済みのメール アドレスが必要です
+    confirm:
+      title: 確認してください
+      'no': いいえ
+      'yes': はい
+      msg: '%{prize_name} 賞金を本当に請求するもよろしいですか。'
+      msg_student: '注: 賞品わ、 1 つの種類のみを選択できます。'
+      msg_publicschool: 米国公立学校の教師であることを確証してください。
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: Dropbox の容量 10 GB
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 賞品を選択します。
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: 賞を獲得しました！(米国の学生のみ）
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'コンピューターサイエンスの概念を全て学び、 %{num_trophies}トロフィーと実際の商品を獲得します。10 ドル分の
+        iTunes ギフトカード、10 GB の無料の Dropbox のストレージ、 10 ドル分のSkipeクレジットそしてゲームの無料ダウンロードから選択できます。注：米国内の生徒のみ対象となります。また商品はなくなり次第終了いたします。 '
+      teacher:
+        earned: 10 人以上の学生が %{num_trophies} のトロフィーをすべての収集しましたので、 教師賞品を獲得しました ！（米国の教師のみ）
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: 初めてコンピュータ サイエンスを経験する教師への報酬です、最大$1,000まで獲得できます。 <a href="http://DonorsChoose.org">DonorsChoose.org</a>
+          K 8 イントロ コースを通して教室を案内するため <a href="http://DonorsChoose.org"> 支援チャリティー</a>
+          クレジット最大 $1,000 を得ることができます。対象は、正常にすべての 15 の学生 （またはそれ以上） のすべてのチュートリアルを完了して、すべての
+          % {num_trophies} トロフィーを獲得と K 8 イントロ コース全体を通じて、少なくとも 15 人の学生の教室をホストしている必要があります。7
+          人もしくはそれ以上の生徒のすべてがトロフィーを獲得し、さらにそれがた女子学生だった場合、あなたの報酬は $1,000 <a target="_blank"href="http://DonorsChoose.org">
+          支援チャリティー</a> クレジットです。それ以外の場合は、あなたの報酬は <a target="_blank"href="http://DonorsChoose.org">
+          支援チャリティー</a> クレジットで 750 ドルです。<a target="_blank"href="http://DonorsChoose.org">
+          支援チャリティー</a> クレジットは、米国の公立学校の教師によってのみ使用できます。
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: '%{num_trophies} のトロフィーをすべての収集した学生わ７人以上女学生でしたので、 教師賞品を獲得しました ！（米国の教師のみ）'
+          not_earned: '% {Num_trophies} のすべてのトロフィーを獲得したあなたの学生の少なくとも 7 が場合女の子は、あなたの報酬は追加
+            $250 <a target="_blank"href="http://DonorsChoose.org"> 支援チャリティー</a> クレジット。<a
+            target="_blank"href="http://DonorsChoose.org"> 支援チャリティー</a> クレジットは、米国の公立学校の教師によってのみ使用できます。'
+  crud:
+    new_model: 新しい%{model}
+    show: 表示
+    edit: 編集
+    edit_model: '%{model} を編集します。'
+    update: 更新のプログラム
+    destroy: 破壊します。
+    back: 戻る
+    confirm: 確かですか。
+    created: '%{model} はエラーなく、作成されました。'
+    updated: '%{model} はエラーなく更新しました。'
+    destroyed: '%{model}は正常に削除されました。'
+    access_denied: この %{model} へのアクセスを必要はありません。
+  nav:
+    header:
+      finished_hoc: コーディングの時間を終わる
+      sign_in_to_save: プログレスを保存するためにはサインインをしてください。
+    user:
+      classroom: 私の生徒
+      label: こんにちは  %{username}
+      stats: 私のプログレス
+      settings: 私のアカウント
+      prizes: 賞品
+      logout: サインアウト
+      signin: サインイン
+      signup: 入会
+    popup:
+      progress: あなたの進捗状況
+      lines: 'コードの行の合計:  %{lines}'
+      close: 閉じる
+      mastery: アイデア
+      puzzle_map: ステージ
+      prizes: '%{total_trophies}　トロフィーをあつめて、賞品を獲得しよう ！'
+      prize_earned: すべての%{total_trophies}トロフィーを集めました。賞をもらった！
+      prize_us_only: (米国の学生のみ）
+      prizes_link: 詳細情報
+  teacher:
+    title:
+      one: あなたの先生：
+      other: 'あなたの先生:'
+    remove: （先生を削除します)
+    confirm:
+      remove: この教師を削除してもよろしいですか。
+    tools: 教師のツール
+    students:
+      manage: 学生の管理。
+      add: 生徒を追加する
+    rollup: プログレスダッシュ ボード
+    activity: 最近のクラスの活動
+    user_not_found: 教師、又は、生徒は見つかりませんでした
+    student_teacher_disassociated: '% {teacher_name} が % {student_name} の教師として削除されています。'
+  user:
+    email_confirm_needed: 電子メール アドレスが確認されていません。
+    email_resend_confirm: 確認手順の再送信
+    new_password_hint: （変更したくない場合は空白のままにしてください）
+    current_password_hint: (変更を確認するためにあなたの現在のパスワードが必要です)
+    cancel:
+      title: アカウントをキャンセルします。
+      hint: 不満足ですか？
+      button: アカウントをキャンセルします。
+  user_level:
+    completed: 実行完了
+    tried: しようとしました。
+  user_stats:
+    recent_activity: 最近の活動
+    show_more: もっと見る
+  home:
+    signin_message: すでに登録されていましたら %{link}
+    student_reg_link: 生徒
+    teacher_reg_link: 先生
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: プログレス状況わ、ダッシュ ボードを参照してください。
+    teacher_student_count_one: あなたには %{count} 人の生徒がいます。
+    teacher_student_count: あなたには %{count} 人の生徒がいます。
+    teacher_averages: 平均であなたの学生わ %{trophy_max}のうち%{trophy_average}　"コンセプト習得"のトロフィーを獲得しています。
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: あなたの教室
+    student_progress: 学習の進行状況
+    student_stats: '%{trophy_max}このうち%{trophy_count} の"コンセプト"習得のトロフィーを獲得しました。'
+    student_left_off: 中断したところから。
+    student_finished_prize: すべてのチュートリアルを完了しました、あなたの %{prize_link} を主張した後、別のクラス %{online_link}
+      、または%{local_school_link}を選んでください
+    student_finished: すべてのチュートリアルを完了したら、別のクラス % {online_link} または % {local_school_link}を選んでください。
+    local_school: 地元の学校
+    online: オンライン
+    see_details: 詳細はこちら
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: 男性
+    female: 女性
+    none: 答えたくないです。
+  footer:
+    help_from_html: チュートリアルを作成わ<a href="http://www.google.com">Google</a>、<a href="http://www.microsoft.com">マイクロソフト</a>、<a
+      href="http://www.facebook.com">Facebook</a>、<a href="http://www.twitter.com">
+      Twitter</a> からのエンジニアの援助で完成しました
+    art_from_html: アングリバード＆トレード; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; &
+      &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights
+      Reserved.
+    feedback: フィードバックを提供します。
+    translate: あなたの言語に翻訳をお手伝い
+    tos: サービス利用規約
+    privacy: プライバシー ポリシー
+  prize_mail:
+    prize_earned:
+      subject: Code.org であなたの賞品を交換 ！
+    teacher_prize_earned:
+      subject: Code.org であなたの賞品を交換 ！
+    teacher_bonus_prize_earned:
+      subject: Code.org であなたのボーナス賞品を交換 ！
+  reference_area:
+    title: 助けが必要ですか？
+    subtitle: ビデオやヒントを見る
+    teacher: 解答を参照してください。
+    auth_error: 解答を見る権限がありません。
+  video:
+    tab: 動画
+    notes: 動画の代わりにノートを見る
+    autoplay_option: 動画の自動再生
+    download: ビデオのダウンロード
+  compatability:
+    working: お使いのブラウザーのサポートに取り組みちゅうです。
+    upgrade: お使いのブラウザーをアップグレードしてください。
+  slow_loading: 通常よりも長くかかっている...
+  try_reloading: ページを再読み込みしてみてください。
+  next_stage: 完成 ！次のステージに続きます。
+  download_pdf: オープン レッスン ・ プラン
+  share_code:
+    title: 「プログラムを実行する」をクリックすて、アクションで私のプログラムを見てください
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

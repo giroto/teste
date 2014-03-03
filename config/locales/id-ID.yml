@@ -1,0 +1,375 @@
+"id":
+  activerecord:
+    attributes:
+      user:
+        name: Nama
+        email: Email
+        username: Nama Pengguna
+        password: Kata sandi
+        password_confirmation: Konfirmasi sandi
+        current_password: Sandi saat ini
+        locale: Bahasa
+        gender: Jenis kelamin
+        edit_header: Edit rincian akun
+  hello: Halo dunia
+  welcome_back: Selamat datang kembali, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: 'Cantumkan nama guru dengan menggunakan kode atau alamat email:'
+      placeholder: Kode (ABCDEF) atau email (guru@sekolah.edu)
+    submit: Cantumkan nama guru
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: Tahap
+  puzzle: Teka-teki
+  trophies: Piala-piala
+  courses: Kursus
+  of: dari
+  more: lebih
+  less: KURANG
+  try_hoc: 'Cobalah Jam Kode, klik di sini >> '
+  try_k8intro: Cobalah kursus pengenalan ilmu komputer untuk anak-anak  (15-25 jam)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 'Sudah mulai? Lanjutkan di sini >> '
+  demos: 'Admin: Semua demo'
+  continue: Lanjutkan
+  prize: hadiah
+  more_info: Info lebih lanjut
+  auth:
+    sign_in_with: Masuk pakai akun %{provider}
+    signed_in: Masuk!
+    already_signedup: Sudah mendaftar?
+    notyet_signedup: Belum bergabung?
+    google_oauth2: Google+
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Lupa kata sandi?
+    need_confirmation: Tidak menerima instruksi konfirmasi?
+    need_unlock: Tidak menerima instruksi untuk membuka?
+  signup_form:
+    overview: Kursus selama 20 jam ini memperkenalkan ilmu komputer tingkat dasar
+      dan konsep-konsep pemrograman. Kursus ini dirancang untuk digunakan di ruang
+      kelas untuk sekolah dasar dan menengah, tapi tetap menyenangkan dipelajari untuk
+      semua usia.
+    no_signup_header: Tidak ingin mendaftar?
+    no_signup_message: Anda dapat <a target="_blank" href="http://learn.code.org">
+      mencoba berbagai tahap dan berbagai teka-teki</a>, tetapi Anda akan perlu untuk
+      masuk supaya kemajuan belajar Anda dapat dicatat.
+    prizes_header: Para siswa yang pertama yang menyelesaikan kursus akan memenangkan
+      hadiah! (hanya untuk siswa di Amerika Serikat)
+    prizes_message: Siswa Amerika Serikat yang telah memperoleh seluruh %{num_trophies}
+      piala konsep dapat memilih berbagai hadiah seperti ruang simpan Dropbox gratis,
+      kredit Skype, dan men-download permainan dari Electronic Arts.
+    teacher_educator_guide: Lihat panduan guru
+    teacher_prize_header: Memenangkan $1.000 hadiah dari <a target="_blank" href="http://DonorsChoose.org">
+      DonorsChoose.org</a>
+    teacher_prize_message: 'Bekerja sama dengan <a target="_blank" href="http://DonorsChoose.org">
+      DonorsChoose.org</a>, Code.org akan menawarkan hadiah hingga $1.000 dalam kelas
+      pendanaan untuk US guru sekolah umum yang memimpin setidaknya 15 siswa melalui
+      kursus ini. <a href="http://code.org/educate/20hr"> Lihat pendidik panduan untuk
+      info lebih lanjut.</a> '
+    teacher_prize_limits: '(Limit: $1,000 per teacher. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">See
+      FAQ for more limits</a>)'
+    teacher_pitch: Ajarilah ilmu komputer tingkat pemula di kelas Anda
+    teacher_title: Guru mendaftar
+    student_pitch: 'Setelah 1 jam: Cobalah pengantar ilmu komputer untuk sekolah dasar
+      dan menengah'
+    student_title: Daftar
+    school_name: Nama sekolah (opsional)
+    school_address: Alamat sekolah (opsional)
+    address_placeholder: Alamat, kota, propinsi, zip
+    gender: Jenis kelamin (opsional)
+    birthday: Tanggal ulang tahun (opsional)
+    submit: Daftar
+    teacher: Apakah anda seorang guru?
+    valid_username: Tersedia!
+    invalid_username: Nama pengguna harus minimal 5 karakter
+    taken_username: Nama pengguna ini sudah dipakai
+    valid_password: Kata sandi valid!
+    invalid_password: Kata sandi harus minimal 6 karakter
+    mismatch_password: kedua password yang anda masukkan tidak sama
+    student_terms: Saya setuju segala persyaratan layanan Code.org. Jika saya di bawah
+      usia 13 tahun, saya mengkonfirmasi bahwa dengan mengirimkan formulir ini saya
+      telah memiliki izin dari orang tua atau wali untuk menggunakan layanan Code.org.
+    teacher_terms: Saya setuju dengan segala persyaratan layanan Code.org.
+  signin_form:
+    title: Masuk
+    login: Email atau nama pengguna
+    password: Kata sandi
+    remember: Ingat saya
+    submit: Masuk
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: Lupa kata sandi?
+      email: Alamat email
+      submit: Kirim saya instruksi untuk mereset kata sandi
+    change_form:
+      title: Ganti kata sandi
+      new_password: Kata sandi baru
+      confirm_password: Konfirmasi kata sandi baru
+      submit: Ganti kata sandi saya
+  welcome_email:
+    subject: Gabung dengan kelas saya (di Code.org)
+    body: |
+      Klik link dibawah untuk masuk bergabung dengan ilmu komputer tutorial di Code.org (saya akan menjadi "guru"mu): %{link}
+
+      Kursus ini menyenangkan, menarik untuk dilihat, dan mengajar konsep dasar ilmu informatika menggunakan latihan  yang sederhana, teratur, dan dalam bentuk permainan. Belajarlah cara memprogram dari Bill Gates, Mark Zuckerberg, Angry Birds, dan Plants vs. Zombies! :-)
+      %{name}
+  follower:
+    invite_sent: Undangan telah dikirim
+    added_teacher: '%{name} telah dicantumkan sebagai nama guru Anda'
+    registered: Anda sudah terdaftar pada %{section_name}.
+    error:
+      signed_in: Silahkan logout sebelum melanjutkan
+      username_not_found: Nama akun %{username} tidak ditemukan
+      username_in_use: '%{username} sudah diambil, silakan memilih nama lain'
+      no_teacher: 'Tidak di temukan siapapun dengan akun ''%{teacher_email_or_code}''.
+        Mintalah mereka untuk registrasi di sini dan kemudian cobalah lagi untuk tambahkan
+        mereka '
+      blank_code: Masukkan kode guru Anda atau alamat emailnya
+    mail:
+      invite_student:
+        subject: Bergabung dengan kelas dengan %{teacher_name} di Code.org!
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} is no longer associated as
+          your student.'
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: Anda tidak memiliki akses untuk melihat statistik orang ini
+  redeem_prizes:
+    title: 'Ambil hadiah: %{name}'
+    provider: 'Penyedia:'
+    code: 'Kode:'
+    redeem_header: 'Untuk menebus:'
+    donorschoose_how_to: How to use your code
+    success: Hadiah Anda telah berhasil ditebus, silahkan lihat kode di bawah ini.
+    error: Hadiah Anda tidak bisa ditebus, silakan coba lagi.
+    error_us_only: Tawaran hadiah hanya berlaku untuk pengguna yang berdomisili di
+      Amerika Serikat.
+    error_not_earned: Anda belum bisa mendapatkan hadiah ini.
+    error_already_redeemed: Hadiah Anda sudah ditebus.
+    no_prizes_available: Mohon maaf, tetapi saat ini hadiah tidak tersedia.
+    teacher_info_required: 'Teacher prizes require school name and address information:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: Silakan konfirmasi
+      'no': Tidak
+      'yes': Ya
+      msg: Apakah Anda yakin Anda ingin mengambil hadiah %{prize_name}?
+      msg_student: 'Catatan: Anda hanya dapat memilih satu jenis hadiah.'
+      msg_publicschool: Harap mengkonfirmasi bahwa Anda adalah seorang guru sekolah
+        umum US.
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10GB ruang Dropbox
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'Pilih hadiah:'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: Anda mendapatkan hadiah! (hanya untuk siswa dari Amerika Serikat)
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'Pelajari konsep-konsep ilmu komputer, Kumpulkan semua Piala %{num_trophies},
+        dan dapatkan hadiah. Anda dapat memilih antara kartu hadiah iTunes $10, 10GB
+        penyimpanan Dropbox gratis $10 di Skype kredit, dan unduh permainan gratis.
+        Catatan: Penawaran hanya berlaku untuk siswa dari Amerika Serikat, dan hadiah
+        berlaku selama masih ada persediaan.'
+      teacher:
+        earned: 10 atau lebih siswa telah mengumpulkan semua Piala %{num_trophies}.
+          Anda telah memenangkan hadiah $750! (ini berlaku hanya untuk guru dari Amerika
+          Serikat)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: Untuk memberi penghargaan kepada guru-guru ilmu komputer, Anda
+          bisa mendapatkan hadiah sehingga $1.000 dari <a href="http://DonorsChoose.org">
+          DonorsChoose.org</a> kredit untuk membimbing kelas melalui kursus intro
+          sekolah dasar. Untuk memenuhi persyaratan, Anda harus memiliki setidaknya
+          10 siswa-siswi yang menyelesaikan kursus, dengan minimal 10 siswa-siswi
+          telah menyelesaikan semua tutorial dan mendapatkan semua Piala %{num_trophies}.
+          Jika siswa-siswi Anda yang mendapatkan Piala terdiri dari setidaknya 40%
+          anak perempuan, hadiah Anda adalah $1.000 dari <a target="_blank" href="http://DonorsChoose.org">
+          DonorsChoose.org</a> kredit. Jika tidak, hadiah Anda adalah $750 dari <a
+          target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit.  <a
+          target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> kredit
+          hanya berlaku untuk guru-guru di sekolah umum di Amerika Serikat.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 40% atau lebih dari siswa yang mengumpulkan semua Piala %{num_trophies}
+            adalah perempuan. Anda telah memenangkan hadiah bonus $250! (hanya berlaku
+            untuk guru dari Amerika Serikat)
+          not_earned: Jika siswa-siswi Anda yang telah mendapatkan semua Piala %{num_trophies}
+            terdiri dari setidaknya 40% anak perempuan, Anda mendapat tambahan hadian
+            $250 dari <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>
+            kredit. <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>
+            kredit hanya dapat berlaku untuk guru-guru sekolah umum di Amerika Serikat.
+  crud:
+    new_model: '%{model} baru'
+    show: Tampilkan
+    edit: Edit
+    edit_model: Edit %{model}
+    update: Update
+    destroy: Hancurkan
+    back: Kembali
+    confirm: Anda yakin?
+    created: '%{model} berhasil dibuat.'
+    updated: '%{model} berhasil dibuat.'
+    destroyed: '%{model} was successfully deleted.'
+    access_denied: You do not have access to this %{model}.
+  nav:
+    header:
+      finished_hoc: Saya telah menyelesaikan jam kode!
+      sign_in_to_save: Masuk untuk mencatat kemajuan belajar
+    user:
+      classroom: Murid-murid saya
+      label: Halo %{username}
+      stats: Kemajuan saya
+      settings: Akun saya
+      prizes: Hadiah
+      logout: Keluar
+      signin: Masuk
+      signup: Daftar
+    popup:
+      progress: Kemajuan Anda
+      lines: 'Jumlah baris kode: %{lines}'
+      close: TUTUP
+      mastery: Konsep
+      puzzle_map: Tahap
+      prizes: Kumpulkan semua %{total_trophies} piala dan menangkan hadiah!
+      prize_earned: Semua Piala %{total_trophies} telah terkumpul. Memenangkan hadiah!
+      prize_us_only: (Hanya untuk siswa dari Amerika Serikat)
+      prizes_link: Info lebih lanjut
+  teacher:
+    title:
+      one: Guru Anda adalah %{name}
+      other: 'Guru Anda:'
+    remove: (remove teacher)
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: Peralatan Guru
+    students:
+      manage: Mengelola siswa
+      add: Cantumkan nama siswa
+    rollup: 'Dashboard Kemajuan '
+    activity: Aktivitas kelas
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: (Kosongkan jika Anda tidak ingin mengubahnya)
+    current_password_hint: (kita perlu password Anda saat ini untuk mengkonfirmasi
+      perubahan Anda)
+    cancel:
+      title: Batalkan akun saya
+      hint: Tidak Puas?
+      button: Batalkan akun saya
+  user_level:
+    completed: Selesai
+    tried: Telah mencoba
+  user_stats:
+    recent_activity: Aktivitas terakhir
+    show_more: Tunjukkan lebih banyak
+  home:
+    signin_message: Atau jika Anda sudah terdaftar, %{link}
+    student_reg_link: Siswa
+    teacher_reg_link: Guru
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: Lihat kemajuan di dasbor
+    teacher_student_count_one: Anda memiliki  %{count} siswa.
+    teacher_student_count: Anda memiliki  %{count} siswa.
+    teacher_averages: Rata-rata siswa anda telah mendapatkan %{trophy_average} dari
+      %{trophy_max} piala "Penguasaan konsep".
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: Kelas anda
+    student_progress: Kemajuan belajar Anda
+    student_stats: Anda telah menerima  %{trophy_count} dari total %{trophy_max} piala
+      "Penguasaan Konsep".
+    student_left_off: 'Anda berada terakhir kali pada:'
+    student_finished_prize: Anda telah menyelesaikan semua tutorial, klaim piala anda  %{prize_link}
+      dan pilih kelas lain di  %{online_link} atau di sini %{local_school_link}
+    student_finished: Anda telah menyelesaikan semua tutorial, pilihlah kelas lain
+      %{online_link} atau %{local_school_link}
+    local_school: sekolah lokal
+    online: online
+    see_details: Lihat rincian
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: Laki-laki
+    female: Wanita
+    none: Memilih untuk tidak menjawab
+  footer:
+    help_from_html: Tutorial ini diciptakan atas bantuan programmer-programmer dari
+      <a href="http://www.google.com"> Google</a>, <a href="http://www.microsoft.com">
+      Microsoft</a>, <a href="http://www.facebook.com"> Facebook</a>, dan <a href="http://www.twitter.com">
+      Twitter</a>.
+    art_from_html: Angry Birds ™ & © 2009-2013 adalah hak cipta dan hak milik <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. <br/> Tanaman vs Zombies ™ & © 2013 adalah hak cipta
+      dan hak milik <a href="http://www.ea.com"> Electronic Arts Inc.</a>
+    feedback: Berikan pendapat
+    translate: Bantu menterjemahkan ke bahasa anda
+    tos: Persyaratan Layanan
+    privacy: Kebijakan privasi
+  prize_mail:
+    prize_earned:
+      subject: Ambil hadiah Anda di Code.org!
+    teacher_prize_earned:
+      subject: Ambil hadiah Anda di Code.org!
+    teacher_bonus_prize_earned:
+      subject: Ambil hadiah bonus Anda di Code.org!
+  reference_area:
+    title: Perlu bantuan?
+    subtitle: Lihat video ini dan tips lainnya
+    teacher: Lihat solusi
+    auth_error: Anda tidak diizinkan untuk melihat solusi.
+  video:
+    tab: Video.
+    notes: Tidak ada video? Tunjukkan catatan kaki.
+    autoplay_option: Autoplay video
+    download: Ungah Video
+  compatability:
+    working: Kami dalam tahap bekerja untuk menyediakan layanan didalam browser Anda.
+    upgrade: Silakan upgrade browser Anda.
+  slow_loading: Harap sabar, Ternyata diperlukan waktu yang lebih lama dari biasanya...
+  try_reloading: Coba tampilkan halaman lagi
+  next_stage: Selesai! Lanjutkan untuk tahap berikutnya
+  download_pdf: Rencana pelajaran terbuka
+  share_code:
+    title: Klik 'Jalankan program' untuk melihat bagaimana program bekerja
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

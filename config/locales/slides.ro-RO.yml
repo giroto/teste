@@ -1,0 +1,366 @@
+"ro":
+  slides:
+    maze_intro:
+      1:
+        image: notes/hoc1_1.jpg
+        text: Bine ai venit la prima ta oră de cod! Hai să pătrundem direct în prima
+          ta încercare de programare.
+      2:
+        image: notes/hoc1_2.jpg
+        text: Vom folosi Blockly, un limbaj de programare vizuală, în care muți cu
+          drag și drop blocuri pentru a scrie un cod.
+      3:
+        image: notes/hoc1_3.jpg
+        text: Majoritatea codului e scris cu tastatura, dar Blockly e vizual. Fiecare
+          bloc corespunde unei linii de cod "real".
+      4:
+        image: notes/hoc1_4.jpg
+        text: 'Vei învăța bazele informaticii, concepte care sunt folosite în orice
+          domeniu de la crearea de aplicații până la controlul roboților trimiși pe
+          Marte. '
+      5:
+        image: notes/hoc1_5.jpg
+        text: Un program este un set de instrucțiuni pe care calculatorul tău să le
+          urmeze.
+      6:
+        image: notes/hoc1_6.jpg
+        text: Scopul primului tău program este să lovești un Porcușor Verde cu o Pasare
+          Furioasă printr-un labirint.
+      7:
+        image: notes/hoc1_7.jpg
+        text: Partea stângă este labirintul în care programul se execută. Instrucțiunile
+          pentru fiecare puzzle se găsesc sub labirint.
+      8:
+        image: notes/hoc1_8.jpg
+        text: Cutia de instrumente din mijloc conține comenzile pentru Pasărea Furioasă.
+          Le vei utiliza pe acestea pentru a-ți construi codul.
+      9:
+        image: notes/hoc1_9.jpg
+        text: În dreapta este spațiul tău de lucru unde vei trage blocuri din cutia
+          de instrumente pentru a îți construi programul. Ca să ștergi un bloc trage-l
+          la gunoi în colț.
+      10:
+        image: notes/hoc1_10.jpg
+        text: Fiecare bloc este o instrucție. Dacă tragi un bloc de tip "mută înainte"
+          către spațiul tău de lucru și apeși pe "Execută Programul" pasărea se mută
+          cu un spațiu pe labirint.
+      11:
+        image: notes/hoc1_11.jpg
+        text: Ca să execuți mai mult de o mișcare, poți trage mai multe blocuri în
+          spațiul tău de lucru și să le atașezi împreună. Pasărea va executa comezile
+          de sus în jos.
+      12:
+        image: notes/hoc1_12.jpg
+        text: Dacă rulezi un program și vrei să îl repari pentru ca apoi să-l încerci
+          din nou, apasă pe butonul "Reset".
+      13:
+        image: notes/hoc1_13.jpg
+        text: Hai să prindem porcii!
+    artist_intro:
+      1:
+        image: notes/stage5_1.jpg
+        text: Bună, eu sunt JR! Fiecare echipa de cursă auto are nevoie de informaticieni
+          pentru a câştiga. Ei analizează datele din maşină pentru a o face să meargă
+          mai repede.
+      2:
+        image: notes/stage5_2.jpg
+        text: În aceste puzzle-uri, vei fi un artist care desenează o linie în spatele
+          lor indiferent unde ei merg.
+      3:
+        image: notes/stage5_3.jpg
+        text: Acest bloc spune "merge mai departe cu 100 pixeli." Pixelii sunt de
+          fapt doar puncte foarte mici pe ecran.
+      4:
+        image: notes/stage5_4.jpg
+        text: Acest bloc spune "întoarce la dreapta cu 90 de grade." Acesta va roti
+          artistul tău asemenea blocurilor "întoarce" din puzzle-urile de tip labirint.
+      5:
+        image: notes/stage5_5.jpg
+        text: Dă clic pe săgeată în oricare din aceste blocuri în așa fel încât să
+          modifici distanța cu care artistul va înainta sau unghiul cu care se va
+          întoarce într-o direcție sau alta.
+    farmer_intro:
+      1:
+        image: notes/stage9_1.jpg
+        text: Bună, eu sunt Paula! În aceste puzzle-uri, tu ești un fermier care vrea
+          să-și curețe terenul ca să fie complet plat pentru a începe să-și planteze
+          culturilor.
+      2:
+        image: notes/stage9_2.jpg
+        text: Trebuie să o ajuți să-și elimine toate grămezile de murdărie și să-și
+          umple toate găurile.
+      3:
+        image: notes/stage9_3.jpg
+        text: Noile blocuri elimină o lopată de murdărie de pe o grămadă și umple
+          o altă gaură cu o lopată de murdărie.
+      4:
+        image: notes/stage9_4.jpg
+        text: Grămezile și găurile sunt de mărimi diferite, deci va trebui să-i spui
+          fermierului câte lopeți să folosească.
+    flappy_intro:
+      1:
+        image: notes/flappy01.jpg
+        text: Hi, I'm Katie! One of the most exciting things about computer science
+          is that a computer program can be interactive.
+      2:
+        image: notes/flappy02.jpg
+        text: Any time somebody clicks or taps or types on a computer or phone, that
+          generates an EVENT, and there's some code that decides what to do when an
+          EVENT occurs.
+      3:
+        image: notes/flappy03.jpg
+        text: 'For example, you could have an EVENT-HANDLER that says "when the mouse
+          is clicked, play a sound" '
+      4:
+        image: notes/flappy04.jpg
+        text: Have you ever heard of the game FlappyBird? By using Event handlers,
+          we're going to learn to program our own custom version of FlappyBird!
+      5:
+        image: notes/flappy05.jpg
+        text: The code you'll write involves dragging and dropping blocks that represent
+          commands for the computer. Under the hood, each of these blocks is represented
+          by real code.
+      6:
+        image: notes/flappy06.jpg
+        text: 'If you take a look at the workspace, there are some green blocks that
+          are filled in for you - these are "event handlers" '
+      7:
+        image: notes/flappy07.jpg
+        text: If you want the bird to FLAP when you CLICK the mouse, you can do that
+          by attaching the "FLAP" block to the appropriate event handler, and now
+          in your game whenever you click the mouse, the bird will flap.
+      8:
+        image: notes/flappy08.jpg
+        text: In each puzzle of this activity we'll introduce new types of events
+          as green blocks on the workspace, and you can decide the appropriate blocks
+          to add in response to those events.
+      9:
+        image: notes/flappy09.jpg
+        text: When you see a drop down arrow like this, that means you can change
+          the settings - like what sound to play when flappy hits the ground.
+      10:
+        image: notes/flappy10.jpg
+        text: In the final puzzle you'll be able to create your own game and share
+          it with your friends. Have fun!
+    loop_times:
+      1:
+        image: notes/hoc2_1.jpg
+        text: Salut, sunt Mark! Hai să învățăm despre bucle. Folosind bucle îi poți
+          spune unui computer să repete orice set de acțiuni din nou și din nou, de
+          mii sau chiar de miliarde de ori.
+      2:
+        image: notes/hoc2_2.jpg
+        text: În acest puzzle, vrem să facem pasărea să se mute înainte 5 spații pentru
+          a ajunge la porcușor.
+      3:
+        image: notes/hoc2_3.jpg
+        text: Putem să folosim noul bloc "repetă" ca să ne ajute.
+      4:
+        image: notes/hoc2_4.jpg
+        text: În loc să tragem 5 blocuri de tip "mută înainte"...
+      5:
+        image: notes/hoc2_5.jpg
+        text: Putem să așezăm blocul "mută înainte" în interiorul blocului "repetă"
+          și să scriem un număr în bloc ca să îi spunem de câte ori să repete acțiunea.
+      6:
+        image: notes/hoc2_6.jpg
+        text: 'Și asta este important: poți să pui mai mult de o singură comandă în
+          interiorul unui bloc "repetă".'
+      7:
+        image: notes/hoc2_7.jpg
+        text: Bucurați-vă de folosirea noului bloc "repetă"!
+    loop_until:
+      1:
+        image: notes/hoc3_1.jpg
+        text: Salut, sunt Chris. Înainte să intru la Miami Heat, am fost la Georgia
+          Tech ca să invăţ informatică. Să încercăm noul nostru bloc, blocul "repetaţi
+          până când".
+      2:
+        image: notes/hoc3_2.jpg
+        text: Cum ar fi dacă nu am ști cât de departe trebuie pasărea să se mute pentru
+          a ajunge la porcușor?
+      3:
+        image: notes/hoc3_3.jpg
+        text: Dacă punem un bloc "mută înainte" în interiorul blocului "repetă până",
+          pasărea se va muta înainte PÂNĂ va ajunge la porcușor (sau se lovește de
+          un perete).
+      4:
+        image: notes/hoc3_4.jpg
+        text: 'Şi asta este important: la fel ca înainte, putem pune mai multe blocuri
+          înăuntrul blocului "repetă până când" şi toate se vor repeta.'
+    if:
+      1:
+        image: notes/hoc4_1.jpg
+        text: 'Salut, sunt Bill! Hai să învățăm un nou concept fundamental: Afirmațile
+          de tip "Dacă." Acesta este felul în care computerele iau decizii.'
+      2:
+        image: notes/hoc4_2.jpg
+        text: Voi utilizați afirmații de tip "Dacă" în fiecare zi. Înainte să mergi
+          afară în fiecare dimineață spui că DACĂ plouă afară, am nevoie să port o
+          geacă.
+      3:
+        image: notes/hoc4_3.jpg
+        text: Putem să-i spunem zombie-ului să verifice DACĂ este o cale către stânga,
+          și dacă găsește o cale către stânga, putem să îl îndreptăm în acea direcție.
+      4:
+        image: notes/hoc4_4.jpg
+        text: Ca să scriem codul pentru asta, hai să scoatem afară blocul nostru "dacă"
+          și să punem un bloc "întoarce la stânga" în interiorul său.
+      5:
+        image: notes/hoc4_5.jpg
+        text: Acum, dacă punem un bloc "mută înainte" deasupra lui și un bloc "repetă"
+          în jurul tuturor obiectelor, de fiecare dată când un zombie se va mișca,
+          va verifica dacă este o cale către stânga și se va întoarce.  Comanda "repetă"
+          este critică, ca să verifice dacă există o cale alternativă la fiecare pas.
+      6:
+        image: notes/hoc4_6.jpg
+        text: 'Afirmațiile de tip dacă sunt foarte importante în informatică. Unul
+          din primele programe pe care le-am scris a fost un joc x și 0, și exista
+          o afirmație de tipul "dacă", care spunea în felul următor programului de
+          execuție : Dacă adversarul este pe cale să câștige, blochează locul care
+          îi va permite să câștige.'
+      7:
+        image: notes/hoc4_7.jpg
+        text: Distrează-te folosind blocul "dacă"!
+    if_else:
+      1:
+        image: notes/hoc5_1.jpg
+        text: Salut, numele meu este Saloni. Eu folosesc informatica să pot ajuta
+          și găsi soluții în medicină și sănătate. Hai să învățăm  despre blocul "dacă
+          altul". Arată ca blocul "dacă", dar are o parte în plus la sfârșit care
+          spune "altfel".
+      2:
+        image: notes/hoc5_2.jpg
+        text: Dacă pun un bloc "mută înainte" în locul unde spune "execută" și un
+          bloc "ia-o la stânga" unde spune "altfel" asta înseamnă că zombie-ul va
+          alege între 2 opțiuni. DACĂ există o cale în față, zombie-ul se va mișca
+          înainte, și ALTFEL (nu există o cale înainte), zombie-ul se va întoarce
+          la stânga.
+      3:
+        image: notes/hoc5_3.jpg
+        text: 'Asemenea blocului "dacă", putem pune blocuri "dacă altfel" în interiorul
+          unui bloc "repetă" astfel încât zombie-ul să continue să se deplaseze și
+          blocul "dacă altfel" va continua să verifice dacă are unde să cotească. '
+      4:
+        image: notes/hoc5_4.jpg
+        text: Acum , condu-i pe zombie unde le este locul!
+    function:
+      1:
+        image: notes/stage13_1.jpg
+        text: Salut, eu sunt Brina, inginer la Instagram. O funcţie este alcătuită
+          din anumite linii de cod pe care vrei să o folosești din nou și din nou,
+          astfel încât în loc să scrii codul de fiecare dată, poți folosi doar un
+          singur bloc.
+      2:
+        image: notes/stage13_2.jpg
+        text: Vom învață cum să definim funcții. Definițiile pentru funcții au o stea
+          în colț. Numele funcției este scris pe prima linie de sus.
+      3:
+        image: notes/stage13_3.jpg
+        text: Blocuri care merg în interiorul definiției ne spun ce fac. Deci această
+          definiție a funcției se numește "umple 5" și acesta este format dintr-un
+          un bloc "repetă" și un bloc "umple".
+      4:
+        image: notes/stage13_4.jpg
+        text: Definiția stă pe spațiul de lucru, dar fermierul nostru nu va rula funcția
+          până când nu vom trage în afară blocul nostru cu funcția "umple 5" de la
+          categoria de funcții.
+      5:
+        image: notes/stage13_5.jpg
+        text: 'Sa punem "distracţia" înapoi în "Funcţie!" '
+    loop_while:
+      1:
+        image: notes/stage9_5.jpg
+        text: 'Salut, eu sunt Makinde! Hai să învățăm despre "blocul în timp ce" '
+      2:
+        image: notes/stage9_6.jpg
+        text: "\"Blocul în timp ce\" va face tot ce ai pus în interiorul acestuia,
+          ATÂTA TIMP CÂT \t\ndeclarația din partea de sus este ADEVĂRATĂ.\n"
+      3:
+        image: notes/stage9_7.jpg
+        text: De exemplu, în cazul în care fermierul stă pe o grămadă, el va continua
+          să elimine o lopată ÎN TIMP CE încă există o grămadă sub el.
+    loop_for:
+      1:
+        image: notes/stage11_1.jpg
+        text: Salut, eu sunt Trina și lucrez la Pixar. Am lucrat la o grămadă de filme,
+          inclusiv Shrek.
+      2:
+        image: notes/stage11_2.jpg
+        text: Acesta este noua buclă "contor". El va efectua acțiuni din nou și din
+          nou și tu poți face ca acțiunile să se schimbe câte puțin de fiecare dată.
+      3:
+        image: notes/stage11_3.jpg
+        text: În acest exemplu, buclă noastră "contor" spune "numără cu contorul de
+          la 50 la 90 din 10 în 10" și în interiorul ei avem blocul nostru "desenează
+          un pătrat". Trage blocul "contor" de la secțiune "Variabile" înspre locul
+          "lungime".
+      4:
+        image: notes/stage11_4.jpg
+        text: Acest lucru înseamnă că artistul nostru va desena un pătrat care are
+          lungimea laturile de 50 de pixeli, iar mai apoi va adăuga încă 10 pixeli
+          la ele și va desena un pătrat cu lungimea laturilor de 60 de pixeli. Iar
+          mai apoi va tot continua să adauge câte 10 pixeli și va desena pătrate până
+          când va ajunge la un pătrat de 90 de pixeli. Astfel încât vom avea pătrate
+          de 50, 60, 70, 80 și 90 de pixeli.
+    parameters:
+      1:
+        image: notes/stage15_1.jpg
+        text: Salut, eu sunt Janete și sunt inginer la Zynga.
+      2:
+        image: notes/stage15_2.jpg
+        text: Cum ar fi dacă am vrea să desenăm o grămadă de triunghiuri cu dimensiunile
+          lor de dimensiuni diferite?
+      3:
+        image: notes/stage15_3.jpg
+        text: Am putea scrie tot acel cod de mână sau am putea folosi o funcție cu
+          parametri.
+      4:
+        image: notes/stage15_4.jpg
+        text: Pentru a face acest lucru, dă clic pe steaua albastră de la definiția
+          funcției "desenează un triunghi". Apoi trage "nume intrare" înspre blocul
+          "intrare".
+      5:
+        image: notes/stage15_5.jpg
+        text: Apoi dacă scrii "lungime" în locul unde scrie "x" și apeși "Enter" vei
+          crea o intrare de tipul lungime pentru funcția ta.
+      6:
+        image: notes/stage15_6.jpg
+        text: Apoi dă clic pe stea. Acum, vei dori să dai clic pe categoria variabile
+          și să tragi blocul "lungime" înspre blocul definiției funcției "mergi înainte".
+          Și trage în afară blocul cu vechiul număr.
+      7:
+        image: notes/stage15_7.jpg
+        text: Pentru a folosi funcția cu parametri, dă clic pe categoria de funcții
+          și trage în afară funcția ta cu "desenează un triunghi cu lungime".
+      8:
+        image: notes/stage15_8.jpg
+        text: Acum poți folosi blocul de matematică cu diferite numere ca intrări
+          pentru a desena triunghiuri de dimensiuni diferite.
+    hoc_wrapup:
+      1:
+        image: notes/hoc6_1.jpg
+        text: Felicitări! Cu ultimul puzzle pe care l-ai rezolvat, tocmai ai scris
+          un cod ce poate spune ORICĂRUI robot cum să-și găsească drumul printr-un
+          labirint fără ramificații sau un tunel de orice lungime , fie că e un zombie,
+          o pasăre, un  robot de misune pe marte, sau chiar o mașină ce se conduce
+          singură.
+      2:
+        image: notes/hoc6_2.jpg
+        text: Conceptele de bază pe care le-ai folosit sunt inima oricărui program
+          sau aplicație pe care le vei încerca. Am învățat despre bucle care se repetă,
+          afirmații de tipul "repetă până la", și afirmații de tipul dacă/altfel.
+      3:
+        image: notes/hoc6_3.jpg
+        text: Dacă ți-a plăcut prima ta oră de cod, vizitează code.org pentru a-ți
+          continua educația în informatică! Când vei termina cursul nostru de 20 de
+          ore, vei stăpâni bazele programării, și vei putea să înveți cum să scrii
+          aplicații de telefon, instrucțiuni de roboți, jocuri, tu alegi.
+      4:
+        image: notes/hoc6_4.jpg
+        text: 'Tehnologia schimbă tot ceea ce facem și nu contează dacă ești tânăr
+          sau bătrân: programarea e distractivă, e creativă și oricine o poate învăța!'
+    20_wrapup:
+      1:
+        image: notes/bird.png
+        text: Arată notițele care vor apărea în curând!

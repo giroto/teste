@@ -1,0 +1,41 @@
+#edit-script-content
+  %h1 Edit Your Script
+  = link_to t("builder.back"), scripts_path
+  = link_to t("builder.level.create"), builder_path
+
+  %p#script-updated="Script Updated"
+
+  %p=t("builder.level.current")
+  - filtered_levels = @levels.to_a
+  %ul#current-script-levels.connectedSortable
+    - @current_script_levels.each do |sl|
+      - level = sl.level
+      - filtered_levels.delete(level)
+      = render partial: "drag_level", locals: { level: level }
+
+  %p=t("builder.level.unused")
+  %ul#all-levels.connectedSortable
+    - filtered_levels.each do |level|
+      = render partial: "drag_level", locals: { level: level }
+
+%iframe#blockly-frame
+
+:javascript
+  $('#current-script-levels, #all-levels').sortable({
+    connectWith: '.connectedSortable',
+  }).disableSelection();
+  $('#current-script-levels').sortable({
+    update: function() {
+      $.post('#{script_sort_url @script}', $('#current-script-levels').sortable('serialize') + "&id=" + #{@script.id})
+        .done(function () {
+          $('#script-updated').fadeIn('slow').fadeOut('slow');
+        });
+    }
+  });
+  $('.sl-edit-level-link').click(function(e) {
+    $('#blockly-frame').attr('src', $(this).data('url'));
+  });
+:css
+  .container {
+    width: 100%;
+  }

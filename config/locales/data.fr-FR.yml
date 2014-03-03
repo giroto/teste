@@ -1,0 +1,420 @@
+"fr":
+  data:
+    script:
+      name:
+        20-hour:
+          desc: Cours d'introduction à l'informatique pour écoles primaires
+          Unplug1: Étape 1
+          Maze: Étape 2
+          Unplug2: Étape 3
+          Unplug3: Étape 4
+          Artist: Étape 5
+          Unplug4: Étape 6
+          Artist2: Etape 7
+          Unplug5: Étape 8
+          Farmer: Etape 9
+          Unplug6: Etape 10
+          Artist3: Étape 11
+          Unplug7: Étape 12
+          Farmer2: Étape 13
+          Unplug8: Etape 14
+          Artist4: Étape 15
+          Unplug9: Étape 16
+          Farmer3: Etape 17
+          Unplug10: Étape 18
+          Artist5: Étape 19
+          Unplug11: Étape 20
+        Hour of Code:
+          desc: Temps de code
+          Maze: Étape 1
+        Edit Code:
+          desc: Mettre à jour le code
+          MazeEC: Étape 1
+        2014 Levels:
+          desc: Puzzles de 2014 (bêta)
+          MazeEC: Étape 1
+        Flappy Levels:
+          desc: Flappy Bird
+          MazeEC: Stage 1
+    game:
+      name:
+        Unplug1: Introduction à l'informatique
+        Maze: Le Labyrinthe
+        Unplug2: Algorithmique
+        Unplug3: Programmation sur feuille millimétré
+        Artist: L'Artiste
+        Unplug4: Algorithmes
+        Artist2: L'Artiste 2
+        Unplug5: Fonctions
+        Farmer: Le Fermier
+        Unplug6: Instructions conditionnelles
+        Artist3: L'Artiste 3
+        Unplug7: Écriture de chansons
+        Farmer2: Le Fermier 2
+        Unplug8: Abstraction
+        Artist4: L'Artiste 4
+        Unplug9: Programmation d'un relais
+        Farmer3: Le Fermier 3
+        Unplug10: Internet
+        Artist5: L'Artiste 5
+        Unplug11: Résumé
+        MazeEC: Le labyrinthe
+        Bounce: Rebondissement
+        Flappy: Flappy Bird
+    trophy:
+      name:
+        Bronze: Bronze
+        Silver: Argent
+        Gold: Or
+    concept:
+      description:
+        sequence: Séquence
+        if: Si bloc
+        if_else: Sinon bloc
+        loop_times: Répéter fois bloc
+        loop_until: Répéter jusqu'au bloc
+        loop_while: Pendant bloc
+        loop_for: Compteur Bloc
+        function: Fonctions
+        parameters: Fonctions avec paramètres
+    level:
+      instructions:
+        maze_2_2: 'Pouvez-vous m''aider à attraper le méchant cochon ? Assemble deux
+          blocs « aller en avant » et appuie sur « Exécuter le programme » pour m''aider
+          à y arriver. '
+        maze_2_1: Ce cochon me hérisse le poil. Aide-moi à le retrouver !
+        maze_2_2_5: Trace le chemin et amène moi à ce stupide cochon. Évite la dynamite
+          ou les plumes vont voler !
+        maze_2_3: Guide moi jusqu'au méchant vert. Attention à la dynamite !
+        maze_2_4: Garde ton calme et aide moi à trouver le méchant cochon. Sinon je
+          pourrais me fâcher !
+        maze_2_5: Il y a un moyen d'attraper ce stupide cochon en 2 blocs seulement.
+          Peux tu le trouver ?
+        maze_2_6: Essayez de me faire aller jusqu'à l'intrus vert à l'aide de seulement
+          trois blocs.
+        maze_2_7: Aide moi à bannir ce méchant cochon en utilisant le moins de blocs
+          possible. Essaye d'utiliser plusieurs blocs "répéter".
+        maze_2_8: 'Pour résoudre celui-ci, essayez un bloc « Répéter » avec ces 3
+          blocs à l''intérieur : déplacer, déplacer, tourner.'
+        maze_2_9: OK, essaye le nouveau bloc « répéter jusqu'à » - il se répétera
+          jusqu'à ce que j'atteigne l'ennuyeux cochon.
+        maze_2_10: OK, une dernière fois pour s'entraîner - Peux-tu résoudre celui-ci
+          à l'aide de seulement 4 blocs ?
+        maze_2_11: Chère personne.  Moi zombie. Moi faim. Doit... attraper... tournesol...
+          Pouvez vous m'y guider avec seulement 5 blocs ?
+        maze_2_12: OK, c'est semblable, mais légèrement différent. Peux-tu le faire
+          en seulement 5 blocs ?
+        maze_2_13: 'Utilise le nouveau bloc « si » et laisse moi décider du moment
+          pour tourner. Conseil : tu n''as besoin que d''un bloc de plus, mais apprends
+          comment nous avons fait afin que tu puisses faire tout seul la prochaine
+          fois.'
+        maze_2_14: OK, c'est comme le dernier puzzle, mais tu dois te rappeler comment
+          tu as utilisé le bloc « si » et le bloc « répéter » ensemble.
+        maze_2_15: Moi vouloir tournesol ! Utilise un bloc « si » pour m'y envoyer
+          avec le plus petit nombre de blocs.
+        maze_2_16: OK, nous allons le refaire encore une fois pour nous entraîner
+          - ce n'est pas très différent, mais fais attention aux  "chompers" !
+        maze_2_17: Les blocs "si - sinon" vérifient une condition et puis font une
+          chose OU une autre. Pour m'amener au tournesol essaye d'utiliser ce nouveau
+          bloc.
+        maze_2_18: Encoe un exercice avec le bloc "Si - Sinon", peux-tu y arriver
+          dès le premier essai ?
+        maze_2_19: Peux-tu ajouter seulement 3 blocs pour m'aider à résoudre un labyrinthe
+          plus difficile? Si tu te débrouille bien, je peux parcourir n'importe quelle
+          voie sinueuse, peu importe la longueur.
+        turtle_1_1: Salut, je suis un artiste. Vous pouvez écrire du code pour me
+          faire dessiner presque n'importe quoi. Utiliser quelques blocs pour me faire
+          dessiner sur les lignes grises dans l'image.
+        turtle_1_2: 'Maintenant, tracez un carré. NOTE : utilisez votre couleur préférée
+          en la choisissant dans le nouveau bloc "choisir la couleur".'
+        turtle_1_3: Faire un carré à l'aide de seulement 3 blocs.
+        turtle_1_4: 'Dessiner un triangle dont les côtés sont tous de couleurs différentes,
+          en utilisant l''option « couleur au hasard » qui choisis une couleur différente
+          à chaque fois. Astuce : vous devrez comprendre jusqu’où  tourner en cliquant
+          sur le numéro du bloc "tourner".'
+        turtle_1_5: Maintenant, pour s’entraîner, tracez un triangle, puis un carré
+          pour dessiner une enveloppe.
+        turtle_1_6: 'Savez-vous comment dessiner ce triangle et ce carré ? Conseil
+          : Faites d''abord le triangle, puis essayez de trouver de combien de degrés
+          il faudra tourner avant de dessiner le carré.'
+        turtle_1_7: OK, passons à plus difficile - Cherchez si vous pouvez dessiner
+          ces lunettes vertes. Les carrés sont de 100 pixels de chaque côté, et ils
+          sont reliés par une barre de 50 pixels. N'oubliez pas de dessiner en vert
+          !
+        turtle_1_8: OK, essayez de comprendre ce qui se passe si vous exécutez ce
+          code (ou appuyez sur « Run » pour l'essayer). Ensuite,  répetez le suffisamment
+          de fois pour compléter le dessin. Les couleurs seront différentes chaque
+          fois.
+        turtle_1_9: Savez vous par quel nombre remplacer les points d'interrogation
+          pour dessiner un cercle ?
+        turtle_1_10: 'Vous l''avez fait ! Maintenant, dessinez tout ce que vous voulez.
+          Ce qui vous amuse : un bonhomme en allumette, un flocon de neige ou une
+          spirale. Essayez aussi le nouveau bloc «  définir la largeur ». Amusez-vous!'
+        turtle_4_1: 'Peux-tu dessiner un triangle (avec des cotés de 100 pixels) avec
+          seulement 3 blocs? Conseil: utilise un bloc "répéter".'
+        turtle_4_2: 'Essaye d''ajouter un bloc pour compléter ce puzzle. Conseil:
+          nous avons fourni des blocs pour dessiner deux triangles identiques, tu
+          dois mettre un "tourner" entre, et décider combien tourner.'
+        turtle_4_3: Ok, voilà le code que tu as écris pour dessiner un seul triangle.
+          Peux-tu ajouter un bloc " répéter " et un bloc "tourner" pour faire une
+          jolie fleur?
+        turtle_4_4: 'Voici le même code du puzzle précédent, mais retourné de seulement
+          36 degrés après avoir dessiné chaque triangle. Combien de fois ça doit répéter?
+          (Astuce: après 360 degrés de rotation, le dessin va devenir un cercle)'
+        turtle_4_5: 'Voici le même code du puzzle précédent, mais en répétant les
+          retournements 36 fois. Combien de degrés doivent être les retournements?
+          (Astuce : après 360 degrés de rotation, le dessin va devenir un cercle)'
+        turtle_4_6: En utilisant seulement 3 blocs, peux-tu dessiner un carré avec
+          des bords de 20 pixels?
+        turtle_4_7: 'Voilà le code pour dessiner un carré du dernier puzzle. Peux-tu
+          le répéter pour dessiner 10 carrés qui se touchent l''un à la suite de l''autre
+          pour ressembler à une échelle? Astuce: tu as seulement besoin de 2 autres
+          blocs.'
+        turtle_4_8: Voici la solution de l'énigme précédente. Pouvez-vous ajouter
+          seulement 2 blocs de plus pour compléter le dessin ?
+        turtle_4_9: Voici la solution de l'énigme précédente. De combien de degrés
+          dois-tu tourner pour compléter le dessin ? (Tu devras probablement faire
+          plusieurs essais)
+        turtle_4_10: Voici la solution de l'énigme précédente. Combien de fois dois-tu
+          répéter pour compléter le dessin ?
+        turtle_4_11: Essayez de modifier les nombres dans les blocs « tourner » et
+          « répéter » pour réaliser différents dessins. Ou bien, essayez de changer
+          le reste du code pour dessiner tout ce que vous voulez.
+        maze_karel_1_1: Salut, je suis un agriculteur. J'ai besoin de votre aide pour
+          aplanir le terrain de ma ferme pour être prêt pour la plantation. déplace
+          moi vers le tas de saleté et utilisez le bloc de « supprimer » pour l'enlever.
+        maze_karel_1_2: Ensuite, déplacez moi vers le trou et remplis le avec deux
+          pelletées de terre, en utilisant le bloc de « remplissage ».
+        maze_karel_1_3: déplace moi vers le tas de boue et me dire combien de pelletées
+          supprimer à l'aide d'aussi peu de blocs que possible.
+        maze_karel_1_4: 'Pouvez-vous m''aider à supprimer toutes les quatre piles
+          de boue ? Conseil : utiliser un bloc répéter si vous le pouvez.'
+        maze_karel_1_5: 'aider moi à remplir tous ces trous avec 5 pelletées de terre.
+          Astuce : vous pouvez mettre un bloc « répéter » dans le bloc « while ».'
+        maze_karel_1_6: Retirez toutes les piles de boue, à l'aide d'aussi peu de
+          blocs que possible. Les nouvelles options dans le menu déroulant sur le
+          bloc « jusqu'à », dis moi si je suis debout sur une pile ou un trou.
+        maze_karel_1_7: Wow, j'ai trouvé un trou très profond ! Je ne sais pas combien
+          de pelletées de boue, il a besoin. Pouvez-vous écrire un programme qui remplit
+          jusqu'à ce que le trou soit remplis ?
+        maze_karel_1_8: aide moi à remplir le trou à l'extrémité du champ, à l'aide
+          du moins de blocs possible.
+        maze_karel_1_9: 'Faites moi supprimer tous ces tas de saleté. Essayez d''utiliser
+          aussi peu de blocs que possible. Astuce: essayez d''utiliser un bloc "tant
+          que".'
+        maze_karel_1_10: Je travaille tard, il fait noir dehors, et je ne peux pas
+          dire quelle taille les tas sont. Maintenant je n'ai pas toutes les options
+          que j'avais l'habitude d'avoir sur le bloc "jusqu'à". Déplace moi le long
+          du champ et s'il y a un tas, retirez-le.
+        maze_karel_1_11: 'Il fait encore noir dehors. Déplace moi le long du champ.
+          S''il y a un tas, l''enlever et s''il y a un trou, remplis-le. Conseil :
+          utilisez le menu déroulant des options sur le bloc « if ».'
+        turtle_2_1: 'Salut. Moi être artiste Zombie. Moi aimer dessiner! Toi aider
+          moi dessiner un carré dans couleur spéciale. Note importante: tu as tous
+          les mêmes blocs mais ils ont été maintenant arrangés dans des catégories.'
+        turtle_2_2: Bienvenue à l'utilisation de fonctions qui te permet de définir
+          de nouveaux blocs! Essaye le nouveau bloc "dessiner un carré", qui se trouve
+          dans la catégorie "Fonctions", pour dessiner un petit carré vert de 50x50.
+        turtle_2_3: Utilises le bloc "répéter" ( dans la catégorie "Boucles") pour
+          dessiner 3 carrés de taille 100, chacun 120 degrés à part. Et fais-le dans
+          3 couleurs différentes au hasard.
+        turtle_2_4: 'Maintenant nous allons être créatifs. Change le code pour dessiner
+          36 carrés, 100 pixels de largeur, et chacun 10 degrés à part. Indice: tu
+          pourrais utiliser le curseur pour me faire aller plus vite.'
+        turtle_2_5: Dessine des carrés avec les cotés de 50, 60, 70, 80, et 90 pixels.
+          Tu devras utiliser la fonction "dessine un carré" 5 fois.
+        turtle_2_6: 'Ok, ce programme va utiliser un compteur, pour dessiner les mêmes
+          carrés en moins de temps. Si tu veux que ton carré soit de même taille que
+          ton compteur, utilises alors le bloc "compteur". Indice: C''est dans la
+          catégorie des Variables.'
+        turtle_2_7: Voilà un programme pour dessiner une spirale, mais les blocs sont
+          désactivés dons elles ne fonctionnent pas. Fais un nouveau programme en
+          utilisant un bloc " compte avec" (dans la catégorie Boucles) et un bloc
+          "compteur" (dans la catégorie des Variables) pour dessiner la même spirale.
+        turtle_2_7_5: Il y a une nouvelle fonction "dessine un bonhomme de neige"
+          (dans la catégorie Fonctions). Dessine deux bonhommes de neige, un de hauteur
+          250 et l'autre 100.
+        turtle_2_8: Celui-ci est un peu délicat. Utilise la fonction "dessine un bonhomme
+          de neige" et le nouveau bloc " saute au-dessus" ( dans la catégorie Actions).
+          Dessine 3 bonhommes de neige de différentes couleurs, 100 pixels chacun.
+        turtle_2_9: Utilise une boucle " compte avec" pour dessine une famille de
+          bonhommes de neige avec les hauteurs de 110, 100, 90, 80, et 70. Les bonhommes
+          de neige doivent tous avoir 60 pixels chacun.
+        turtle_2_10: Voici un code pour essayez d'expérimenter les différentes spirales.  Que
+          se passe-t-il si tu modifies le montant du tour ? Ou si tu définis une couleur
+          au hasard dans la boucle ?  Dessine ce que tu veux.
+        maze_karel_2_1: 'Essaye d''utiliser les blocs pour m''aider à enlever toutes
+          les piles et de remplir tous les trous par terre. Essaye d''utiliser les
+          boucles au lieu d''utiliser beaucoup de blocs. Astuce: tu peux mettre une
+          boucle à l''intérieur d''une autre boucle.'
+        maze_karel_2_2: Nous avons défini notre propre bloc appelé « remplir 5 »,
+          qui se trouve maintenant dans la catégorie des Fonctions. Utilise-le pour
+          m'aider à remplir ce trou.
+        maze_karel_2_3: Utilise le nouveau bloc avec la fonction « remplir 5 » pour
+          me faire remplir tous les trous. Tu devra faire glisser le bloc « remplir
+          5 » hors de la catégorie des Fonctions.
+        maze_karel_2_4: Définis une nouvelle fonction qui supprime 7 pelles. Puis
+          utilises-la pour écrire un programme qui me permet de supprimer tous les
+          piles.
+        maze_karel_2_5: Crée une nouvelle fonction qui supprime 6 pelles du tas, et
+          utilises-la pour m'aider à niveler tous les tas.
+        maze_karel_2_6: Utilises 2 nouvelles fonctions, "remplir 8" et "supprimer
+          8", pour m'aider à niveler le tas et remplir le trou.
+        maze_karel_2_7: Il y a une vache dans mon terrain! Ecris une nouvelle fonction
+          qui va m'aider à éviter la vache et enlever le tas. Mets tous tes blocs
+          dans la nouvelle fonction.
+        maze_karel_2_8: Utilises cette nouvelle fonction, "éviter la vache et enlever
+          1", pour m'aider à enlever tous les tas.
+        maze_karel_2_9: Ok,  voilà une fonction qui supprime 4 tas de saleté différents
+          dans une colonne verticale. Essaye de mettre cette fonction dans une boucle,
+          pour que tu supprimes tous les tas de saleté en utilisant que quelques blocs.
+        maze_karel_2_10: Déplaces-moi à travers le terrain, et utilises ces deux fonctions
+          pour m'aider à supprimer tous les tas et remplir tous les trous.
+        turtle_3_1: Ce puzzle te montre comment les fonctions "dessiner un carré"
+          et "dessiner un cercle" sont définies. Définir une fonction ne fais pas
+          fonctionner ses blocs. Tu dois retirer le bloc "dessiner un carré" pour
+          vraiment dessiner un carré.
+        turtle_3_2: En utilisant la fonction "dessiner un carré" comme exemple, crée
+          une fonction "dessiner un triangle" et utilises-la.
+        turtle_3_3: 'Dessine des clôtures triangulaires autour des chats et une clôture
+          carrée autour de la vache.  Conseil : testes le programme tout en avançant.'
+        turtle_3_4: Regardes si tu peux comprendre comment utiliser "dessiner un carré"
+          et "dessiner un triangle" ( et quelques autres blocs) pour dessiner une
+          maison autour du lion.
+        turtle_3_5: 'Maintenant, crée une nouvelle fonction " crée une maison" et
+          utilises-la pour abriter deux chats. Astuce: Crée une nouvelle fonction
+          en utilisant le bloc "faire quelque chose", et écris ton propre texte pour
+          nommer le bloc.'
+        turtle_3_6: 'En repartant de "dessiner un carré" comme exemple, ajoutez une
+          entrée nommée "longueur" pour "dessiner un triangle". Ensuite, dessinez
+          des triangles de différentes tailles. (Astuce: cliquez l''étoile pour ajouter
+          une entrée à la fonction)'
+        turtle_3_7: Ajoutez une entrée nommée "longueur" pour "dessiner une maison"
+          et construire une grande maison pour l'éléphant (avec des côtés de 150 pixels
+          de longueur)
+        turtle_3_8: Voici tous les blocs du puzzle précédent. Modifier "dessiner une
+          maison" afin que j'arrive dans le coin inférieur droit après avoir dessiné
+          ma nouvelle maison. Utilisez cette fonction modifiée pour dessiner trois
+          maisons.
+        turtle_3_9: Pouvez-vous re-créer la fonction "dessiner une maison" sans mon
+          aide? Essayez, et ensuite dessinez une rangée de maisons.
+        turtle_3_10: Vous avez appris beaucoup! Maintenant utilisez ça pour dessiner
+          tout ce que vous voulez. Essayez de dessiner une étoile, ou une spirale,
+          ou encore un flocon de neige fantaisiste.
+        maze_karel_debug_seq_1: Bienvenue au débogage ! Mon code ne fonctionne pas
+          bien. Pouvez-vous repérer le problème et le corriger pour que je puisse
+          avoir mon champ plat et prêt pour la plantation ?
+        maze_karel_debug_seq_2: Quel est le problème avec ce programme ? Comment devriez-vous
+          le réparer pour que je puisse retirer cette pile ?
+        maze_karel_debug_repeat: Débuggez ce programme pour moi afin que mon terrain
+          soit beau et plat.
+        maze_karel_debug_while: Comment est-ce que vous devriez modifier ce programme
+          pour m'aider à combler le trou ?
+        maze_karel_debug_if: A l'aide! Réparez ce programme afin que mon terrain soit
+          complètement plat.
+        maze_karel_debug_if_else: Débugger ce programme afin que je remplisse les
+          trous et supprime tous les tas.
+        maze_karel_debug_function_1: Que devriez-vous changer à ce programme pour
+          m'aider à supprimer tous les tas?
+        maze_karel_debug_function_2: Pouvez vous déboguer ce programme pour moi afin
+          que je puisse niveler mon terrain?
+        maze_karel_debug_function_3: Modifier ce programme pour que je supprime tous
+          les tas de mon terrain.
+        turtle_5_1: Essayez d'exécuter ce programme et apporter des modifications
+          pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ?
+          (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)
+        turtle_5_2: Essayez d'exécuter ce programme et apporter des modifications
+          pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ?
+          (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)
+        turtle_5_3: Essayez d'exécuter ce programme et apporter des modifications
+          pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ?
+          (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)
+        turtle_5_4: Essayez d'exécuter ce programme et apporter des modifications
+          pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ?
+          (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)
+        turtle_5_5: Essayez d'exécuter ce programme et apporter des modifications
+          pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ?
+          (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)
+        turtle_5_6: Essayez d'exécuter ce programme et apporter des modifications
+          pour voir ce qu'il se passe. Pouvez-vous comprendre comment ça marche ?
+          (Ou supprimez-le et remplacez-le par quelque chose de totalement différent)
+        maze_3_1: Je dois arriver à ce cochon ! Tapez  une série d'appels à avance();
+          pour que je puisse retrouver mes oeufs.
+        maze_3_2: Ecrivez-moi un programme pour que je puisse aller jusqu'à ce cochon.
+        maze_3_3: Comment puis-je atteindre le cochon ? Assurez-vous que je ne trébuche
+          pas sur la boîte d'explosifs !
+        maze_3_4: Zut! Ecrivez-moi un programme qui me fasse éviter les explosifs
+          et qui me conduise au cochon.
+        bounce_1: Attache un bloc au bloc "quand flèche à gauche", puis appuie sur
+          "Exécuter Programme" pour que la raquette se déplace vers la cible en tapant
+          sur la touche 'flèche à gauche'.
+        bounce_2: Attache un bloc aux blocs "quand flèche à gauche" et "quand flèche
+          à droite", puis appuie sur "Exécuter Programme" pour que la raquette se
+          déplace vers la cible en tapant soit sur la touche 'flèche à gauche' ou
+          'flèche à droite'.
+        bounce_3: Maintenant, essaye la même chose avec le bloc "quand flèche en haut".  Fais
+          déplacer la raquette vers la cible en haut.
+        bounce_4: Cette fois, tu dois ajouter quatre blocs. Déplace la raquette vers
+          chacune des quatre cibles pour compléter ce puzzle.
+        bounce_5: Nous allons envoyer une balle vers la raquette.  Attache un bloc
+          au bloc "quand balle touche raquette" pour faire en sorte que la balle arrive
+          à la cible.
+        bounce_6: Maintenant la cible est au dessus.  Il te faudra attacher des blocs
+          à chacun des blocs "quand balle touche" pour terminer ce puzzle.
+        bounce_7: Attache des blocs aux blocs "quand flèche à droite", "quand flèche
+          à gauche", "quand balle touche au mur", et "quand balle touche la raquette".
+        bounce_8: Essaye à nouveau avec plus de balles.
+        bounce_9: Ça devient fou!
+        bounce_10: Il ya maintenant un but en haut.  Attache des blocs "incrémenter
+          le pointage" au blocs "quand balle au but" et "quand balle manque raquette"
+          pour construire un jeu.
+        Custom_builder: Drag blocks from the toolbox to the workspace to draw the
+          level you wish to create. Press "Run Program" when you are ready.
+        flappy_1: Attach a block to the "when click" block, then press "Run Program"
+          and click or tap to move Flappy to the target.
+        flappy_2: Now we've added some ground.  Attach a block to the "when hit the
+          ground" block, then press "Run Program". To pass this puzzle, your code
+          needs to 'END GAME' when Flappy crashes into the ground.
+        flappy_3: The "when Run is clicked" block allows you to run code when your
+          game first starts.  Try setting the level speed and flapping to the target.
+        flappy_4: Flappy will fly through obstacles unless you write code to make
+          him crash. Attach a block to the "when hit an obstacle" block. To pass the
+          puzzle, your code needs to 'END GAME' and make Flappy crash into the first
+          pipe so he can reach the target.
+        flappy_5: Let's add a scoreboard, and count points when Flappy makes it past
+          obstacles. Add to the "when pass an obstacle" block, and then score a point
+          by flying Flappy through the first set of pipes.
+        flappy_6: See if you can still score a point after making Flappy flap either
+          a smaller or larger amount.
+        flappy_7: Next, try changing the scene by attaching another block to the "when
+          Run is clicked".
+        flappy_11: Create your own Flappy game and share it. You can change the visuals,
+          or even the rules. Try changing visuals each time Flappy passes an obstacle.
+          Or make Flappy invincible so he never dies.
+      levelIncompleteError:
+        maze_2_8: 'Pour résoudre ceci, trouvez le schémas qui se répète. Utilisez
+          un bloc "Répéter" contenant ces trois blocs: avancer, avancer, tourner à
+          droite.'
+      other1StarError:
+        maze_2_14: Vous avez besoin d'un bloc "si" à l'intérieur d'un bloc "répéter".
+          Si vous rencontrez des difficultés, essayez à nouveau le niveau précédent
+          pour voir comment cela fonctionnait.
+      tooFewBlocksMsg:
+        maze_2_8: 'Pour résoudre ceci, trouvez un schémas qui se répète. Utilisez
+          un bloc "répéter" contenant les 3 blocs: avancer, avancer, tourner à droite.'
+    video:
+      name:
+        maze_intro: Intro au Labyrinthe
+        artist_intro: Intro à l'Artiste
+        farmer_intro: Intro au Fermier
+        flappy_intro: Flappy Intro
+        loop_times: Répéter fois bloc
+        loop_until: Répéter jusqu'au bloc
+        if: Si bloc
+        if_else: Sinon bloc
+        function: Fonctions
+        loop_while: Pendant bloc
+        loop_for: Compteur Bloc
+        parameters: Fonctions avec paramètres
+        hoc_wrapup: Conclusion de l'heure de programmation
+        20_wrapup: Conclusion de 20 heures

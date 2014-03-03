@@ -1,0 +1,21 @@
+%h1 Listing levels
+%table
+  %thead
+    %tr
+      %th{ width:100 } Levels
+      %th{ width:100 }
+      %th{ width:100 }
+      %th{ width:100 }
+  %tbody
+    - @levels.each do |level|
+      %tr
+        %td= level.name
+        %td= level.level_url
+        %td= link_to t('crud.show'), [@game, level]
+        - if can? :update, level
+          %td= link_to t('crud.edit'), edit_game_level_path(@game, level)
+        - if can? :destroy, level
+          %td= link_to t('crud.destroy'), [@game, level], method: :delete, data: { confirm: t('crud.confirm') }
+%br/
+- if can? :create, Level
+  = link_to t('crud.new_model', model: Level.model_name.human), new_game_level_path

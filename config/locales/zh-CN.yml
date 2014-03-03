@@ -1,0 +1,339 @@
+"zh-CN":
+  activerecord:
+    attributes:
+      user:
+        name: 姓名
+        email: 邮箱
+        username: '用户名:'
+        password: '密码:'
+        password_confirmation: 密码确认：
+        current_password: 当前密码：
+        locale: 语言：
+        gender: '性别:'
+        edit_header: 编辑用户信息
+  hello: 世界你好
+  welcome_back: 欢迎回来，%{name}
+  add_teacher_form:
+    code_or_email:
+      label: 通过代码或电子邮件地址来添加一位老师：
+      placeholder: 代码 (ABCDEF) 或电子邮件 (teacher@school.edu)
+    submit: 添加老师
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: 阶段
+  puzzle: 谜题
+  trophies: 奖杯
+  courses: 课程
+  of: 的
+  more: 更多
+  less: 更少
+  try_hoc: 尝试一小时代码，请单击此处 >>
+  try_k8intro: 或者尝试我们的K-8计算机入门课程（15-25小时）
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 已经开始了吗？在这里恢复 >>
+  demos: 管理员： 所有演示
+  continue: 继续
+  prize: 奖品
+  more_info: 更多信息
+  auth:
+    sign_in_with: 用%{provider}登录
+    signed_in: 登陆成功！
+    already_signedup: 已经注册了吗？
+    notyet_signedup: 还未注册吗？
+    google_oauth2: Google+
+    twitter: 推特
+    facebook: 脸谱
+    windowslive: Windows Live
+    forgot_password: 忘记了您的密码吗？
+    need_confirmation: 没有收到确认的说明吗？
+    need_unlock: 没收到解锁指令吗？
+  signup_form:
+    overview: 这个20 小时课程介绍核心计算机科学和编程的概念。课程为 K-8 年级设计，用于室内教学，但是所有年龄段学习起来都很有趣。
+    no_signup_header: 不想注册吗？
+    no_signup_message: 您可以 <a target="_blank"href="http://learn.code.org"> 浏览各个阶段和谜题</a>，但您将需要注册以保存您的进度。
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: 成功获得所有 %{num_trophies} 概念奖杯的美国学生可以任选下列奖品之一作为奖励，奖品包括：免费Dropbox空间、Skype积分、美国艺电(EA)
+      的数字版游戏。
+    teacher_educator_guide: 请参阅教师指南
+    teacher_prize_header: 赢 1,000美元 <a target="_blank"href="http://DonorsChoose.org">
+      DonorsChoose.org</a> 奖励
+    teacher_prize_message: 与 <a target="_blank"href="http://DonorsChoose.org"> DonorsChoose.org</a>
+      合作，Code.org 将提供向美国公立学校有至少15名学生的教提供 1000 美元的课程基金。<a href="http://code.org/educate/20hr">
+      的详细信息请参阅教师指南。</a>
+    teacher_prize_limits: '(Limit: $1,000 per teacher. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">See
+      FAQ for more limits</a>)'
+    teacher_pitch: 在你的课堂里教授 K-8 计算机基础课程
+    teacher_title: 老师登记
+    student_pitch: 一小时之后：试试我们的 K-8 计算机基础课程
+    student_title: 登记
+    school_name: 学校名称 （可选）
+    school_address: 学校地址 （可选）
+    address_placeholder: 地址、 城市、 州、 邮编
+    gender: 性别 （可选）
+    birthday: 生日 （可选）
+    submit: 登陆
+    teacher: 你是老师吗？
+    valid_username: 可用 ！
+    invalid_username: 用户名必须至少 5 个字符
+    taken_username: 用户名已被使用
+    valid_password: 有效的密码 ！
+    invalid_password: 密码必须至少为 6 个字符
+    mismatch_password: 您输入的两个密码不匹配
+    student_terms: 我同意由 Code.org 服务条款的约束。如果我的年龄为13 岁以下，我确认提交此表单我有我的父母或法定监护人的许可，以使用
+      Code.org 服务。
+    teacher_terms: 我同意Code.org 的服务条款。
+  signin_form:
+    title: 登录
+    login: 电子邮件或用户名
+    password: '密码:'
+    remember: 记住我
+    submit: 登录
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: 忘记密码？
+      email: 电子邮件地址
+      submit: 发送给我重置密码的指令
+    change_form:
+      title: 更换密码
+      new_password: 新密码
+      confirm_password: 确认新密码
+      submit: 更改我的密码
+  welcome_email:
+    subject: 加入我所在的班级
+    body: |
+      请单击下面的链接来报名参加计算机科学教程（我将成为你的"老师"）：
+      %{链接}
+      本教程轻松有趣吸引眼球，它将教导您如何使用一个简单的、 指导性的、 类似游戏经验的计算机科学的基本概念。快来学习从比尔 · 盖茨、 马克 · 扎克伯格到愤怒的小鸟、 植物大战僵尸的代码吧 ！:-)
+      %{name}
+  follower:
+    invite_sent: 发送邀请
+    added_teacher: 添加%{name}为你的老师
+    registered: 你已经注册了 %{section_name}。
+    error:
+      signed_in: 请在注销后继续下一步操作。
+      username_not_found: 找不到用户名 %{用户名}
+      username_in_use: '%{用户名} 已经被占用，请选择其他用户名。'
+      no_teacher: 找不到用户名 %{teacher_email_or_code}。请让该用户先注册，再次尝试添加。
+      blank_code: 请输入代码或你的老师的电子邮件地址
+    mail:
+      invite_student:
+        subject: 加入 %{teacher_name} 老师的班级吧！
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} is no longer associated as
+          your student.'
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: 您没有权限访问此人的信息。
+  redeem_prizes:
+    title: '奖品兑换: %{name}'
+    provider: 提供者
+    code: 代码：
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: How to use your code
+    success: 你的奖金已经成功兑现，请参见下面的代码。
+    error: 你的奖品无法兑现，请重新尝试。
+    error_us_only: 奖项仅向美国用户提供。
+    error_not_earned: 你还没有获得这一奖项。
+    error_already_redeemed: 您获得的奖项已经被兑现。
+    no_prizes_available: 我们很抱歉，但我们目前有没有可用的奖品。
+    teacher_info_required: 'Teacher prizes require school name and address information:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: 请确认
+      'no': 否
+      'yes': 是
+      msg: 你确定你希望领取奖品%{prize_name}吗？
+      msg_student: 注意：你只能选择一种奖品。
+      msg_publicschool: 请确认您是美国公立学校的老师。
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10 GB 的 Dropbox 空间
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 选择奖励：
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: 你赢得了奖 ！（仅适用于美国学生）
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 学习所有的计算机科学概念、 收集所有 %{num_trophies} 奖杯，和赚取真实世界的奖品。您可以选择 10 GB 免费的
+        Dropbox 空间， 10美元Skype信用 和免费游戏下载。注意： 仅向美国学生提供并且仅仅供应至最后一个。
+      teacher:
+        earned: 10 个或更多的学生收集到所有 %{num_trophies} 奖杯。你已经获得教师奖 ！（仅限美国教师)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: 为了奖励第一次计算机科学教师，通过指导一个教室通过K-8介绍课程，您可以赚取最高1,000 美元的<a href="http://DonorsChoose.org">
+          DonorsChoose.org</a> 信用。要符合资格，您需要成功地主持一个教室至少15 名学生完成所有K-8介绍课程，所有15个学生（或更多）完成所有的课程并获得所有
+          %{num_trophies} 奖杯。如果 7 或更多的赢得所有的奖杯学生是女孩，你的奖金为1000美元 <a target="_blank"href="http://DonorsChoose.org">
+          DonorsChoose.org</a> 信用。否则，您的奖金为750美元 <a target="_blank"href="http://DonorsChoose.org">
+          DonorsChoose.org</a> 学信用。只可由在美国的公立学校教师使用 <a target="_blank"href="http://DonorsChoose.org">
+          DonorsChoose.org</a> 信用。
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 7 或更多的获得所有 %{num_trophies} 奖杯的学生是女生。你获得了额外的奖励 ！（仅限美国教师)
+          not_earned: 如果你的学生赚取所有 %{num_trophies} 奖杯至少 7 是女孩，您的额外奖励是250美元 <a target="_blank"href="http://DonorsChoose.org">
+            DonorsChoose.org</a> 信用。只可由在美国的公立学校教师使用 <a target="_blank"href="http://DonorsChoose.org">
+            DonorsChoose.org</a> 信用。
+  crud:
+    new_model: 新%{model}
+    show: 显示
+    edit: 编辑
+    edit_model: 编辑 %{型号}
+    update: 更新
+    destroy: 销毁
+    back: 返回
+    confirm: 是否确定？
+    created: '%{model} 已成功创建。'
+    updated: '%{model} 已成功更新。'
+    destroyed: 成功删除 %{model} 。
+    access_denied: 您没有 %{model} 的权限。
+  nav:
+    header:
+      finished_hoc: 我已经完成了我的Hour of Code项目。
+      sign_in_to_save: 登录以保存进度
+    user:
+      classroom: 我的学生
+      label: 你好%{username}
+      stats: 我的进程
+      settings: 我的账户
+      prizes: 奖品
+      logout: 注销
+      signin: 登录
+      signup: 登陆
+    popup:
+      progress: 您的进度
+      lines: 代码总行数： %{lines}
+      close: 关闭
+      mastery: 概念
+      puzzle_map: 阶段
+      prizes: 收集所有 %{total_trophies} 的奖杯，并赢取奖品 ！
+      prize_earned: 所有 %{total_trophies} 奖杯都收集了。赢到奖品了 ！
+      prize_us_only: （仅适用于美国学生）
+      prizes_link: 更多的信息
+  teacher:
+    title:
+      one: 你的老师是 %{name}
+      other: 你的老师：
+    remove: (remove teacher)
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: 教师工具
+    students:
+      manage: 管理学生
+      add: 添加学生
+    rollup: 进度板
+    activity: 最近的课程活动
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: （如果你不想改变它，留空白）
+    current_password_hint: （我们需要您的当前密码以确认您的更改）
+    cancel:
+      title: 取消我的帐户
+      hint: 不开心吗？
+      button: 取消我的帐户
+  user_level:
+    completed: 已完成
+    tried: 试过了
+  user_stats:
+    recent_activity: 最近的动态
+    show_more: 显示更多
+  home:
+    signin_message: 或者如果你已经注册了， %{link}
+    student_reg_link: 学生
+    teacher_reg_link: 老师
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: 看进度板
+    teacher_student_count_one: 你有 %{count} 个学生。
+    teacher_student_count: 你有 %{count} 个学生。
+    teacher_averages: 平均下来，您的学生获得了%{trophy_average}/%{trophy_max}个“概念掌握”奖杯。
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: 你的教室
+    student_progress: 你的学习进度
+    student_stats: 你已经获得了%{trophy_count}/%{trophy_max}个“概念掌握”奖杯。
+    student_left_off: 你上次离开的地方：
+    student_finished_prize: 你已经完成了所有的教程，领取你的%{prize_link}并选择另一个班%{online_link}或者学校%{local_school_link}
+    student_finished: 您已经完成了所有教程，选择另一个 %{online_link} 或 {local_school_link} %
+    local_school: 本地学校
+    online: 在线
+    see_details: 查看详细信息
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: 男性
+    female: 女性
+    none: 不愿回答
+  footer:
+    help_from_html: <a href="http://www.google.com">谷歌</a>, <a href="http://www.microsoft.com">微软</a>,
+      <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a>的软件工程师帮助编写了教程。
+    art_from_html: 愤怒的小鸟 ™ &trade; & &copy; © 2009年-2013 年 <a href="http://www.rovio.com">
+      Rovio 娱乐有限公司</a>。版权所有。 <br/>植物大战僵尸 ™ &trade; & &copy; © 2013 <a href="http://www.ea.com">
+      电子艺术公司</a>。版权所有。
+    feedback: 提供反馈
+    translate: 帮助我们翻译成你的语言
+    tos: 服务条款
+    privacy: 隐私政策
+  prize_mail:
+    prize_earned:
+      subject: 领取你在 Code.org 的奖品！
+    teacher_prize_earned:
+      subject: 领取你在 Code.org 的奖品！
+    teacher_bonus_prize_earned:
+      subject: 领取你在 Code.org 的额外奖品！
+  reference_area:
+    title: 需要帮助吗？
+    subtitle: 看看这些视频和提示
+    teacher: 请参阅解决方案
+    auth_error: 您无权查看该解决方案。
+  video:
+    tab: 视频。
+    notes: 没有视频吗？请看笔记。
+    autoplay_option: 自动播放视频
+    download: 下载视频
+  compatability:
+    working: 我们在努力加入对你的浏览器的支持。
+    upgrade: 请升级你的浏览器。
+  slow_loading: 请稍微多等一会...
+  try_reloading: 请重新刷新页面
+  next_stage: 完成 ！继续下一个阶段
+  download_pdf: 开放课程
+  share_code:
+    title: 点击运行程序来观看程序的运行情况
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

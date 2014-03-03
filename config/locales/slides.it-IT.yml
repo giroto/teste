@@ -1,0 +1,371 @@
+"it":
+  slides:
+    maze_intro:
+      1:
+        image: notes/hoc1_1.jpg
+        text: Benvenuto alla tua prima Ora di Codice! Tuffati subito in un primo assaggio
+          di programmazione.
+      2:
+        image: notes/hoc1_2.jpg
+        text: Useremo "Blockly", un linguaggio visuale di programmazione in cui usi
+          blocchi per scrivere programmi.
+      3:
+        image: notes/hoc1_3.jpg
+        text: Gran parte del codice reale viene digitato, mentre Blockly è un linguaggio
+          visuale. Ogni "blocco" corrisponde ad una riga di codice reale.
+      4:
+        image: notes/hoc1_4.jpg
+        text: 'Imparerai i fondamenti dell''informatica: concetti che sono utilizzati
+          dovunque, dalla creazione di app per gli smart-phone al controllo del robot
+          che esplora il pianeta Marte.'
+      5:
+        image: notes/hoc1_5.jpg
+        text: Un programma è un insieme di istruzioni che il tuo computer deve eseguire.
+      6:
+        image: notes/hoc1_6.jpg
+        text: L'obiettivo del tuo primo programma è quello di far attraversare un
+          labirinto ad un uccello di "Angry Birds" e fargli catturare un maiale verde.
+      7:
+        image: notes/hoc1_7.jpg
+        text: Sul lato sinistro viene visualizzato il labirinto attraverso cui il
+          tuo programma deve guidare l'uccello. Le spiegazioni per ciascun puzzle
+          sono visualizzate al di sotto del labirinto.
+      8:
+        image: notes/hoc1_8.jpg
+        text: La cassetta degli attrezzi visualizzata nel mezzo contiene le istruzioni
+          per guidare un uccello di Angry Birds. Le devi usare per costruire il tuo
+          programma.
+      9:
+        image: notes/hoc1_9.jpg
+        text: Sulla destra c'è la tua area di lavoro, nella quale devi trascinare
+          i blocchi prendendoli dalla cassetta degli attrezzi in modo da costruire
+          il tuo programma. Per eliminare un blocco, trascinalo nel cestino nell'angolo.
+      10:
+        image: notes/hoc1_10.jpg
+        text: Ogni blocco è un'istruzione. Se trascini un blocco "vai avanti" nell'area
+          di lavoro e premi "Esegui il programma", l'uccello si sposta di uno spazio
+          in avanti nel labirinto.
+      11:
+        image: notes/hoc1_11.jpg
+        text: Per fare più di un'azione, trascina più blocchi nell'area di lavoro
+          e mettili uno sotto l'altro. L'uccello eseguirà le istruzioni associate
+          ai blocchi procedendo dall'alto verso il basso.
+      12:
+        image: notes/hoc1_12.jpg
+        text: Se dopo aver eseguito un programma vuoi cambiarlo ed eseguirlo di nuovo,
+          premi il pulsante "Ricomincia".
+      13:
+        image: notes/hoc1_13.jpg
+        text: Andiamo a prendere quei maiali!
+    artist_intro:
+      1:
+        image: notes/stage5_1.jpg
+        text: Ciao, sono JR! Ogni squadra di corse automobilistiche ha bisogno degli
+          informatici per vincere. Analizzano i dati dell'auto per farla andare più
+          velocemente.
+      2:
+        image: notes/stage5_2.jpg
+        text: In questi puzzle, sarai un artista che disegna una linea dietro di sé
+          dovunque va.
+      3:
+        image: notes/stage5_3.jpg
+        text: Questo blocco dice "vai avanti di 100 pixel". I pixel sono i minuscoli
+          puntini del tuo schermo.
+      4:
+        image: notes/stage5_4.jpg
+        text: Questo blocco dice "gira a destra di 90 gradi". Questo fa girare il
+          tuo artista della stessa quantità, come fa il blocco "gira" nel puzzle del
+          labirinto.
+      5:
+        image: notes/stage5_5.jpg
+        text: Fai clic sulla freccia in uno di questi blocchi, per cambiare di quanto
+          l'artista si sposta in avanti o gira. Fai qualche prova per prendere confidenza
+          con questi nuovi blocchi.
+    farmer_intro:
+      1:
+        image: notes/stage9_1.jpg
+        text: Ciao, sono Paola! In questi puzzle, tu sei un contadino che deve completamente
+          livellare il suo terreno per iniziare a seminarlo.
+      2:
+        image: notes/stage9_2.jpg
+        text: Devi aiutarlo a rimuovere tutti i mucchi di terra e a riempire tutte
+          le buche.
+      3:
+        image: notes/stage9_3.jpg
+        text: I nuovi blocchi rimuovono 1 palata di terra da un mucchio e riempiono
+          una buca con 1 palata di terra.
+      4:
+        image: notes/stage9_4.jpg
+        text: I mucchi e le buche sono di dimensioni differenti, quindi devi dire
+          al contadino quante palate deve  utilizzare.
+    flappy_intro:
+      1:
+        image: notes/flappy01.jpg
+        text: Hi, I'm Katie! One of the most exciting things about computer science
+          is that a computer program can be interactive.
+      2:
+        image: notes/flappy02.jpg
+        text: Any time somebody clicks or taps or types on a computer or phone, that
+          generates an EVENT, and there's some code that decides what to do when an
+          EVENT occurs.
+      3:
+        image: notes/flappy03.jpg
+        text: 'For example, you could have an EVENT-HANDLER that says "when the mouse
+          is clicked, play a sound" '
+      4:
+        image: notes/flappy04.jpg
+        text: Have you ever heard of the game FlappyBird? By using Event handlers,
+          we're going to learn to program our own custom version of FlappyBird!
+      5:
+        image: notes/flappy05.jpg
+        text: The code you'll write involves dragging and dropping blocks that represent
+          commands for the computer. Under the hood, each of these blocks is represented
+          by real code.
+      6:
+        image: notes/flappy06.jpg
+        text: 'If you take a look at the workspace, there are some green blocks that
+          are filled in for you - these are "event handlers" '
+      7:
+        image: notes/flappy07.jpg
+        text: If you want the bird to FLAP when you CLICK the mouse, you can do that
+          by attaching the "FLAP" block to the appropriate event handler, and now
+          in your game whenever you click the mouse, the bird will flap.
+      8:
+        image: notes/flappy08.jpg
+        text: In each puzzle of this activity we'll introduce new types of events
+          as green blocks on the workspace, and you can decide the appropriate blocks
+          to add in response to those events.
+      9:
+        image: notes/flappy09.jpg
+        text: When you see a drop down arrow like this, that means you can change
+          the settings - like what sound to play when flappy hits the ground.
+      10:
+        image: notes/flappy10.jpg
+        text: In the final puzzle you'll be able to create your own game and share
+          it with your friends. Have fun!
+    loop_times:
+      1:
+        image: notes/hoc2_1.jpg
+        text: Ciao, sono Mark! Impariamo ad usare i blocchi di ripetizione. Usando
+          i blocchi di ripetizione puoi dire a un computer di ripetere qualsiasi serie
+          di azioni più e più volte, migliaia o addirittura miliardi di volte.
+      2:
+        image: notes/hoc2_2.jpg
+        text: In questo puzzle, vogliamo fare in modo che l'uccello si sposti di 5
+          spazi in avanti per raggiungere il maiale.
+      3:
+        image: notes/hoc2_3.jpg
+        text: Puoi usare il nuovo blocco di ripetizione "ripeti ... volte" per aiutarci.
+      4:
+        image: notes/hoc2_4.jpg
+        text: Invece di usare 5 blocchi "vai avanti" ...
+      5:
+        image: notes/hoc2_5.jpg
+        text: Possiamo mettere il blocco "vai avanti" all'interno del blocco di ripetizione
+          "ripeti ... volte" e scrivere un numero nel blocco "ripeti ... volte" per
+          stabilire quante ripetizioni fare.
+      6:
+        image: notes/hoc2_6.jpg
+        text: 'Fai attenzione: "è possibile inserire più di un blocco all''interno
+          di un blocco di ripetizione \"ripeti ... volte\"."'
+      7:
+        image: notes/hoc2_7.jpg
+        text: Divertiti ad usare il nuovo blocco di ripetizione "ripeti"!
+    loop_until:
+      1:
+        image: notes/hoc3_1.jpg
+        text: Ciao, sono Chris. Prima di entrare nel Miami Heat, ho studiato informatica
+          al Georgia Tech. Proviamo il nuovo blocco di ripetizione, il blocco "ripeti
+          fino a che".
+      2:
+        image: notes/hoc3_2.jpg
+        text: Cosa succede se non sappiamo di quanto l'uccello deve spostarsi in avanti
+          per raggiungere il maiale?
+      3:
+        image: notes/hoc3_3.jpg
+        text: Se mettiamo un blocco "vai avanti" all'interno del blocco di ripetizione
+          "ripeti fino a che", l'uccello si sposta in avanti FINO A CHE raggiunge
+          il maiale (o sbatte contro un muro).
+      4:
+        image: notes/hoc3_4.jpg
+        text: 'Fai attenzione: "proprio come prima, possiamo mettere più blocchi all''interno
+          del blocco di ripetizione \"ripeti fino a che\", ed essi verranno tutti
+          ripetuti."'
+    if:
+      1:
+        image: notes/hoc4_1.jpg
+        text: 'Ciao, sono Bill! Impariamo un nuovo concetto fondamentale: l''istruzione
+          "se". I computer prendono le decisioni utilizzando proprio questa istruzione.'
+      2:
+        image: notes/hoc4_2.jpg
+        text: Tu stesso usi le istruzioni "se" ogni giorno. Prima di andare fuori
+          al mattino, ti dici SE fuori piove, devo indossare la giacca.
+      3:
+        image: notes/hoc4_3.jpg
+        text: Possiamo dire allo zombie di verificare se c'è strada a sinistra, e
+          se trova strada a sinistra, possiamo farlo girare in quella direzione.
+      4:
+        image: notes/hoc4_4.jpg
+        text: Per scrivere il codice per questo, trasciniamo nell'area di lavoro un
+          blocco "se" e mettiamo un blocco "gira a sinistra" all'interno di esso.
+      5:
+        image: notes/hoc4_5.jpg
+        text: Ora, se mettiamo un blocco "vai avanti" al di sopra di esso e un blocco
+          di ripetizione "ripeti fino a che" intorno a tutto, ogni volta che lo zombie
+          si muove controllerà se c'è strada a sinistra e in caso positivo girerà.
+          L'istruzione "ripeti fino a che" è fondamentale per effettuare il controllo
+          ad ogni passo.
+      6:
+        image: notes/hoc4_6.jpg
+        text: Le istruzioni "se" sono davvero importanti nell'informatica. Uno dei
+          primi programmi che ho scritto era un gioco di tic-tac-toe, e c'era un'istruzione
+          "se" che diceva "se l'altra persona sta per vincere, blocca la casella che
+          le consente di vincere".
+      7:
+        image: notes/hoc4_7.jpg
+        text: Divertiti utilizzando l'istruzione "se"!
+    if_else:
+      1:
+        image: notes/hoc5_1.jpg
+        text: Ciao, mi chiamo Saloni. Uso l'informatica per aiutare a risolvere problemi
+          nella sanità e nella medicina. Impariamo ad usare il blocco "se-altrimenti".
+          Assomiglia al blocco "se", ma ha una parte supplementare alla fine che dice
+          "altrimenti".
+      2:
+        image: notes/hoc5_2.jpg
+        text: Se metti un blocco "vai avanti" dove dice "fai" e un blocco "gira a
+          sinistra" dove dice "altrimenti" questo significa che lo zombie sceglierà
+          tra 2 opzioni. SE c'è strada in avanti, lo zombie si sposterà in avanti
+          e ALTRIMENTI (cioè se non c'è strada in avanti), lo zombie svolterà a sinistra.
+      3:
+        image: notes/hoc5_3.jpg
+        text: Proprio come con il blocco "se", quando mettiamo un blocco "se-altrimenti"
+          all'interno un blocco di ripetizione "ripeti", lo zombie continuerà a muoversi
+          mentre il blocco "se altrimenti" continuerà a controllare se esiste un posto
+          per girare.
+      4:
+        image: notes/hoc5_4.jpg
+        text: Ora, manda quegli zombie nel luogo da cui provengono!
+    function:
+      1:
+        image: notes/stage13_1.jpg
+        text: Ciao, sono Brina, un ingegnere di Instagram. Una funzione è fatta da
+          alcune righe di codice che vuoi utilizzare più e più volte. Se hai definito
+          una funzione, invece di scrivere ogni volta le stesse righe puoi usare solo
+          un blocco.
+      2:
+        image: notes/stage13_2.jpg
+        text: Adesso impariamo come definire le funzioni. Le definizioni di funzioni
+          hanno una stella nell'angolo. Il nome della funzione è scritto sulla linea
+          in alto.
+      3:
+        image: notes/stage13_3.jpg
+        text: I blocchi che vanno all'interno della definizione ci dicono che cosa
+          viene eseguito. Questa definizione di funzione è chiamata "riempi di 5"
+          e si compone di un blocco di ripetizione "ripeti" e di un blocco "riempi".
+      4:
+        image: notes/stage13_4.jpg
+        text: La definizione si trova nell'area di lavoro, ma per far eseguire la
+          funzione al contadino devi trascinare il blocco funzione "riempi di 5" fuori
+          dalla categoria "Funzioni".
+      5:
+        image: notes/stage13_5.jpg
+        text: Mettiamo il "divertimento" in "FUNZIONE!" 
+    loop_while:
+      1:
+        image: notes/stage9_5.jpg
+        text: Ciao, sono Makinde! Impariamo il blocco di ripetizione "mentre" 
+      2:
+        image: notes/stage9_6.jpg
+        text: Il blocco "mentre" farà qualunque cosa si trova all'interno di esso
+          PER TUTTO IL TEMPO IN CUI la condizione presente all'inizio è VERA.
+      3:
+        image: notes/stage9_7.jpg
+        text: Ad esempio, se il contadino è sopra un mucchio, continuerà a rimuovere
+          1 palata MENTRE c'è ancora un mucchio sotto di lui.
+    loop_for:
+      1:
+        image: notes/stage11_1.jpg
+        text: Ciao, sono Trina, e lavoro per Pixar. Ho lavorato in molti film, tra
+          cui Shrek.
+      2:
+        image: notes/stage11_2.jpg
+        text: Questo è il nuovo blocco "contatore". Si usa per eseguire le azioni
+          più e più volte e si può fare in modo che ogni volta le azioni cambino un
+          po'.
+      3:
+        image: notes/stage11_3.jpg
+        text: In questo esempio, il blocco "contatore" dice "contare 10 per volta
+          con il contatore che va da 50 a 90" e all'interno di esso, abbiamo il blocco
+          "disegna un quadrato". Trascina il blocco "contatore" dalla sezione "Variabili"
+          al posto di "lunghezza".
+      4:
+        image: notes/stage11_4.jpg
+        text: Questo significa che il nostro artista sta per disegnare un quadrato
+          con lati lunghi 50 pixel. Poi aggiungerà 10 e disegnerà un quadrato con
+          lati lunghi 60 pixel. Poi continuerà ad aggiungere 10 e disegnare quadrati
+          con lati sempre più lunghi fino a quando raggiungerà 90. Così avremo quadrati
+          di 50, 60, 70, 80 e 90 pixel.
+    parameters:
+      1:
+        image: notes/stage15_1.jpg
+        text: Ciao, sono Janete, e sono un ingegnere a Zynga.
+      2:
+        image: notes/stage15_2.jpg
+        text: E se vogliamo disegnare un mucchio di triangoli che hanno i loro lati
+          di dimensioni differenti?
+      3:
+        image: notes/stage15_3.jpg
+        text: Possiamo scrivere tutto questo codice a mano o possiamo utilizzare una
+          funzione con parametri.
+      4:
+        image: notes/stage15_4.jpg
+        text: Per fare ciò, clicca la stella blu sulla definizione della funzione
+          "disegna un triangolo". Poi trascina "nome dell'ingresso" nel blocco "ingresso".
+      5:
+        image: notes/stage15_5.jpg
+        text: Poi se scrivi "lunghezza" nel punto dove dice "x" e premi "Invio", creerai
+          un ingresso per la "lunghezza" della tua funzione.
+      6:
+        image: notes/stage15_6.jpg
+        text: Poi clicca sulla stella. Ora, clicca sulla categoria "Variabili" e trascina
+          il blocco "lunghezza" nel blocco "vai avanti" della tua definizione di funzione.
+          E trascina via il vecchio blocco col numero.
+      7:
+        image: notes/stage15_7.jpg
+        text: Per usare la tua funzione con parametri, fai clic sulla categoria "Funzioni"
+          e trascina la tua funzione "disegna un triangolo con lunghezza" nell'area
+          di lavoro.
+      8:
+        image: notes/stage15_8.jpg
+        text: Ora puoi utilizzare il blocco di matematica per inserire numeri diversi
+          e disegnare triangoli di dimensioni diverse.
+    hoc_wrapup:
+      1:
+        image: notes/hoc6_1.jpg
+        text: Complimenti! Con l'ultimo puzzle che hai risolto, hai appena scritto
+          il codice che dice a QUALUNQUE robot come trovare la sua strada attraverso
+          un labirinto senza ramificazioni o attraverso un tunnel di qualsiasi lunghezza,
+          sia che si tratti di uno zombie, di un uccello, di un robot che esplora
+          il pianeta Marte o anche una macchina che si guida da sola.
+      2:
+        image: notes/hoc6_2.jpg
+        text: I concetti di base che hai usato sono al centro di ogni programma o
+          applicazione che scriverai.  Hai imparato le istruzioni di ripetizione "ripeti"
+          e "ripeti fino a che", e le istruzioni "se" e "se-altrimenti".
+      3:
+        image: notes/hoc6_3.jpg
+        text: Se ti è piaciuta la tua prima Ora di Codice, visita code.org per continuare
+          la tua formazione sull'informatica! Dopo che avrai completato il nostro
+          corso di 20 ore, avrai imparato le basi della programmazione e potrai iniziare
+          ad imparare come scrivere applicazioni per smart-phone, programmi per robot,
+          giochi, e molto altro.
+      4:
+        image: notes/hoc6_4.jpg
+        text: 'La tecnologia sta cambiando tutto ciò che facciamo e non importa se
+          sei giovane o anziano: la programmazione è divertente, è creativa, e chiunque
+          può impararla!'
+    20_wrapup:
+      1:
+        image: notes/bird.png
+        text: Stanno arrivando le note di spiegazione!

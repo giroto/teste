@@ -1,0 +1,390 @@
+"is":
+  data:
+    script:
+      name:
+        20-hour:
+          desc: K-8 inngangur að tölvunarfræði
+          Unplug1: Áfangi 1
+          Maze: Áfangi 2
+          Unplug2: Áfangi 3
+          Unplug3: Áfangi 4
+          Artist: Áfangi 5
+          Unplug4: Áfangi 6
+          Artist2: Áfangi 7
+          Unplug5: Áfangi 8
+          Farmer: Áfangi 9
+          Unplug6: Áfangi 10
+          Artist3: Áfangi 11
+          Unplug7: Áfangi 12
+          Farmer2: Áfangi 13
+          Unplug8: Áfangi 14
+          Artist4: Áfangi 15
+          Unplug9: Áfangi 16
+          Farmer3: Áfangi 17
+          Unplug10: Áfangi 18
+          Artist5: Áfangi 19
+          Unplug11: Áfangi 20
+        Hour of Code:
+          desc: Kóðun í klukkustund
+          Maze: Áfangi 1
+        Edit Code:
+          desc: Breyta kóða
+          MazeEC: Áfangi 1
+        2014 Levels:
+          desc: 2014 þrautir (beta)
+          MazeEC: Áfangi 1
+        Flappy Levels:
+          desc: Flappy Bird
+          MazeEC: Stage 1
+    game:
+      name:
+        Unplug1: Kynning á tölvunarfræði
+        Maze: Völundarhúsið
+        Unplug2: Tölvunarmiðuð hugsun
+        Unplug3: Forritun rúðublaða
+        Artist: Listamaðurinn
+        Unplug4: Algrím
+        Artist2: Listamaðurinn 2
+        Unplug5: Föll
+        Farmer: Bóndinn
+        Unplug6: Skilyrði
+        Artist3: Listamaðurinn 3
+        Unplug7: Lagasmíð
+        Farmer2: Bóndinn 2
+        Unplug8: Kjarni
+        Artist4: Listamaðurinn 4
+        Unplug9: Rásaforritun
+        Farmer3: Bóndinn 3
+        Unplug10: Internetið
+        Artist5: Listamaðurinn 5
+        Unplug11: Samantekt
+        MazeEC: Völundarhúsið
+        Bounce: Skopp
+        Flappy: Flappy Bird
+    trophy:
+      name:
+        Bronze: Brons
+        Silver: Silfur
+        Gold: Gull
+    concept:
+      description:
+        sequence: Runa
+        if: Ef kubbur
+        if_else: Ef-annars kubbur
+        loop_times: Endurtaka kubbur
+        loop_until: Endurtaka þar til kubbur
+        loop_while: Meðan kubbur
+        loop_for: Teljarakubbur
+        function: Föll
+        parameters: Föll með stikum
+    level:
+      instructions:
+        maze_2_2: 'Getur þú hjálpað mér að ná óþæga svíninu? Raðaðu nokkrum "fara
+          áfram" kubbum saman og ýttu svo á "Keyra forrit" til að hjálpa mér að komast
+          þangað. '
+        maze_2_1: Þetta svín ýfir á mér fjaðrirnar. Hjálpaðu mér að finna það!
+        maze_2_2_5: Fylgdu slóðinni og leiddu mig að svínka. Forðastu TNT sprengjuna
+          annars verður fjaðrafok!
+        maze_2_3: Leiddu mig að hinum illa græna grís! (Gættu þín á TNT sprengjunum)
+        maze_2_4: Slappaðu af og hjálpaðu mér að finna vonda svínið. Annars gæti ég
+          reiðst!
+        maze_2_5: Ég get komist að svíninu með því að nota bara 2 kubba. Geturðu fundið
+          út úr því?
+        maze_2_6: Reyndu að koma mér til grænu boðflennunnar með aðeins 3 kubbum.
+        maze_2_7: Hjálpaðu mér að hrekja vonda grísinn í burtu með sem fæstum kubbum.
+          Prófaðu að nota fleiri en einn "endurtaka" kubb.
+        maze_2_8: 'Reyndu að leysa þetta með "endurtaka" kubbi sem inniheldur þessa
+          3 kubba: færa, færa, snúa.'
+        maze_2_9: Prófaðu að nota nýja "endurtaka þar til" kubbinn - hann endurtekur
+          þar til ég kemst til svínka.
+        maze_2_10: Bara ein æfing í viðbót  - geturðu leyst þetta með því að nota
+          aðeins 4 kubba?
+        maze_2_11: Kæra mannvera. Ég uppvakningur. Ég svangur. Verð..komast...að sólblóminu...
+          Geturðu komið mér þangað með aðeins 5 kubbum?
+        maze_2_12: Jæja, þessi er svipuð en aðeins öðruvísi. Geturðu leyst hana með
+          aðeins 5 kubbum?
+        maze_2_13: 'Notaðu nýja "ef" kubbinn til að láta mig ákveða hvenær ég á að
+          snúa. Vísbending: Þú þarft aðeins að nota einn kubb í viðbót, en taktu eftir
+          hvernig við höfum útbúið hann svo þú getir gert þetta upp á eigin spýtur
+          næst.'
+        maze_2_14: Jæja, þetta er alveg eins og síðasta þraut, en þú þarft að muna
+          hvernig þú notaðir "ef" og "endurtaka" kubbana saman.
+        maze_2_15: Ég vilja sólblóm! Notaðu "ef" kubb til að koma mér þangað með sem
+          fæstum kubbum.
+        maze_2_16: Nú skulum við æfa þetta aftur - þessi þraut er ekki svo ólík, en
+          gættu þín á kjömsurunum!
+        maze_2_17: '"Ef-annars" kubburinn athugar skilyrði og gerir svo annaðhvort
+          eitt eða eitthvað annað. Prófaðu að nota þennan nýja kubb til að koma mér
+          til sólblómsins.'
+        maze_2_18: Ein æfing í viðbót með "ef-annars" kubbinn. Geturðu leyst þrautina
+          í fyrstu tilraun?
+        maze_2_19: Getur þú bætt við bara 3 kubbum til að hjálpa mér að rata flóknari
+          leið? Ef þú gerir það rétt, get ég gengið hvaða slóð sem er alveg sama hvað
+          hún er löng.
+        turtle_1_1: Hæ, ég er listamaður. Þú getur skrifað forrit sem lætur mig teikna
+          nánast hvað sem er. Notaðu nokkra kubba til að láta mig teikna yfir gráu
+          strikin á myndinni.
+        turtle_1_2: 'Teiknaðu nú ferning. ATHUGAÐU: Notaðu uppáhaldslitinn þinn með
+          því að velja hann í nýja litakubbnum.'
+        turtle_1_3: Búðu til ferning með því að nota aðeins 3 kubba.
+        turtle_1_4: 'Teiknaðu þríhyrning með hliðar í mismunandi litum með því að
+          nota kubbinn "einhver litur" sem velur lit af handahófi í hvert sinn. Vísbending:
+          Þú þarft að finna út hve mikið á að snúa með því að smella á töluna í snúningskubbnum.'
+        turtle_1_5: Æfðu þetta nú með því að teikna þríhyrning og ferning til að búa
+          til mynd af umslagi.
+        turtle_1_6: 'Getur þú fundið út hvernig á að teikna þennan þríhyrning og ferning?
+          Vísbending: Teiknaðu þríhyrninginn fyrst og finndu svo út hve mikið á að
+          snúa áður en ferningurinn er teiknaður.'
+        turtle_1_7: 'Nú skulum við reyna svolítið erfiðara: reyndu að teikna þessi
+          grænu gleraugu. Ferningarnir er 100 pixlar á hverja hlið og þeir eru 50
+          pixla frá hvor öðrum. Ekki gleyma að nota grænan lit!'
+        turtle_1_8: Reyndu að finna út hvað gerist ef þú keyrir þetta forrit (eða
+          ýttu á "Keyra" til að prófa). Láttu það svo endurtaka sig nógu oft til að
+          klára teikninguna. Litirnir breytast í hvert skipti.
+        turtle_1_9: Getur þú fundið út hvaða tölu þarf að setja í stað spurningarmerkisins
+          til að teikna hring?
+        turtle_1_10: 'Þér tókst það! Nú máttu teikna hvað sem þú vilt. Nokkrar skemmtilegar
+          hugmyndir: spýtukarl, snjókorn eða spíral. Prófaðu líka að nota nýja "stilla
+          breidd" kubbinn. Góða skemmtun!'
+        turtle_4_1: 'Getur þú teiknað þríhyrning (með 100 pixla hliðar) með aðeins
+          3 kubbum? Vísbending: Notaðu "endurtaka" kubb.'
+        turtle_4_2: 'Reyndu að leysa þessa þraut með því að bæta við einum kubbi.
+          Vísbending: Við höfum sett kubba sem teikna 2 eins þrihyrninga. Þú þarft
+          að setja snúningskubb á milli þeirra og ákveða hve mikið á að snúa.'
+        turtle_4_3: Hér er kóðinn sem þú skrifaðir til að teikna einn þríhyrning.
+          Getur þú bætt við "endurtaka" og "snúa" kubbum til að búa til fallegt blóm?
+        turtle_4_4: 'Hér er sami kóðinn frá þrautinni á undan, en þessi snýr aðeins
+          36 gráður eftir að hafa teiknað hvern þríhyrning. Hversu oft þarf þetta
+          að endurtaka sig? (Vísbending: Eftir 360 gráðu snúning er teikningin komin
+          í heilan hring)'
+        turtle_4_5: 'Hér er sami kóðinn frá þrautinni á undan, en þessi endurtekur
+          snúninginn 36 sinnum. Hve margar gráður á hver snúningur að vera? (Vísbending:
+          Eftir 360 gráða snúning hefur teikningin farið heilan hring)'
+        turtle_4_6: Getur þú notað aðeins 3 kubba til að teikna ferning með 20 pixla
+          hliðar?
+        turtle_4_7: 'Hér er kóðinn til að teikna ferning frá þrautinni á undan. Getur
+          þú endurtekið hann til að teikna 10 samliggjandi ferninga eins og stiga?
+          Vísbending: Þú þarft aðeins 2 kubba í viðbót.'
+        turtle_4_8: Hér lausnin á síðustu þraut. Getur þú bætt við bara 2 kubbum til
+          að klára teikninguna?
+        turtle_4_9: Hér er lausnin á síðustu þraut. Um hve margar gráður ætti að snúa
+          til að ljúka teikningunni? (Þú verður líklega að giska nokkrum sinnum)
+        turtle_4_10: Hér er lausnin á síðustu þraut. Hve oft ætti að endurtaka til
+          að ljúka teikningunni?
+        turtle_4_11: Prófaðu að breyta tölunum í "snúa" og "endurtaka" kubbunum til
+          að búa til mismunandi mynstur. Eða gerðu tilraunir með aðra hluta kóðans
+          til að teikna hvað sem þú vilt.
+        maze_karel_1_1: Hæ, ég er bóndi. Ég þarf hjálp þína við að slétta túnið á
+          jörðinni minni. Færðu mig að moldarhaugnum og notaðu "fjarlægja" kubbinn
+          til að fjarlægja hauginn.
+        maze_karel_1_2: Færðu mig svo að holunni og fylltu hana með TVEIMUR skóflum
+          af mold með því að nota "fylla" kubbinn.
+        maze_karel_1_3: Færðu mig að moldarhaugnum og segðu mér hve margar skóflur
+          á að fjarlægja en notaðu eins fáa kubba og hægt er.
+        maze_karel_1_4: 'Getur þú hjálpað mér að fjarlægja alla fjóra moldarhaugana?
+          Vísbending: Notaðu endurtekningarkubb ef þú getur.'
+        maze_karel_1_5: 'Hjálpaðu mér að fylla allar þessar holur með 5 skóflum af
+          mold. Vísbending: Þú getur sett "endurtaka" blokk innan í "meðan" blokk.'
+        maze_karel_1_6: Fjarlægðu alla moldarhaugana með sem fæstum kubbum. Nýju valkostirnir
+          í fellilistanum á "meðan" kubbnum segja mér hvort ég standi á haug eða holu.
+        maze_karel_1_7: Ég fann mjög djúpa holu! Ég veit ekki hve margar skóflur þarf
+          til að fylla hana. Getur þú skrifað forrit sem fyllir holuna þar til yfirborðið
+          er slétt?
+        maze_karel_1_8: Hjálpaðu mér að fylla holuna við endann á túninu og með sem
+          fæstum kubbum.
+        maze_karel_1_9: 'Láttu mig fjarlægja alla þessa moldarhauga. Reyndu að nota
+          sem fæsta kubba. Vísbending: Prófaðu að nota "meðan" kubb.'
+        maze_karel_1_10: Ég er að vinna seint og það er orðið svo dimmt að ég sé ekki
+          hve stórir haugarnir eru. Nú hef ég ekki alla valkostina sem voru á "meðan"
+          kubbnum. Láttu mig færast eftir túninu og fjarlægja hauga í leiðinni.
+        maze_karel_1_11: 'Það er enn dimmt úti. Láttu mig færast eftir túninu. Ef
+          það er haugur á að fjarlægja hann og ef það er hola á að fylla hana. Vísbending:
+          Notaðu valkosti í fellilistanum á "ef" kubbnum.'
+        turtle_2_1: 'Halló. Ég uppvakningslistamaður. Ég elska teikna! Hjálpaðu mér
+          að teikna ferning í ákveðnum lit. Mikilvæg athugasemd: Þú hefur alla sömu
+          kubbana og áður en þeim hefur verið skipt í flokka.'
+        turtle_2_2: Hér færðu að kynnast notkun falla, en með þeim getur þú búið til
+          nýja kubba! Prófaðu að nota nýja "teikna ferning" kubbinn, sem þú finnur
+          undir flokknum "Föll", til að teikna lítinn 50x50 grænan ferning.
+        turtle_2_3: Notaðu "endurtaka" kubbinn (í flokknum Lykkjur) til að teikna
+          3 ferninga sem hafa 100 pixla hliðar og eru aðskildir um 120 gráður. Og
+          litaðu þá í 3 litum völdum af handahófi.
+        turtle_2_4: 'Nú ætlum við að vera flott á því. Breyttu kóðanum svo hann teikni
+          36 ferninga sem hafa 100 pixla hliðar og eru aðskildir um 10 gráður. Vísbending:
+          Þú vilt kannske nota sleðann til að láta mig fara hraðar.'
+        turtle_2_5: Teiknaðu ferninga með 50, 60, 70, 80 og 90 pixla hliðar. Þú þarft
+          að nota "teikna ferning" fallið fimm sinnum.
+        turtle_2_6: 'Þetta forrit notar teljara til að teikna sömu ferninga og síðast.
+          Hver ferningur á að hafa hlið sem er jafnstór og teljarinn svo þú verður
+          að nota teljarakubbinn. Vísbending: Hann er undir flokknum Breytur.'
+        turtle_2_7: Hér er forrit sem teiknar spíral, en kubbarnir eru óvirkir svo
+          þeir keyra ekki. Búðu til nýtt forrit með því að nota kubbana "telja með"
+          (undir flokknum Lykkjur) og "teljari" (undir Breytur) til að teikna sama
+          spíral.
+        turtle_2_7_5: Það er komið nýtt "teikna snjókarl" fall (undir flokknum Föll).
+          Teiknaðu tvo snjókarla, 250 og 100 á hæð.
+        turtle_2_8: Þessi er svolítið snúin. Notaðu "teikna snjókarl" fallið og nýja
+          "hoppa fram" kubbinn (undir flokknum Aðgerðir). Teiknaðu 3 snjókarla í mismunandi
+          litum með 100 pixla millibili.
+        turtle_2_9: Notaðu "telja með" kubb til að teikna fjölskyldu snjókarla með
+          hæðirnar 110, 100, 90, 80 og 70 með 60 pixla bil á milli þeirra allra.
+        turtle_2_10: Hér er kóði til að gera tilraunir með mismunandi spírala. Hvað
+          gerist ef þú breytir snúningstölunni? Eða setur handahófslit í lykkjuna?
+          Teiknaðu hvað sem þér dettur í hug.
+        maze_karel_2_1: Reyndu að nota kubbana til að láta mig fjarlægja alla haugana
+          og fylla allar holurnar á túninu. Reyndu að nota lykkjur í staðinn fyrir
+          marga kubba. Vísbending; Þú getur sett eina lykkju innan í aðra.
+        maze_karel_2_2: Við höfum skilgreint okkar eigin kubb sem heitir "fylla 5"
+          og er í flokknum Föll. Notaðu hann til að hjálpa mér að fylla þessa holu.
+        maze_karel_2_3: Notaðu nýja "fylla 5" fallið til að láta mig fylla allar holurnar.
+          Þú verður að draga "fylla 5" kubbinn út úr flokknum Föll.
+        maze_karel_2_4: Skilgreindu nýtt fall sem fjarlægir 7 skóflufylli. Notaðu
+          það svo til að skrifa forrit sem hjálpar mér að fjarlægja alla haugana.
+        maze_karel_2_5: Búðu til nýtt fall sem fjarlægir 6 skóflufylli úr haug og
+          notaðu það til að hjálpa mér að slétta alla haugana.
+        maze_karel_2_6: Notaðu tvö ný föll, "fylla 8" og "fjarlægja 8", til að hjálpa
+          mér að slétta hauginn og fylla upp í holuna.
+        maze_karel_2_7: Það er kýr á túninu mínu! Skrifaðu nýtt fall sem hjálpar mér
+          að forðast kúna en fjarlægja hauginn. Settu alla kubbana inn í nýja fallið.
+        maze_karel_2_8: Notaðu þetta nýja fall "forðast kúna og fjarlægja 1" til að
+          hjálpa mér að fjarlægja alla haugana.
+        maze_karel_2_9: Jæja, hér er fall sem fjarlægir 4 mismunandi moldarhauga lóðrétt.
+          Reyndu að setja þetta fall inn í lykkju svo að þú fjarlægir alla haugana
+          með því að nota aðeins fáa nýja kubba.
+        maze_karel_2_10: Færðu mig yfir túnið og notaðu þessi tvö föll til að hjálpa
+          mér að fjarlægja alla haugana og fylla upp í allar holurnar.
+        turtle_3_1: Þetta verkefni sýnir þér hvernig föllin "teikna ferning" og "teikna
+          hring" eru skilgreind. Skilgreining á falli keyrir ekki kubbana í því. Þú
+          verður að draga "teikna ferning" kubbinn út til að teikna ferning.
+        turtle_3_2: Notaðu "teikna ferning" fallið sem fyrirmynd og búðu til fallið
+          "teikna þríhyrning". Notaðu það svo.
+        turtle_3_3: 'Teiknaðu þríhyrndar girðingar í kringum kettina og ferhyrnda
+          girðingu í kringum kúna. Ráðlegging: Prófaðu forritið á meðan þú vinnur
+          í því.'
+        turtle_3_4: Reyndu að finna út úr því hvernig má nota "teikna ferning" og
+          "teikna þríhyrning" (og nokkra aðra kubba) til að teikna hús utan um ljónið.
+        turtle_3_5: 'Búðu nú til fallið "teikna hús" og notaðu það til að hýsa tvo
+          ketti. Vísbending: Búðu til nýtt fall með því að nota kubbinn "gera" og
+          skrifaðu texta til að gefa kubbnum nafn.'
+        turtle_3_6: 'Með "teikna ferning" sem fyrirmynd átt þú að bæta inntakinu "lengd"
+          við "teikna þríhyrning". Teiknaðu svo þríhyrninga í mismunandi stærðum.
+          (Vísbending: Smelltu á stjörnuna til að bæta inntaki við fall)'
+        turtle_3_7: Bættu inntakinu "lengd" við "teikna hús" og byggðu svo nægilega
+          stórt hús fyrir fílinn (með 150 pixla langar hliðar)
+        turtle_3_8: Hér eru allir kubbarnir úr síðustu þraut. Breyttu "teikna hús"
+          svo ég endi niðri í hægra horni eftir að nýtt hús hefur verið teiknað. Notaðu
+          þetta breytta fall til að teikna þrjú hús.
+        turtle_3_9: Getur þú búið til "teikna hús" fallið aftur án hjálpar? Reyndu
+          það og teiknaðu svo röð af húsum.
+        turtle_3_10: Þú hefur lært heilmikið! Notaðu kunnáttuna til að teikna hvað
+          sem þú vilt. Reyndu að teikna stjörnu, spíral eða flott snjókorn.
+        maze_karel_debug_seq_1: Velkomin í villuleit! Kóðinn minn virkar ekki. Getur
+          þú komið auga á ástæðuna og lagað kóðann svo ég geti sléttað akurinn og
+          undirbúið hann fyrir sáningu?
+        maze_karel_debug_seq_2: Hvað er að þessu forriti? Hvernig þarf að laga það
+          svo ég fjarlægi hauginn?
+        maze_karel_debug_repeat: Leiðréttu þetta forrit svo túnið verði slétt og fínt.
+        maze_karel_debug_while: Hvernig þarf að breyta þessu forriti svo það hjálpi
+          mér að fylla holuna?
+        maze_karel_debug_if: Hjálp! Lagaðu forritið svo túnið verði rennislétt.
+        maze_karel_debug_if_else: Lagaðu þetta forrit svo að ég geti fyllt holurnar
+          og fjarlægt alla haugana.
+        maze_karel_debug_function_1: Hverju mundir þú breyta í þessu forriti svo það
+          hjálpi mér að fjarlægja alla haugana?
+        maze_karel_debug_function_2: Getur þú leiðrétt þetta forrit svo ég geti sléttað
+          túnið?
+        maze_karel_debug_function_3: 'Breyttu þessu forriti svo að ég fjarlægi alla
+          haugana á túninu mínu. '
+        turtle_5_1: Prófaðu að keyra þetta forrit. Gerðu breytingar til að sjá hvaða
+          áhrif þær hafa. Getur þú fundið út hvernig það virkar? (Eða eytt því og
+          sett eitthvað allt annað í staðinn)
+        turtle_5_2: Prófaðu að keyra þetta forrit. Gerðu breytingar til að sjá hvaða
+          áhrif þær hafa. Getur þú fundið út hvernig það virkar? (Eða eytt því og
+          sett eitthvað allt annað í staðinn)
+        turtle_5_3: Prófaðu að keyra þetta forrit. Gerðu breytingar til að sjá hvaða
+          áhrif þær hafa. Getur þú fundið út hvernig það virkar? (Eða eytt því og
+          sett eitthvað allt annað í staðinn)
+        turtle_5_4: Prófaðu að keyra þetta forrit. Gerðu breytingar til að sjá hvaða
+          áhrif þær hafa. Getur þú fundið út hvernig það virkar? (Eða eytt því og
+          sett eitthvað allt annað í staðinn)
+        turtle_5_5: Prófaðu að keyra þetta forrit. Gerðu breytingar til að sjá hvaða
+          áhrif þær hafa. Getur þú fundið út hvernig það virkar? (Eða eytt því og
+          sett eitthvað allt annað í staðinn)
+        turtle_5_6: Prófaðu að keyra þetta forrit og gerðu breytingar til að sjá hvaða
+          áhrif það hefur. Geturðu fundið út hvernig það virkar? (Eða eytt því og
+          búið til eitthvað gjörólíkt)
+        maze_3_1: Ég verð að ná þessu svíni! Skrifaðu kóða sem kallar tvisvar á move();
+          svo ég geti fengið eggin mín til baka.
+        maze_3_2: Skrifaðu forrit fyrir mig svo ég nái alla leið til svínsins.
+        maze_3_3: Hvernig kemst ég til svínsins? Gættu þess að ég rekist ekki á TNT
+          sprengiefnið!
+        maze_3_4: Arrg! Skrifaðu forrit fyrir mig sem kemur mér í kringum TNT sprengiefnið
+          og til svínsins.
+        bounce_1: Tengdu kubb við kubbinn "þegar vinstri ör". Ýttu svo á Keyra forrit
+          og færðu spaðann með vinstri örvarlykli að endamarki.
+        bounce_2: Tengdu kubb við kubbana "þegar hægri ör" og "þegar vinstri ör".
+          Keyrðu svo forritið og færðu spaðann með örvarlyklunum að báðum endamörkum.
+        bounce_3: Reyndu nú eitthvað svipað með kubbnum "þegar upp ör". Færðu spaðann
+          upp að endamarkinu.
+        bounce_4: Í þetta sinn þarft þú að bæta við fjórum kubbum. Færðu spaðann að
+          öllum fjórum endamörkum til að ljúka þessari þraut.
+        bounce_5: Við ætlum að senda bolta svífandi niður í átt að spaðanum. Tengdu
+          kubb við kubbinn "þegar bolti hittir spaða" til að tryggja að boltinn nái
+          að endamarkinu.
+        bounce_6: Nú er endamarkið að ofanverðu. Þú þarft að tengja kubba við báða
+          "þegar bolti hittir" kubbana til að leysa þrautina.
+        bounce_7: Tengdu kubba við kubbana "þegar upp ör", "þegar vinstri ör", "þegar
+          bolti hittir vegg" og "þegar bolti hittir spaða".
+        bounce_8: Reyndu aftur með fleiri boltum.
+        bounce_9: Nú æsist leikurinn!
+        bounce_10: Nú er mark efst uppi. Tengdu "bæta við skor" kubba við kubbana
+          "þegar bolti í marki" og "þegar bolti hittir ekki spaða" til að búa til
+          leik.
+        Custom_builder: Dragðu kubba úr verkfærakassanum inn á vinnusvæðið til að
+          teikna áfangann sem þú vilt búa til. Ýttu svo á Keyra forrit.
+        flappy_1: Attach a block to the "when click" block, then press "Run Program"
+          and click or tap to move Flappy to the target.
+        flappy_2: Now we've added some ground.  Attach a block to the "when hit the
+          ground" block, then press "Run Program". To pass this puzzle, your code
+          needs to 'END GAME' when Flappy crashes into the ground.
+        flappy_3: The "when Run is clicked" block allows you to run code when your
+          game first starts.  Try setting the level speed and flapping to the target.
+        flappy_4: Flappy will fly through obstacles unless you write code to make
+          him crash. Attach a block to the "when hit an obstacle" block. To pass the
+          puzzle, your code needs to 'END GAME' and make Flappy crash into the first
+          pipe so he can reach the target.
+        flappy_5: Let's add a scoreboard, and count points when Flappy makes it past
+          obstacles. Add to the "when pass an obstacle" block, and then score a point
+          by flying Flappy through the first set of pipes.
+        flappy_6: See if you can still score a point after making Flappy flap either
+          a smaller or larger amount.
+        flappy_7: Next, try changing the scene by attaching another block to the "when
+          Run is clicked".
+        flappy_11: Create your own Flappy game and share it. You can change the visuals,
+          or even the rules. Try changing visuals each time Flappy passes an obstacle.
+          Or make Flappy invincible so he never dies.
+      levelIncompleteError:
+        maze_2_8: 'Til að leysa þarf að nota endurtekið hreyfingamynstur. Notaðu "endurtaka"
+          kubb sem inniheldur þessa þrjá: færa, færa, snúa til hægri.'
+      other1StarError:
+        maze_2_14: Þú þarft að nota "ef" kubb innan í "endurtaka" kubb. Ef þú lendir
+          í vandræðum er ágætt að skoða síðustu þraut til sjá hvernig þetta var leyst.
+      tooFewBlocksMsg:
+        maze_2_8: 'Til að leysa þarf að nota endurtekið hreyfingamynstur. Notaðu "endurtaka"
+          kubb sem inniheldur þessa þrjá: færa, færa, snúa til hægri.'
+    video:
+      name:
+        maze_intro: Kynning á Völundarhúsi
+        artist_intro: Kynning á listamanni
+        farmer_intro: Kynning á bónda
+        flappy_intro: Flappy Intro
+        loop_times: Endurtaka X kubbur
+        loop_until: Endurtaka þar til kubbur
+        if: Ef kubbur
+        if_else: Ef-annars kubbur
+        function: Föll
+        loop_while: Meðan kubbur
+        loop_for: Teljarakubbur
+        parameters: Föll með stikum
+        hoc_wrapup: Samantekt á Kóðun í klukkustund
+        20_wrapup: Samantekt 20 klukkustunda

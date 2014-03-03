@@ -1,0 +1,14 @@
+.reference_area
+  - if current_user && (current_user.teacher? || current_user.admin?) && @level.ideal_level_source_id && !@script.nil? && !@level.nil?
+    .solution_link
+      #{link_to t('reference_area.teacher'), script_level_solution_path(@script, @level)}
+
+  - if @videos && !@videos.empty?
+    %p.help_title= t('reference_area.title')
+    %p.help_subtitle= t('reference_area.subtitle')
+    = render partial: "levels/video", collection: @videos
+  %div{ style: "clear: both;"}
+
+  - if can? :edit, @level
+    %br/
+    #{link_to "edit", edit_game_level_path(@game, @level)} / #{ link_to "stats", level_stats_path(@level) }

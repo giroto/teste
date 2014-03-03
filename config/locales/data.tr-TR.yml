@@ -1,0 +1,384 @@
+"tr":
+  data:
+    script:
+      name:
+        20-hour:
+          desc: K-8 bilgisayar bilimine giriş dersi
+          Unplug1: 1. Aşama
+          Maze: 2. Aşama
+          Unplug2: 3. Aşama
+          Unplug3: 4. Aşama
+          Artist: 5. Aşama
+          Unplug4: 6. Aşama
+          Artist2: 7. Aşama
+          Unplug5: 8. Aşama
+          Farmer: 9. Aşama
+          Unplug6: 10. Aşama
+          Artist3: 11. Aşama
+          Unplug7: 12. Aşama
+          Farmer2: 13. Aşama
+          Unplug8: 14. Aşama
+          Artist4: 15. Aşama
+          Unplug9: 16. Aşama
+          Farmer3: 17. Aşama
+          Unplug10: 18. Aşama
+          Artist5: 19. Aşama
+          Unplug11: 20. Aşama
+        Hour of Code:
+          desc: Kod Saati
+          Maze: 1. Aşama
+        Edit Code:
+          desc: Kodu Düzenle
+          MazeEC: 1. Aşama
+        2014 Levels:
+          desc: 2014 Bulmacaları (beta)
+          MazeEC: 1. Aşama
+        Flappy Levels:
+          desc: Flappy Bird
+          MazeEC: Stage 1
+    game:
+      name:
+        Unplug1: Bilgisayar Bilimine Giriş
+        Maze: Labirent
+        Unplug2: Bilgisayarımsı Düşünme
+        Unplug3: Grafik kağıdı programlama
+        Artist: Sanatçı
+        Unplug4: Algoritmalar
+        Artist2: Sanatçı 2
+        Unplug5: Fonksiyonlar
+        Farmer: Çiftçi
+        Unplug6: Koşullar
+        Artist3: Sanatçı 3
+        Unplug7: Şarkı yazma
+        Farmer2: Çiftçi 2
+        Unplug8: Soyutlama
+        Artist4: Sanatçı 4
+        Unplug9: Röle programlama
+        Farmer3: Çiftçi 3
+        Unplug10: İnternet
+        Artist5: Sanatçı 5
+        Unplug11: Özet
+        MazeEC: Labirent
+        Bounce: Bounce
+        Flappy: Flappy Bird
+    trophy:
+      name:
+        Bronze: Bronz
+        Silver: Gümüş
+        Gold: Altın
+    concept:
+      description:
+        sequence: Sıra
+        if: Eğer bloğu
+        if_else: Eğer-değilse bloğu
+        loop_times: Bloğu tekrarlayın
+        loop_until: -e kadar bloğu tekrarla
+        loop_while: Blok ise
+        loop_for: Sayaç bloğu
+        function: Fonksiyonlar
+        parameters: Fonksiyon parametreleri
+    level:
+      instructions:
+        maze_2_2: 'Yaramaz domuzu yakalamama yardım edebilir misin? Oraya gitmem için
+          birkaç "İlerle" bloğunu birleştirmeli ve "Programı Çalıştır" tuşuna basmalısın. '
+        maze_2_1: Bu domuz benim tüylerimi diken diken ediyor. Onu bulmama yardımcı
+          ol!
+        maze_2_2_5: Yolu takip et ve beni sersem domuza götür. Patlayıcılardan uzak
+          dur yoksa bu tüylerim havaya uçacak!
+        maze_2_3: Yeşil şeytana gitmeme önderlik et! (Patlayıcılara dikkat et)
+        maze_2_4: Sakin ol ve kötü domuzu bulmama yardımcı ol. Aksi halde kızmaya
+          başlayabilirim!
+        maze_2_5: 2 blok kullanarak yeşil domuzcuğa ulaşabileceğim bir yol var. Bunu
+          çözebilir misin?
+        maze_2_6: Sadece üç blok kullanarak beni yeşil haine ulaştırmaya çalış.
+        maze_2_7: Bloklar en az sayıda kullanarak bu kötü domuzcuğu ortadan kaldırmama
+          yardım et. Birden fazla "defa tekrar" bloğu kullanmayı dene.
+        maze_2_8: Bunu çözmek için, kendi içinde "ilerle, ilerle, dön" şeklinde 3
+          blok bulunan bir "tekrar" bloğu kullanmayı deneyin.
+        maze_2_9: Tamam, yeni "e kadar tekrarla" bloğunu dene. Bu, ben yeşil domuza
+          ulaşana kadar tekrarlayacak.
+        maze_2_10: Tamam, pratik için son kez. Bunu sadece 4 blok kullanarak çözebilir
+          misin?
+        maze_2_11: Değerli kişi.Ben zombi.Açım. Ayçiçeklerini almam gerekli.Bana onları
+          sadece 5 blok kullanarak getirebilir misin?
+        maze_2_12: Tamam, Bu benzer ama biraz farklı. Bunu sadece 5 blok ile yapabilir
+          misin?
+        maze_2_13: 'Ne zaman döneceğime karar vermem için yeni "eğer" bloğunu kullan.
+          İpucu: Sadece bir bloğa daha ihtiyacın var. Ancak bunu nasıl kurduğumuzu
+          öğrenki bir dahakine kullanabil.'
+        maze_2_14: Tamam, bu sadece son bulmaca gibi ama "Eğer" bloğu ile "Tekrarla"
+          bloğunu nasıl birlikte kullandığını hatırlaman gerekiyor.
+        maze_2_15: Ayçiçeğini istiyorum! Sadece bir "Eğer" bloğu kullanarak, en az
+          sayıda blok ile oraya ulaşmamı sağla.
+        maze_2_16: Tamam, sadece alıştırma olsun diye bunu tekrar yapalım - çok farklı
+          değil, sadece canavar bitkilere dikkat et!
+        maze_2_17: '"Eğer-Değilse" bloğu bir koşulu kontrol eder ve bir şeyi YA DA
+          diğerini yapar. Ayçiçeğine ulaşmam için bu yeni bloğu kullanmayı dene.'
+        maze_2_18: '"Eğer değilse" bloğunun bir örneğini daha, ilk denemenizde doğru
+          yapabildiniz mi?'
+        maze_2_19: Daha karmaşık bir labireti sadece 3 blok ekleyerek çözmeme yardımcı
+          olur musun? Eğer doğru yaptıysan, bu kıvrımlı yolda uzunluğu ne olursa olsun
+          yürüyebilirim.
+        turtle_1_1: Merhaba , ben bir sanatçıyım. İstediğin herhangi bir şeyi çizmek
+          için beni programlayabilirsin. Resimdeki gri çizgileri çizdirmek için bir
+          kaç blok kulllan.
+        turtle_1_2: 'Şimdi bir kare çiz. Not: Bunu "rengi belirle" bloğununda en sevdiğin
+          rengi seçerek yapabilirsin.'
+        turtle_1_3: Sadece 3 blok kullanarak bir kare yapın.
+        turtle_1_4: 'Her seferinde farklı bir renk alan "rastgele renk" seçeneğini
+          kullanarak tüm kenarları farklı renkte olan bir üçgen çizin. İpucu: Ne kadar
+          uzağa dönmeniz gerektiğini dönüş blogundaki numaraya tıklayarak bulmanız
+          gerek.'
+        turtle_1_5: Şimdi, uygulama için bir üçgen ve sonra bir zarf çizmek için bir
+          kare çizin.
+        turtle_1_6: 'Bir karenin ve bir üçgenin nasıl çizileceğini anlayabildiniz
+          mi? İpucu: Önce üçgeni çizin, sonra kare çizmeden önce kaç kez dönmeniz
+          gerektiğini bulun.'
+        turtle_1_7: Hadi biraz daha zorlaştıralım - yeşil gözlükleri çizip çizemeyeceğinizi
+          görelim. Her köşede bulunan kareler 100 piksel büyüklüğünde birbirlerinden
+          50 piksel uzaklıktadır. Çizgilerinizi yeşik renk ile çizmeyi unutmayın!
+        turtle_1_8: Tamam, bu kodu çalıştırıdığınızda ne olduğunu görelim (ya da "Çalıştır"
+          düğmesini tıklayın). O halde, çizimi tamalamak için yeteri kadar tekrar
+          edin. Renkler her defasında farkı olsun.
+        turtle_1_9: Çember çizmek için soru işaretli yere gelmesi gereken sayısı bulabilir
+          misiniz?
+        turtle_1_10: Başardınız! Şimdi, istediğiniz her hangi bir şeyi çiziniz.Eğlenceli
+          olabilecek bazı fikirler:kartanesi ya da spiral olabilir.Ayrıca "kalınlığını
+          belirleyin " bloğunu kullanabilirisniz.Eğlenin!
+        turtle_4_1: Sadece 3 blok kullanarak bir üçgen(her kenarı 100 piksel olacka)
+          çizebilir misin? İpucu:"tekrar" bloğu kullanın.
+        turtle_4_2: 'Bu sorunu çözmek için bir blok ekleyin. İpucu: Sizin için iki
+          özdeş üçgen çizdik. İhtiyacınız olan şey bunların arasına "dön" komutu yerleştirmek
+          ve ne kadar döneceklerini belirlemek.'
+        turtle_4_3: Tamam, bir üçgen çizmek için yazdığınız kod burda."Tekrarla" ve
+          "dön" bloğu ile güzel bir çiçek yapabilir misiniz?
+        turtle_4_4: 'Bir önceki labirent ile aynı kodları verdik , fakat her üçgen
+          çizdikten sonra 36 derecelik bir açıyla döneceğiz.Bu işlemi kaç kez tekrar
+          etmelisiniz? (İpucu: Tam bir çember oluşturmak için 360 derece dönmeniz
+          gerekmektedir.)'
+        turtle_4_5: Bir önceki bulmaca ile aynı kodları görüyorsunuz fakat 36 kez
+          dönme işlemi uygulanıyor. Her defasında kaç derecelik bir açıyla döndürülmeli?(İpucu:Tam
+          bir çember 360 derece döndürülerek oluşturulabilir.)
+        turtle_4_6: Sadece üç blok kullanarak bir kenarı 20 piksel lacak bir kare
+          çizebilir misiniz?
+        turtle_4_7: 'İşte kare çizmek için son bulmacadan bir kod. Bu kodu birbirine
+          merdiven gibi bitişik 10 tane kare çizmek için tekrarlayabilir misin? İpucu:
+          Yalnızca iki bloga daha ihtiyacın var.'
+        turtle_4_8: Önceki bulmaca çözümü burada. Çizimi tamamlamak için sadece 2
+          blok daha ekleyebilir misin?
+        turtle_4_9: Önceki bulmaca çözümü burada. Kaç derece çizimin tamamlanması
+          için kaç derece dönmen gerekir? (Birkaç kez tahmin etmen gerekebilir)
+        turtle_4_10: Önceki bulmaca çözümü burada. Çizimi tamamlamak için kaç tekrar
+          gerekli?
+        turtle_4_11: Farklı desenler yapmak için "dön" ve "tekrarla" bloklarındaki
+          sayıları değiştirmeyi dene. Ya da, istediğin herhangi bir şeyi çizmek için
+          kodun geri kalanını değiştirmeyi dene.
+        maze_karel_1_1: Merhaba, ben bir çiftçiyim. Çiftlikteki alanı ekime hazırlamak
+          için düzleştirmemde yardımına ihtiyacım var. Beni bir toprak yığınına doğru
+          hareket ettir ve "Kaldır" bloğunu yığını kaldırmam için kullan.
+        maze_karel_1_2: Daha sonra beni deliğe hareket ve  deliği "doldur" blogunu
+          kullanarak, iki kürek dolusu toprak ile doldur.
+        maze_karel_1_3: Beni toprak yığınına doğru hareket ettir ve olabildiğince
+          az blok kullanarak kaç kürek dolusu boşaltmam gerektiğini söyle.
+        maze_karel_1_4: 'Tüm toprak yığınlarını kaldırmama yardımcı olabilir miin?
+          İpucu: Mümkünse repeat blogunu kullan.'
+        maze_karel_1_5: 'Delikleri 5 kürekdolusu toprakla doldurmam için bana yardım
+          et. İpucu: "While" blogunun içine "tekrar" blogunu yerleştirebilirsin.'
+        maze_karel_1_6: Tüm toprak yığınlarını kullanabildiğin kadar az blok kullanarak
+          kaldır.Liste menüsündeki yeni secenekler bana bir yığının mı yoksa bir deliğin
+          mi üstünde olduğumu söyler.
+        maze_karel_1_7: Wow,çok derin bir çukur buldum!Kaç kürek dolusu toprağa ihtiyacı
+          olur bilmiyorum.Dolana kadar onu dolduracak bir program yazabilir misin
+          ?
+        maze_karel_1_8: Alanın sonundaki çukuru doldurmama yardım et,kullanabildiğin
+          kadar az blok kullanarak.
+        maze_karel_1_9: Tüm toprak yığınlarını yok etmememi sağla.Kullanabildiğin
+          kadar az blok kullanmaya çalış.İpucu:"while" bloğunu kullanmaya çalış.
+        maze_karel_1_10: Geç saatlere kadar çalışıyorum,yani dışarısı karanlık,ve
+          yığınların ne kadar geniş olduğunu söyleyemem."while" bloğunda eskiden olduğu
+          kadar seçeneğe sahip değilim.Beni alanda hareket ettir,ve bir yığın varsa
+          onu kaldır.
+        maze_karel_1_11: 'Dışarısı hala karanlık. Beni alan boyunca ilerlet. Önümde
+          bir yığın varsa kaldır. Eğer bir delik var ise içini doldur. İpucu: eğer
+          bloğunun üzerinde, seçeneklerin aşağı doğru açılan menüsünü kullan.'
+        turtle_2_1: 'Merhaba. Ben olmak zombi sanatçı! Ben sevmek çizmeyi! Özel renkte
+          bir kare çizmeme yardım et. Önemli not: aynı bloklara sahipsin ama artık
+          kategorilere ayrıldılar.'
+        turtle_2_2: Fonksiyonların kullanımına hoş geldiniz,yeni bloklar tanımanıza
+          imkan veren yere!Yeni "bir kare çiz bloğu,50x50 yeşil küçük bir kare çizmek
+          için Fonksiyonlar kategorisinde bulunuyor.
+        turtle_2_3: 100 boyutunda 120 derece aralıklı 3 kare çizmek için döngüler
+          kategorisinde ki tekrar et bloğunu kullan.Ve 3 ünüde farklı,rastgele renklerde
+          yap.
+        turtle_2_4: 'Şimdi biraz kafayı çekeceğiz. Kodu 36 kare çizmek için ayarla,
+          100 piksel genişliğinde ve her biri 10 aşama uzakta olsun. İpucu: Belki
+          daha hızlı gitmem için kaydırgacı kullanmak istersin.'
+        turtle_2_5: '"Kare çiz" fonksiyonunu 5 kere kullanarak, 50, 60, 70, 80 ve
+          90 piksel boyutlarında kareler çizin.'
+        turtle_2_6: 'Pekala,  bu program sonuncu karenin aynısını çizmek için bir
+          sayaç kullanacaktır. Karenin sayaçla aynı boyutta olmasını istiyorsunuz,
+          yani "sayaç" parçasını kullanın. İpucu: Bu parça Değişkenler kategorisindedir.'
+        turtle_2_7: İşte spiral çizmeye yarayan bir program, fakat bu seferki bloklar
+          devre dışı; yani böyle çalışmayacak. Aynı spirali içine "ile say" bloğu
+          (Döngüler kategorisinde) ve "zıt" bloğunu (Değişkenler kategorisinde) koyarak
+          oluşturun.
+        turtle_2_7_5: 'Fonksiyonlar kategorisinde yeni bir fonksiyon var: "Kardan
+          adam çiz". Boyları 250 ve 100 olan iki kardan adam çiz.'
+        turtle_2_8: Bu biraz uğraştıracak. "Kardan adam çiz" ve yeni "İleri zıpla"
+          (Hareketler kategorisinde) fonksiyonunu kullanarak aralarında 100 piksel
+          bulunan 3 farklı renkte kardan adam çiz.
+        turtle_2_9: 110, 100, 90, 80 ve 70 boylarında kardan adam ailesi çizmek için
+          "ile say" döngüsünü kullanın. Kardan adamların tümü 60 piksel uzaklıkta
+          olmalıdır.
+        turtle_2_10: Değişik spirallerle çalışman için bir kod. Dönme miktarını değiştirirsen
+          ne olur? Ya da döngüyü rastgele renge ayarlasan? İstediğin herhangi bir
+          şey çiz.
+        maze_karel_2_1: 'Tüm yığınları kaldırmam ve yerdeki tüm delikler doldurmama
+          yardım etmek için blokları kullanmayı dene. Pek çok blok kullanmaktansa
+          döngüleri kullanmayı dene. İpucu: Bir döngünün içinde başka bir döngü kullanabilirsin.'
+        maze_karel_2_2: We've defined our own block called "fill 5", which is now
+          in the Functions category. Use it to help me fill in this hole.
+        maze_karel_2_3: Use the new "fill 5" function block to make me fill in all
+          the holes. You'll have to drag out the "fill 5" block out from the Functions
+          category.
+        maze_karel_2_4: Define a new function that removes 7 shovelfuls. Then use
+          it to write a program that helps me remove all the piles.
+        maze_karel_2_5: Create a new function that removes 6 shovelfuls from a pile,
+          and use it to help me level out all the piles.
+        maze_karel_2_6: Use two new functions, "fill 8" and "remove 8", to help me
+          level out the pile and fill in the hole.
+        maze_karel_2_7: Sahamda bir inek var! Beni inekten kaçındıracak ve çamuru
+          kaldıracak yeni bir kod yazın. Bu yeni kodun içine bütün parçalarınızı ekleyin.
+        maze_karel_2_8: 'Bana bütün yığınları kaldırmama yardım etmek için bu yeni
+          fonksiyonu kullan: "İnekten kaçın ve 1''i kaldır".'
+        maze_karel_2_9: Ok, here's a function that removes 4 different piles of dirt
+          in a vertical column. Try putting this function inside a loop, so that you
+          remove all the piles of dirt using only a few new blocks.
+        maze_karel_2_10: Move me across the field, and use these two functions to
+          help me remove all the piles and fill all the holes.
+        turtle_3_1: This puzzle shows you how the "draw a square" and "draw a circle"
+          functions are defined.  Defining a function doesn't run its blocks.  You
+          have to pull out the "draw a square" block to actually draw a square.
+        turtle_3_2: Using the "draw a square" function as an example, create a "draw
+          a triangle" function and use it.
+        turtle_3_3: 'Draw triangular fences around the cats and a square fence around
+          the cow.  Tip: test the program as you go along.'
+        turtle_3_4: See if you can figure out how to use "draw a square" and "draw
+          a triangle" (and some other blocks) to draw a house around the lion.
+        turtle_3_5: 'Now create a new "draw a house" function and use it to house
+          two cats. Hint: create a new function using the "do something" block, and
+          type your own text to name the block.'
+        turtle_3_6: 'Using "draw a square" as an example, add an input named "length"
+          to "draw a triangle". Then, draw triangles in different sizes. (Hint: click
+          the star to add an input to a function)'
+        turtle_3_7: Add an input named "length" to "draw a house" and build a big
+          house for the elephant (with edges 150 pixels long)
+        turtle_3_8: Here are all of the blocks from the previous puzzle.  Modify "draw
+          a house" so I end up at the bottom right corner after drawing a new house.
+          Use this modified function to draw three houses.
+        turtle_3_9: '"Ev çiz" fonksiyonunu yardım almadan yeniden yapabilir misin?
+          Bir dene ve bir dizi ev çiz.'
+        turtle_3_10: Çok şey öğrendiz! Şimdi istediklerinizi çizebilirsiniz. Yıldız,
+          spiral veya bir kar tanesi çizmeye çalışın.
+        maze_karel_debug_seq_1: Hata ayıklamaya (debugging) hoşgeldin! Kodum düzgün
+          çalışmıyor. Problemi bulup düzeltebilir misin? Böylece tarlam düzleşir ve
+          ekim için hazır olur.
+        maze_karel_debug_seq_2: Bu programın sorunu ne? Şu yığını kaldırabilmem için
+          düzeltebilir misin?
+        maze_karel_debug_repeat: Tarlamın düz ve hoş olması için programı hatalarından
+          arındırabilir misin?
+        maze_karel_debug_while: Deliği doldurmam için bu programı nasıl değiştirmelisin?
+        maze_karel_debug_if: Yardım et! Programı düzelt ki tarlam dümdüz olsun.
+        maze_karel_debug_if_else: Delikleri doldurabilmem ve yığınları kaldırabilmem
+          için programı hatalarından arındır.
+        maze_karel_debug_function_1: Tüm yığınları kaldırabilmem için bu programda
+          neyi değiştirmelisin?
+        maze_karel_debug_function_2: Tarlamı düzleştirebilmem için programı hatalarından
+          arındırabilir misin?
+        maze_karel_debug_function_3: 'Tüm yığınları kaldırabilmem için programı düzenle. '
+        turtle_5_1: Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler
+          yapın. Nasıl çalıştığını tahmin edebiliyor musunuz? (Ya da silin ve tamamen
+          farklı bir şey ile değiştirin)
+        turtle_5_2: Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler
+          yapın. Nasıl çalıştığını tahmin edebiliyor musunuz? (Ya da silin ve tamamen
+          farklı bir şey ile değiştirin)
+        turtle_5_3: Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler
+          yapın. Nasıl çalıştığını tahmin edebiliyor musunuz? (Ya da silin ve tamamen
+          farklı bir şey ile değiştirin)
+        turtle_5_4: Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler
+          yapın. Nasıl çalıştığını tahmin edebiliyor musunuz? (Ya da silin ve tamamen
+          farklı bir şey ile değiştirin)
+        turtle_5_5: Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler
+          yapın. Nasıl çalıştığını tahmin edebiliyor musun? (Ya da silin ve tamamen
+          farklı bir şey ile değiştirin)
+        turtle_5_6: Bu programı çalıştırmayı deneyin ve ne olacağını görmek için değişiklikler
+          yapın. Nasıl çalıştığını tahmin edebiliyor musun? (Ya da silin ve tamamen
+          farklı bir şey ile değiştirin)
+        maze_3_1: O domuzu almam gerek! Birkaç telefon görüşmesi için move() yazın;
+          böylece yumurtalarımı geri alabilirim.
+        maze_3_2: Bana bir program yaz, böylece domuza giden tüm yolları yapabileyim.
+        maze_3_3: Domuzu nasıl alabilirim? TNT kutusuna doğru gitmediğimden emin olun!
+        maze_3_4: Ahh! Beni TNT ve domuz çevresine alan bir program yazın.
+        bounce_1: Attach a block to the "when left arrow" block, then run and move
+          the paddle with the left arrow key to the finish target.
+        bounce_2: Attach a block to the "when right arrow" and "when left arrow" blocks,
+          then run and move the paddle with the both arrow key to both finish targets.
+        bounce_3: TBD
+        bounce_4: TBD
+        bounce_5: Attach a blocks to the "when right arrow", "when left arrow", "when
+          ball hits wall", and "when ball hits paddle" blocks.
+        bounce_6: Try again with more balls.
+        bounce_7: Now it is getting crazy!
+        bounce_8: Daha çok top ile yeniden deneyin.
+        bounce_9: Şimdi deli oluyor!
+        bounce_10: There is a now a goal at the top. Attach "increment score" blocks
+          to the the "when ball in goal" and "when ball misses paddle" blocks to make
+          a game.
+        Custom_builder: Drag blocks from the toolbox to the workspace to draw the
+          level you wish to create. Press "Run Program" when you are ready.
+        flappy_1: Attach a block to the "when click" block, then press "Run Program"
+          and click or tap to move Flappy to the target.
+        flappy_2: Now we've added some ground.  Attach a block to the "when hit the
+          ground" block, then press "Run Program". To pass this puzzle, your code
+          needs to 'END GAME' when Flappy crashes into the ground.
+        flappy_3: The "when Run is clicked" block allows you to run code when your
+          game first starts.  Try setting the level speed and flapping to the target.
+        flappy_4: Flappy will fly through obstacles unless you write code to make
+          him crash. Attach a block to the "when hit an obstacle" block. To pass the
+          puzzle, your code needs to 'END GAME' and make Flappy crash into the first
+          pipe so he can reach the target.
+        flappy_5: Let's add a scoreboard, and count points when Flappy makes it past
+          obstacles. Add to the "when pass an obstacle" block, and then score a point
+          by flying Flappy through the first set of pipes.
+        flappy_6: See if you can still score a point after making Flappy flap either
+          a smaller or larger amount.
+        flappy_7: Next, try changing the scene by attaching another block to the "when
+          Run is clicked".
+        flappy_11: Create your own Flappy game and share it. You can change the visuals,
+          or even the rules. Try changing visuals each time Flappy passes an obstacle.
+          Or make Flappy invincible so he never dies.
+      levelIncompleteError:
+        maze_2_8: 'Bunu çözmek için yinelenen denetim örneğini bulun. "repeat" bloğunu
+          bu 3 blok ile kullanın: yürüyün, yürüyün, sağa dönün.'
+      other1StarError:
+        maze_2_14: '"repeat" bloğu içinde "if" bloğuna ihtiyacın var. Sorun yaşıyorsanız,
+          nasıl çalıştığını anlamak için önceki seviyeyi deneyin.'
+      tooFewBlocksMsg:
+        maze_2_8: 'Bunu çözmek için yinelenen denetim örneğini bulun. "Tekrar" ı blok
+          içindeki bu 3 blok ile kullanın: yürüyün, yürüyün, sağa dönün.'
+    video:
+      name:
+        maze_intro: Labirent girişi
+        artist_intro: Sanatçı girişi
+        farmer_intro: Çiftçi girişi
+        flappy_intro: Flappy Intro
+        loop_times: Bloğu tekrarlayın
+        loop_until: Blok kadar tekrarlayın
+        if: if bloğu
+        if_else: İf/else bloğu
+        function: Fonksiyonlar
+        loop_while: while bloğu
+        loop_for: Sayaç bloğu
+        parameters: Fonksiyon parametreleri
+        hoc_wrapup: Kod saatini tamamla
+        20_wrapup: 20 saati tamamla

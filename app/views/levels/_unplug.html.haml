@@ -1,0 +1,52 @@
+.unplugged
+  %h2 #{data_t('unplugged', @game.name)[:title]}
+
+  %p #{data_t('unplugged', @game.name)[:desc]}
+
+  .buttons
+
+    - pdfs = data_t('unplugged', @game.name)[:pdfs]
+    - if pdfs
+      - pdfs.each_with_index do |pdf, i|
+        %a.btn.pdf-button{href: asset_url('/unplugged/' + pdf + '.pdf'),
+                                 target: '_blank'}
+          = t('download_pdf', :pdf => i + 1)
+    - else
+      %a.btn.pdf-button{disabled: 'disabled'}
+        Downloadable activity coming soon.
+
+    %a.btn.btn-primary.next-stage
+      = t('next_stage')
+
+  - video = data_t('unplugged', @game.name)[:video]
+  - if video
+    %iframe{src: youtube_url(video, {autoplay: 0}), scrolling: 'no'}
+  - else
+    %p Video Coming Soon!
+  - download = data_t('unplugged', @game.name)[:download]
+  - if download
+    %a.btn.btn-primary{href: download}
+      = t('video.download')
+
+:javascript
+  var clickedNext = false;
+  $('a.next-stage').click(function() {
+    if (!clickedNext) {
+      clickedNext = true;
+      sendReport({
+        fallbackResponse: '#{@fallback_response.to_json}',
+        callback: '#{@callback}',
+        app: 'unplug',
+        level: '#{@level.level_num}',
+        result: true,
+        testResult: 100,
+        onComplete: function() {
+          if (videoInfo) {
+            showVideo(videoInfo);
+          } else if (nextRedirect) {
+            window.location.href = nextRedirect;
+          }
+        }
+      });
+    }
+  });

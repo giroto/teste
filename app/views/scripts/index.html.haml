@@ -1,0 +1,18 @@
+%h1 Listing Scripts
+%table
+  %tbody
+    - if !@scripts.nil?
+      - @scripts.each do |script|
+        - script_level = ScriptLevel.where(chapter: 1, script: script).first
+        %tr
+          %td= script.name
+          - if script_level
+            %td= link_to "Play", script_level_path(script, script_level)
+          - if can? :update, script
+            %td= link_to t('crud.edit'), edit_script_path(script)
+          - if can? :destroy, script
+            %td= link_to t('crud.destroy'), script, method: :delete, data: { confirm: t('crud.confirm') }
+
+%br/
+- if can? :create, Script
+  = link_to t('crud.new_model', model: Script.model_name.human), new_script_path

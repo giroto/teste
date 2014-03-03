@@ -1,0 +1,376 @@
+"nl":
+  activerecord:
+    attributes:
+      user:
+        name: naam
+        email: email
+        username: Gebruikersnaam
+        password: Wachtwoord
+        password_confirmation: Wachtwoord bevestiging
+        current_password: Huidig wachtwoord
+        locale: Taal
+        gender: Geslacht
+        edit_header: Accountdetails bewerken
+  hello: Hallo wereld
+  welcome_back: Welkom terug, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: 'voeg een leraar toe door code of e-mail adres:'
+      placeholder: code (ABCDEF) of email (teacher@school.edu)
+    submit: voeg leraar toe
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: niveau
+  puzzle: puzzel
+  trophies: Medailles
+  courses: cursussen
+  of: van
+  more: MEER
+  less: MINDER
+  try_hoc: 'Probeer the Hour of Code, klik hier >> '
+  try_k8intro: of probeer onze K-8 intro voor Computer Science les (15-25 uur)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 'al begonnen? ga hier verder >> '
+  demos: 'Admin: alle demo''s'
+  continue: verder gaan
+  prize: prijs
+  more_info: Meer info
+  auth:
+    sign_in_with: Meld je aan met %{provider}
+    signed_in: Ingelogd!
+    already_signedup: Al aangemeld?
+    notyet_signedup: nog niet aangesloten?
+    google_oauth2: Google+
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Wachtwoord vergeten?
+    need_confirmation: Geen bevestigingsinstructies ontvangen?
+    need_unlock: Nog niet uw ontgrendel instructies ontvangen?
+  signup_form:
+    overview: Deze cursus van 20 uur introduceert basisbegrippen voor informatica
+      en programmeren. De cursus is bedoeld voor basisschool-klassen, maar is voor
+      alle leeftijden leuk om te leren.
+    no_signup_header: Wil je je niet aanmelden?
+    no_signup_message: Je kunt <a target="_blank" href="http://learn.code.org">de
+      verschillende niveaus en levels bekijken</a>, maar om je voortgang te bewaren
+      moet je je aanmelden.
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: U.S. students who earn all %{num_trophies} concept trophies can
+      select a variety of prizes including free Dropbox space, Skype credits, and
+      downloadable games from Electronic Arts.
+    teacher_educator_guide: Kijk in de lerarengids
+    teacher_prize_header: Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>-prijzen
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>,
+      Code.org will offer up to $1,000 in classroom funding to U.S. public school
+      teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See
+      educator guide for more info.</a> '
+    teacher_prize_limits: '(Limit: $1,000 per teacher. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">See
+      FAQ for more limits</a>)'
+    teacher_pitch: Gebruik de Introductie in de Informatica op basisschoolniveau in
+      jouw klas
+    teacher_title: Inschijven voor leraren
+    student_pitch: 'Verder dan 1 uur: probeer onze Introductie in de Informatie op
+      basisschoolniveau'
+    student_title: Inschrijven
+    school_name: School naam (optioneel)
+    school_address: Schooladres (optioneel)
+    address_placeholder: adres, stad, staat, zip
+    gender: Geslacht (optioneel)
+    birthday: Verjaardag (optioneel)
+    submit: Meld je aan
+    teacher: Bent u een leraar?
+    valid_username: Beschikbaar!
+    invalid_username: Gebruikersnaam moet minstens 5 tekens zijn
+    taken_username: Gebruikersnaam is al in gebruik
+    valid_password: Geldig wachtwoord!
+    invalid_password: Wachtwoord moet ten minste 6 tekens lang zijn
+    mismatch_password: De twee wachtwoorden komen niet overeen
+    student_terms: Ik ga akkoord met de algemene voorwaarden van Code.org. Als ik
+      onder de 13 jaar oud ben, bevestig ik door dit formulier te versturen dat ik
+      toestemming van mijn ouder of voogd heb om gebruik te maken van de diensten
+      van Code.org.
+    teacher_terms: Ik ga akkoord met de algemene voorwaarden van Code.org.
+  signin_form:
+    title: Aanmelden
+    login: Email of gebruikersnaam
+    password: Wachtwoord
+    remember: Onthoud me
+    submit: Log in
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: Wachtwoord vergeten?
+      email: Email-adres
+      submit: Stuur me uitleg over wachtwoord resetten
+    change_form:
+      title: Verander je wachtwoord
+      new_password: Nieuw wachtwoord
+      confirm_password: Bevestig je nieuwe wachtwoord
+      submit: Verander mijn wachtwoord
+  welcome_email:
+    subject: Doe mee met mijn klas (op Code.org)
+    body: |
+      Klik op de link hieronder om je aan te melden voor informatica-opdrachten op Code.org (met mij als je "leraar"):
+
+      %{link}
+
+      De opdrachten zijn leuk, visueel boeiend, en leggen de basisbeginselen van de informatie uit in een eenvoudige, begeleide, speelse ervaring. Leer programmeren van Bill Gates, Mark Zuckerberg, Angry Bird en Planten tegen de Zombies :-)
+
+      %{name}
+  follower:
+    invite_sent: Uitnodiging verstuurd
+    added_teacher: '%{name} toegevoegd als je leraar'
+    registered: Je hebt je aangemeld voor %{section_name}.
+    error:
+      signed_in: Log uit om verder te gaan
+      username_not_found: Gebruikersnaam %{username} niet gevonden
+      username_in_use: '%{username} wordt al gebruikt, kies een andere'
+      no_teacher: Er is niemand ingelogd met '%{teacher_email_or_code}'. Vraag ze
+        hier aan te melden en probeer ze dan nog eens toe te voegen
+      blank_code: Please enter a code or your teacher's email address
+    mail:
+      invite_student:
+        subject: Doe mee met een klas met %{teacher_name} op Code.org!
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} is no longer associated as
+          your student.'
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: Je hebt geen toegang tot de statistieken van deze persoon
+  redeem_prizes:
+    title: 'Geef prijzen vrij: %{name}'
+    provider: 'Aanbieder:'
+    code: 'Code:'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: How to use your code
+    success: Je prijs is vrijgegeven, gebruik de code hieronder.
+    error: Je prijs kon niet worden vrijgegeven, probeer het opnieuw.
+    error_us_only: Prijzen zijn alleen geldig voor gebruikers in de Verenigde Staten.
+    error_not_earned: You have not yet earned this prize.
+    error_already_redeemed: Your prize has already been redeemed.
+    no_prizes_available: We're sorry, but we currently have no prizes available.
+    teacher_info_required: 'Teacher prizes require school name and address information:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: Bevestigen
+      'no': Nee
+      'yes': Ja
+      msg: Weet je zeker dat je de prijs '%{prize_name}' wil kiezen?
+      msg_student: 'Let op: je kunt maar een soort prijs kiezen.'
+      msg_publicschool: Please confirm that you are a U.S. public school teacher.
+      msg_visit_website: Website bezoeken
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10GB of Dropbox Space
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'Kies een prijs:'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: Je hebt een prijs verdiend! (Alleen voor leerlingen uit de Verenigde
+        Staten)
+      not_earned_title: Voltooi de opdracht en verdien prijzen (alleen voor leerlingen
+        in de Verenigde Staten)
+      not_earned: 'Learn all the computer science concepts, collect all %{num_trophies}
+        trophies, and earn real-world prizes. You can choose between 10GB of free
+        Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer
+        only valid to U.S. students, and only as long as supplies last.'
+      teacher:
+        earned: Minstens 10 leerlingen hebben alle %{num_trophies} bekers verzameld.
+          Je hebt een lerarenprijs van $750 gewonnen! (alleen voor leraren in de Verenigde
+          Staten)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: Om nieuwe informaticaleraren te belonen kun je tot $1,000 aan
+          <a href="http://DonorsChoose.org">DonorsChoose.org</a>-credits verdienen
+          om een klas door de introductiecursus op basisschoolniveau te loodsen. Om
+          in aanmerking te komen moet je een klas van minstens 15 leerlingen door
+          de cursus loodsen, waarbij alle 15 studenten (of meer) alle opdrachten uitvoeren
+          en alle %{num_trophies} bekers verdienen. Als minstens 7 van de leerlingen
+          die alle bekers verdienen uit meisjes bestaat is de beloning $1,000 aan
+          <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>-credits.
+          Anders is je beloning $750 aan <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>-credits.
+          <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>-credits
+          kunnen alleen gebruikt worden door leraren in openbare scholen in de Verenigde
+          Staten.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: Minstens 7 van de leerlingen die alle %{num_trophies} bekers hebben
+            verzameld zijn meisjes. Je hebt een bonusprijs van $750 gewonnen! (alleen
+            voor leraren in de Verenigde Staten)
+          not_earned: Wanneer minstens 7 van de leerlingen die alle %{num_trophies}
+            bekers verdienen meisjes zijn, word je beloond met $250 aan extra <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits kunnen alleen
+            gebruikt worden door leraren in openbare scholen in de Verenigde Staten.
+  crud:
+    new_model: Nieuw %{model}
+    show: Toon
+    edit: Bewerk
+    edit_model: Bewerk %{model}
+    update: Bijwerken
+    destroy: Verwijderen
+    back: Terug
+    confirm: Weet je het zeker?
+    created: '%{model} aangemaakt.'
+    updated: '%{model} bijgewerkt.'
+    destroyed: '%{model} was successfully deleted.'
+    access_denied: You do not have access to this %{model}.
+  nav:
+    header:
+      finished_hoc: Ik heb mijn Uur Code afgemaakt
+      sign_in_to_save: Log in om je vooruitgang op te slaan
+    user:
+      classroom: Mijn leerlingen
+      label: Hallo %{username}
+      stats: Mijn vooruitgang
+      settings: Mijn account
+      prizes: Prijzen
+      logout: Uitloggen
+      signin: Log in
+      signup: Aanmelden
+    popup:
+      progress: Je vooruitgang
+      lines: 'Totaal aantal regels code: %{lines}'
+      close: SLUITEN
+      mastery: Begrippen
+      puzzle_map: Levels
+      prizes: Verzamel alle %{total_trophies} trofeeën en win prijzen!
+      prize_earned: Alle %{total_trophies} bekers verzameld!
+      prize_us_only: (alleen voor leerlingen in de Verenigde Staten)
+      prizes_link: meer info
+  teacher:
+    title:
+      one: Je leraar is %{name}
+      other: 'Je leraren:'
+    remove: (remove teacher)
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: Hulpmiddelen voor Leraren
+    students:
+      manage: Beheer student
+      add: voeg leerling toe
+    rollup: Overzicht vooruitgang
+    activity: Recente klasactiviteiten
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: (laat leeg als je het niet wilt veranderen)
+    current_password_hint: (we hebben je huidige wachtwoord nodig om je veranderingen
+      te bevestigen)
+    cancel:
+      title: Annuleer mijn account
+      hint: Ontevreden?
+      button: Annuleer mijn account
+  user_level:
+    completed: Voltooid
+    tried: Probeerde
+  user_stats:
+    recent_activity: Recente activiteiten
+    show_more: Toon meer
+  home:
+    signin_message: Of als je al ingeschreven bent, %{link}
+    student_reg_link: Leerling
+    teacher_reg_link: Leraar
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: Ga naar voorgangsoverzicht
+    teacher_student_count_one: Je hebt %{count} leerling.
+    teacher_student_count: Je hebt %{count} studenten.
+    teacher_averages: Gemiddeld hebben je studenten %{trophy_average} van de %{trophy_max}
+      "Concept Mastery" trofeeën.
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: Je klas
+    student_progress: Je voortgang
+    student_stats: Je hebt %{trophy_count} van de %{trophy_max} "Concept Mastery"
+      trofeeën.
+    student_left_off: 'Waar je geëindigd bent:'
+    student_finished_prize: You've completed all tutorials, claim your %{prize_link}
+      and pick another class %{online_link} or at a %{local_school_link}
+    student_finished: You've completed all tutorials, pick another class %{online_link}
+      or at a %{local_school_link}
+    local_school: lokale school
+    online: online
+    see_details: Bekijk details
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: Man
+    female: Vrouw
+    none: Wil ik liever niet zeggen
+  footer:
+    help_from_html: Ingenieurs van <a href="http://www.google.com">Google</a>, <a
+      href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>,
+      en <a href="http://www.twitter.com">Twitter</a> hielpen mee om deze tutorial
+      te maken.
+    art_from_html: Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. Alle rechten voorbehouden.<br/> Plants vs. Zombies&trade;
+      & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Alle rechten
+      voorbehouden.
+    feedback: Geef feedback
+    translate: Help ons om te vertalen naar uw taal
+    tos: Algemene gebruiksvoorwaarden
+    privacy: Privacy Policy
+  prize_mail:
+    prize_earned:
+      subject: Geef je prijs vrij op Code.org!
+    teacher_prize_earned:
+      subject: Geef je prijs vrij op Code.org!
+    teacher_bonus_prize_earned:
+      subject: Geef je bonusprijs vrij op Code.org!
+  reference_area:
+    title: Hulp nodig?
+    subtitle: Bekijk deze video's en hints
+    teacher: See the solution
+    auth_error: You are not authorized to see the solution.
+  video:
+    tab: Video.
+    notes: Geen video? Laat notities zien.
+    autoplay_option: Video's automatisch afspelen
+    download: Video downloaden
+  compatability:
+    working: We zijn bezig om ondersteuning voor je browser toe te voegen.
+    upgrade: Upgrade je browser.
+  slow_loading: Dit duurt langer dan normaal...
+  try_reloading: Probeer de pagina opnieuw te laden
+  next_stage: Klaar! Verder naar het volgende niveau
+  download_pdf: Open lesplan
+  share_code:
+    title: Click 'Run program' to see my program in action
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

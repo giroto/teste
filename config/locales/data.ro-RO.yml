@@ -1,0 +1,410 @@
+"ro":
+  data:
+    script:
+      name:
+        20-hour:
+          desc: Introducerea K-8 la cursul de Informatică
+          Unplug1: Etapa 1
+          Maze: Etapa 2
+          Unplug2: Etapa 3
+          Unplug3: Etapa 4
+          Artist: Etapa 5
+          Unplug4: Etapa 6
+          Artist2: Etapa 7
+          Unplug5: Etapa 8
+          Farmer: Etapa 9
+          Unplug6: Etapa 10
+          Artist3: Etapa 11
+          Unplug7: Etapa 12
+          Farmer2: Etapa 13
+          Unplug8: Etapa 14
+          Artist4: Etapa 15
+          Unplug9: Etapa 16
+          Farmer3: Etapa 17
+          Unplug10: Etapa 18
+          Artist5: Etapa 19
+          Unplug11: Etapa 20
+        Hour of Code:
+          desc: Oră de Cod
+          Maze: Etapa 1
+        Edit Code:
+          desc: Editează Codul
+          MazeEC: Etapa 1
+        2014 Levels:
+          desc: Puzzle-uri 2014 (beta)
+          MazeEC: Etapa 1
+        Flappy Levels:
+          desc: Flappy Bird
+          MazeEC: Stage 1
+    game:
+      name:
+        Unplug1: Introducere în Informatică
+        Maze: Labirintul
+        Unplug2: Gândire Computațională
+        Unplug3: Programare pe Hârtie Milimetrică
+        Artist: Artistul
+        Unplug4: Algoritmi
+        Artist2: Artistul 2
+        Unplug5: Funcţii
+        Farmer: Fermierul
+        Unplug6: Condiţionale
+        Artist3: Artistul 3
+        Unplug7: Compunere muzicală
+        Farmer2: Fermierul 2
+        Unplug8: Abstractizare
+        Artist4: Artistul 4
+        Unplug9: Programare de releu
+        Farmer3: Fermierul 3
+        Unplug10: Internetul
+        Artist5: Artistul 5
+        Unplug11: Încheiere
+        MazeEC: Labirintul
+        Bounce: Saritura
+        Flappy: Flappy Bird
+    trophy:
+      name:
+        Bronze: Bronz
+        Silver: Argint
+        Gold: Aur
+    concept:
+      description:
+        sequence: Secvenţă
+        if: bloc Dacă
+        if_else: bloc Dacă-altfel
+        loop_times: bloc repetă ori
+        loop_until: bloc repetă până la
+        loop_while: bloc în timp ce
+        loop_for: Bloc numărător
+        function: Funcţii
+        parameters: Funcţii cu parametri
+    level:
+      instructions:
+        maze_2_2: 'Mă poți ajuta să prind porcușorul buclucaș? Grupează o pereche
+          de blocuri "mută înainte" şi apasă "Rulează Programul" pentru a mă ajuta
+          să ajung acolo. '
+        maze_2_1: Acest porcușor îmi zburlește penele. Ajută-mă să-l găsesc!
+        maze_2_2_5: Trasează calea și du-mă la porcușorul nătâng. Evită TNT-ul sau
+          penele-mi vor zbura!
+        maze_2_3: Ghidează-mă la răutatea verde! (Atenție la TNT)
+        maze_2_4: Păstrează-ți calmul și ajută-mă să găsesc porcușorul rău. Altfel
+          s-ar putea să mă enervez!
+        maze_2_5: Există o modalitate prin care pot ajunge la porcușorul nătâng folosind
+          doar 2 blocuri. Poți să-ți dai seama cum?
+        maze_2_6: Încearcă să mă duci la intrusul verde folosind doar trei blocuri.
+        maze_2_7: Ajută-mă să alung acest purceluş rău folosind cel mai mic număr
+          de blocuri. Încearcă să folosești mai mult de un bloc "repetă ori".
+        maze_2_8: "Pentru a rezolva acest lucru, încearcă un bloc \"repetă\" cu aceste
+          3 blocuri în interiorul acestuia: mută, mută, \nîntoarce.\n"
+        maze_2_9: Ok, încearcă noul bloc "repetă până la" - va repeta până când am
+          ajuns la porcușorul enervant.
+        maze_2_10: OK, ultima dată pentru practică - poți rezolva acest lucru folosind
+          doar 4 blocuri?
+        maze_2_11: Dragă persoană. Eu zombie. Mie foame. Trebuie... să ajung... la
+          floarea soarelui... Poți să mă duci acolo cu doar 5 blocuri?
+        maze_2_12: OK, această situație este similară, dar uşor diferită. Poți s-o
+          faci în doar 5 blocuri?
+        maze_2_13: 'Utilizează noul bloc "dacă" pentru a mă lăsa să decid când să
+          întorc. Sugestie: mai ai nevoie doar un singur bloc, dar învață cum am aranjat
+          noi așa încât să o poți face pe cont propriul data viitoare.'
+        maze_2_14: Ok, această situație este la fel ca și în ultimul puzzle, dar trebuie
+          să îți amintești cum ai folosit împreună blocul "dacă" şi blocul "repetă".
+        maze_2_15: Eu vreau floarea soarelui! Utilizează un bloc "dacă" pentru a mă
+          duce acolo folosind cel mai mic număr de blocuri.
+        maze_2_16: OK, hai să mai facem din nou acest lucru pentru practică - nu este
+          foarte diferit, dar fii atent la chompers!
+        maze_2_17: Blocurile "Dacă-altfel" verifică o condiţie, şi apoi fac un lucru
+          sau altul. Pentru a mă duce la floarea-soarelui încearcă să utilizezi acest
+          bloc nou.
+        maze_2_18: Încă un exercițiu de practică cu blocul "dacă-altfel", poate reușești
+          chiar prima încercare?
+        maze_2_19: Poţi adăuga doar 3 blocuri pentru a mă ajuta să rezolv un labirint
+          mai complex? Dacă o faci corect, eu pot merge pe orice cale curbată indiferent
+          de lungime.
+        turtle_1_1: Bună, eu sunt un artist. Poți scrie un cod care să mă facă să
+          desenez aproape orice. Utilizează câteva blocuri care să mă facă sa desenez
+          peste liniile gri din imagine.
+        turtle_1_2: 'Acum, desenează un pătrat. NOTĂ: utilizează culoarea ta preferată
+          selectând-o în noul bloc "setează culoare".'
+        turtle_1_3: Fă un pătrat utilizând doar 3 blocuri.
+        turtle_1_4: 'Desenează un triunghi ale cărui laturi sunt toate în culori diferite,
+          folosind opţiunea "culoare aleatoare" care selectează o culoare diferită
+          de fiecare dată. Sugestie: va trebui să-ți dai seama cât de departe să te
+          întorci făcând clic pe numărul în blocul de întoarcere.'
+        turtle_1_5: Acum, pentru antrenament , desenează un triunghi, pe urmă un pătrat
+          pentru a obține un plic.
+        turtle_1_6: 'Îți poți da seama cum să desenezi acest triunghi și acest pătrat?
+          Indiciu: Desenează mai întâi triunghiul, apoi dă-ți seama cât de mult să
+          întorci înainte de a desena pătratul.'
+        turtle_1_7: În regulă, hai să facem lucrurile un pic mai complicate - vezi
+          dacă poți desena acești ochelari verzi. Pătratele au 100 de pixeli pe fiecare
+          parte, și sunt la 50 de pixeli între ele. Nu uita să desenezi cu verde!
+        turtle_1_8: Ok, încearcă să îți dai seama ce se întamplă dacă rulezi acest
+          cod (sau apasă "Rulează" pentru a-l încerca). Apoi repetă-l de câte ori
+          e nevoie ca să completezi desenul. Culorile vor fi diferite de fiecare dată.
+        turtle_1_9: Poți să îți dai seama cu ce număr să înlocuiești semnele de întrebare
+          pentru a desena un cerc?
+        turtle_1_10: 'Ai reușit! Acum, desenează orice vrei. Câteva idei nostime:
+          un om din 5 bețe si un cerc , fulg de zăpadă sau spirală. Încearcă, de asemenea,
+          și noul bloc "setează lățimea". Distrează-te!'
+        turtle_4_1: 'Poţi desena un triunghi (cu margini de 100 pixeli) cu numai 3
+          blocuri? Sugestie: utilizează un bloc "repetă".'
+        turtle_4_2: 'Încearcă să adăugi un bloc pentru a finaliza acest puzzle. Sugestie:
+          am furnizat blocuri să traseze 2 triunghiuri identice, tu trebuie să plasezi
+          un "întoarce" între ele, şi să decizi cât de mult să se întoarcă.'
+        turtle_4_3: OK, aici ai codul pe care l-ai scris așa încât să traseze un singur
+          triunghi. Poți să adăugi un bloc "repetă" şi unul "întoarce" pentru a face
+          o floricică drăguță?
+        turtle_4_4: 'Aici ai acelaşi cod de la puzzle-ul anterior, dar cu o întoarcere
+          de numai 36 de grade după trasarea fiecărui triunghi. De câte ori trebuie
+          să se repete acesta? (Sugestie: după o întoarcere de 360 de grade desenul
+          va deveni cerc complet)'
+        turtle_4_5: 'Aici ai acelaşi cod de la puzzle-ul anterior, dar repetarea cotiturilor
+          se va face de 36 de ori. La câte grade trebuie să fie întoarcerile? (Sugestie:
+          după o întoarcere de 360 de grade desenul va deveni cerc complet)'
+        turtle_4_6: Folosind numai 3 blocuri, ai putea desena un pătrat cu muchii
+          de 20 de pixeli?
+        turtle_4_7: 'Aici este codul pentru desenul pătrat din ultimul puzzle. Poți
+          să-l repeți astfel încât să trasezi 10 pătrate adiacente cum ar fi o scară?
+          Sugestie: ai nevoie doar de încă 2 blocuri.'
+        turtle_4_8: Aici este soluţia pentru puzzle-ul anterior. Mai poți adăuga doar
+          2 blocuri pentru a finaliza desenul?
+        turtle_4_9: Aici este soluţia de la puzzle-ul precedent. Cu câte grade ar
+          trebui să cotești pentru a finaliza desenul? (Probabil vei avea nevoie să
+          ghicești de câteva ori)
+        turtle_4_10: Aici ai soluţia de la puzzle-ul anterior. De câte ori trebuie
+          să repeţi pentru a finaliza desenul?
+        turtle_4_11: Încearcă să schimbi numerele în blocurile "întoarce" şi "repetă"
+          pentru a crea modele diferite. Sau, experimentează schimbarea restului de
+          cod pentru a desena orice ce vrei tu.
+        maze_karel_1_1: Bună, eu sunt un fermier. Am nevoie de ajutorul tău să netezesc
+          terenul fermei mele ca să fie gata de plantare. Mută-mă la o stivă de pământ
+          şi folosește blocul "elimină" pentru a o înlătura.
+        maze_karel_1_2: Apoi, mută-mă la groapă si umple-o cu DOUĂ lopeţi de pământ
+          folosind blocul "umple".
+        maze_karel_1_3: Mută-mă lângă o stivă de pământ și spune-mi de cât de multe
+          lopeți pline am nevoie astfel incât să o elimin folosind cât mai puține
+          blocuri cu putință.
+        maze_karel_1_4: 'Mă poți ajuta să elimin toate cele patru mormane de pământ?
+          Indiciu: folosește un bloc "repetă" dacă poți.'
+        maze_karel_1_5: 'Ajută-mă să umplu aceste gropi cu 5 lopeți pline de pământ.
+          Indiciu: poți pune un bloc "repetă" în interiorul unui bloc "în timp ce".'
+        maze_karel_1_6: Elimină toate grămezile de pământ, folosind cât mai puține
+          blocuri posibile. Noile opțiuni din meniul vertical de pe blocul "în timp
+          ce" îmi spun dacă stau pe un morman sau pe o groapă.
+        maze_karel_1_7: Wow, am găsit o groapă foarte adâncă! Nu ştiu de cât de multe
+          lopeți de pământ e nevoie să se umple. Puteţi scrie un program care o umple
+          până când solul este drept?
+        maze_karel_1_8: Ajută-mă să umplu groapa de la capătul terenului, folosind
+          cât mai puține blocuri posibile.
+        maze_karel_1_9: 'Fă-mă să înlătur toate aceste mormane de pământ. Încearcă
+          să utilizezi cât mai puţine blocuri posibil. Sugestie: încearcă să utilizezi
+          un bloc de "în timp ce".'
+        maze_karel_1_10: Lucrez până târziu, așa că e întuneric afară, și nu-mi pot
+          da seama cât de mari sunt grămezile. Acum nu mai am toate opțiunile pe care
+          le aveam la blocul "în timp ce". Mută-mă de-a lungul câmpului și dacă există
+          pe-acolo vreo gramadă, înlătur-o.
+        maze_karel_1_11: 'Încă e întuneric afară. Mută-mă de-a lungul câmpului. Dacă
+          găsești o grămadă, înlătur-o și dacă găsești o groapă, umple-o. Indiciu:
+          folosește meniul vertical de opțiuni din blocul "dacă".'
+        turtle_2_1: 'Salut. Eu artist zombie. Eu iubesc desenez! Ajută-mă să desenez
+          un pătrat într-o culoare specială. Notă importantă: ai aceleași blocuri
+          dar acum sunt aranjate pe categorii.'
+        turtle_2_2: Bine ai venit la utilizarea funcțiilor, care te lasă să definești
+          blocuri noi! Încearcă noul bloc "desenează un pătrat" care se găsește în
+          categoria "Funcții", ca să desenezi un pătrat mic verde de dimensiuni 50x50.
+        turtle_2_3: Folosește blocul "repetă" (în categoria "Bucle") ca să desenezi
+          3 pătrate cu latura de 100, fiecare la 120 de grade distanță unul de altul.
+          Fă acest lucru folosind 3 culori diferite alese la întâmplare.
+        turtle_2_4: 'Acum avem să devenim creativi. Schimbă codul ca să desenez 36
+          de pătrate, largi de 100 de pixeli și la 10 grade departare unul de altul.
+          Indiciu: e posibil să vrei să folosești cursorul ca să mă determini să mă
+          mișc mai repede.'
+        turtle_2_5: Desenează pătrate cu laturile de 50, 60, 70, 80, și 90 de pixeli.
+          Vei avea nevoie să folosești de cinci ori funcția "deseneză un pătrat".
+        turtle_2_6: 'Ok, acest program va folosi un numărător, pentru a desena aceleași
+          pătrate ca și ultima oară. Vrei ca pătratul să fie de aceași mărime cu numărătorul,
+          așa că folosește blocul "numărător". Indiciu: Se găsește în categoria Variabile.'
+        turtle_2_7: Aici este un program pentru a desena o spirală, dar blocurile
+          sunt dezactivate și nu vor rula. Fă un nou program folosind un bloc de tipul
+          "numără cu" (în categoria Bucle) și un bloc "numărător (în categoria Variabile)
+          pentru a desena aceași spirală.
+        turtle_2_7_5: Există o nouă funcție "desenează un om de zăpadă" (în categoria
+          Funcţii). Desenează doi oameni de zăpadă, de înalțime 250 şi 100.
+        turtle_2_8: Aceasta este puțin mai delicată. Folosește funcția "desenează
+          un om de zăpadă" și noul bloc "sări înainte" (în categoria Acțiuni). Desenează
+          3 oameni de zăpadă în culori diferite, la departare de 100 de pixeli între
+          ei.
+        turtle_2_9: Folosește o buclă "numără cu" pentru a desena o familie de oameni
+          de zăpadă cu înălțimi de 110, 100, 90, 80 și 70. Oamenii de zăpadă ar trebui
+          să fie la 60 de pixeli distanță unul de altul.
+        turtle_2_10: Aici ai un cod ca să încerci să experimentezi cu diferite spirale.
+          Ce se întamplă dacă schimbi cu cât se face întoarcerea? Sau dacă setezi
+          o culoare la întâmplare în buclă? Desenează orice îți place.
+        maze_karel_2_1: 'Încearcă să folosești blocurile ca să mă ajuţi să elimin
+          toate grămezile şi să umplu toate gropile din pământ. Încearcă să folosești
+          bucle în loc să utilizezi prea multe blocuri. Sugestie: poți amplasa o buclă
+          în interiorul altei bucle.'
+        maze_karel_2_2: Ne-am definit propriul nostru bloc numit "umple 5", care este
+          acum în categoria Funcţiilor. Foloseşte-l ca să mă ajuţi să umplu această
+          groapă.
+        maze_karel_2_3: Utilizează din nou blocul-funcţie "umple 5" ca să mă faci
+          să umplu toate gropile. Vei avea de tras înafară blocul "umple 5" din categoria
+          Funcţiilor.
+        maze_karel_2_4: Definește o nouă funcție ce înlătură 7 lopeți. Apoi folosește-o
+          pentru a scrie un program ce mă poate ajuta să elimin toate grămezile.
+        maze_karel_2_5: Creează o nouă funcție ce înlătură 6 lopeți pline dintr-o
+          grămadă, și folosește-o pentru a mă ajuta să nivelez mormanele.
+        maze_karel_2_6: Folosește două funcţii noi, "umple 8" şi "elimină 8", pentru
+          a mă ajuta să nivelez grămada şi să umplu groapa.
+        maze_karel_2_7: E o vacă pe câmpul meu! Scrie o funcţie nouă care mă ajută
+          să evit vaca şi să elimin grămada. Pune toate blocurile tale în interiorul
+          noii funcţii.
+        maze_karel_2_8: Folosește această funcţie nouă, "evită vaca și elimină 1",
+          ca să mă ajuți să elimin toate grămezile.
+        maze_karel_2_9: Ok, iată aici o funcţie care elimină 4 grămezi de pământ diferite
+          în coloana verticală. Încearcă să pui această funcţie într-o buclă, astfel
+          încât să elimini toate mormanele de pământ folosind doar câteva blocuri.
+        maze_karel_2_10: Mişcă-mă de-a lungul câmpului şi folosește aceste două funcţii
+          ca să mă ajuţi să elimin toate grămezile şi să umplu gropile.
+        turtle_3_1: Acest puzzle îți arată cum funcţiile "desenează un pătrat" şi
+          "desenează un cerc" sunt definite.  Definirea unei funcţii nu execută blocurile
+          sale. Trebuie să tragi afară blocul "desenează un pătrat" pentru a desena
+          în fapt un pătrat.
+        turtle_3_2: Folosind drept exemplu funcţia "desenează un pătrat", creează
+          o funcţie "desenează un triunghi" şi folosește-o.
+        turtle_3_3: 'Desenează garduri triungulare în jurul pisicilor şi un gard pătrat
+          în jurul văcii.  Sfat: testează programul de-a lungul lucrului.'
+        turtle_3_4: Vezi dacă poţi să-ți dai seama cum să utilizezi "desenează un
+          pătrat" şi "desenează un triunghi" (şi alte blocuri) pentru a desena o casă
+          în jurul leului.
+        turtle_3_5: 'Acum creează o nouă funcție "desenează o casă" şi utilizeaz-o
+          pentru a găzdui două pisici. Sugestie: creează o nouă funcţie folosind blocul
+          "fă ceva" şi introdu propriul text pentru a denumi blocul.'
+        turtle_3_6: 'Folosind "desenează un pătrat" de exemplu, adaugă un input numit
+          "lungime" la "desenează un triunghi". Apoi, desenează triunghiuri în dimensiuni
+          diferite. (Sugestie: fă clic pe stea pentru a adăuga o intrare la o funcție)'
+        turtle_3_7: Adaugă un input numit "lungime" la "desenează o casă" și contruiește
+          o casă mare pentru elefant (cu margini de 150 de pixeli lungime)
+        turtle_3_8: Aici sunt toate blocurile de la puzzle-ul anterior.  Modifică
+          "desenează o casă" astfel încât să ajung până în colţul de jos din dreapta
+          după ce am desenat o casa nouă. Utilizează această funcţie modificată să
+          desenezi trei case.
+        turtle_3_9: Poţi re-crea funcţia "desenează o casă" fără ajutor? Încearc-o,
+          și apoi desenează un rând de case.
+        turtle_3_10: Ai învăţat o mulţime! Acum folosește-ți cunoștințele pentru a
+          desena tot ce vrei. Încercă să deseni o stea, sau o spirală sau un fulg
+          de nea sofisticat.
+        maze_karel_debug_seq_1: Bine ai venit la depanare! Codul meu nu funcţionează
+          corect. Poţi descoperi problema şi să o repari astfel încât să pot obţine
+          un teren plat şi gata de plantare?
+        maze_karel_debug_seq_2: Ce e în neregulă cu acest program? Cum ar trebui să
+          îl repari ca eu să pot elimina acea grămadă?
+        maze_karel_debug_repeat: Depanează acest program pentru mine în aşa fel încât
+          terenul va fi frumos şi plat.
+        maze_karel_debug_while: Cum ar trebui să schimbi acest program ca să mă ajute
+          să umplu groapa?
+        maze_karel_debug_if: Ajutor! Repară programul în aşa mod încât câmpul meu
+          va fi complet plan.
+        maze_karel_debug_if_else: Găsește erorile în acest program, astfel încât să
+          pot umple găurile şi elimina toate grămezile.
+        maze_karel_debug_function_1: Ce ar trebui să modifici la acest program pentru
+          a mă ajuta să elimin toate grămezile?
+        maze_karel_debug_function_2: Poți depana acest program pentru mine ca să pot
+          să-mi fac câmpul plat?
+        maze_karel_debug_function_3: 'Editează acest program, astfel incât să elimin
+          toate grămezile de pe domeniul meu. '
+        turtle_5_1: Încearcă să rulezi acest program, şi fă modificări pentru a vedea
+          ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi
+          înlocuiește-l cu ceva total diferit)
+        turtle_5_2: Încearcă să rulezi acest program, şi fă modificări pentru a vedea
+          ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi
+          înlocuiește-l cu ceva total diferit)
+        turtle_5_3: Încearcă să rulezi acest program, şi fă modificări pentru a vedea
+          ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi
+          înlocuiește-l cu ceva total diferit)
+        turtle_5_4: Încearcă să execuți acest program, şi fă modificări pentru a vedea
+          ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi
+          înlocuiește-l cu ceva total diferit)
+        turtle_5_5: Încearcă să rulezi acest program, şi fă modificări pentru a vedea
+          ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi
+          înlocuiește-l cu ceva total diferit)
+        turtle_5_6: Încearcă să rulezi acest program, şi fă modificări pentru a vedea
+          ce se întâmplă. Pot să îţi dai seama cum funcționează? (Sau şterge-l şi
+          înlocuiește-l cu ceva total diferit)
+        maze_3_1: Am nevoie să ajung la acel porcușor! Tastează două chemări de mutare();
+          să-mi recuperez ouălele.
+        maze_3_2: Scrie-mi un program, ca să reușesc să ajung până la porcușor.
+        maze_3_3: Cum să ajung la porcușor? Asigură-te că nu intru în cutia cu TNT!
+        maze_3_4: Argh! Scrie-mi un program care mă duce de jur împrejurul minelor
+          de TNT şi până la porcușor.
+        bounce_1: Ataşaţi un bloc la "atunci când săgeată stanga" bloc, apoi apăsaţi
+          "Executa Programul" şi muta paletele cu tasta săgeată stânga pana la final.
+        bounce_2: Ataşaţi un bloc la "când săgeată dreapta" şi "atunci când săgeată
+          stânga" blocuri, apoi ruleaza şi muta paletele cu ambele taste de săgeti
+          pentru a termina obiectivul.
+        bounce_3: Acum, încerca ceva similar cu blocul "atunci cand sageata in sus".
+          Muta paleltele pana la obiectiv în partea de sus.
+        bounce_4: De data aceasta aveţi nevoie să adăugaţi patru blocuri. Muta paletele
+          la toate cele patru obiective pentru a finaliza acest puzzle.
+        bounce_5: Vom trimite o minge sa zboare în jos spre palete. Ataşaţi un bloc
+          la blocul "când mingea loveste peleta" pentru a garanta ca mingea atinge
+          obiectivul tinta.
+        bounce_6: Acum obiectivul tinta se afla in partea de sus. Ai nevoie sa atasezi
+          blocuri la ambele "cand mingea loveste" blocuri pentru a rezolva puzzle-ul.
+        bounce_7: Ataseaza blocuri la blocurile "cand sageata dreapta", "cand sageata
+          stanga", "cand mingea loveste peretele", si "mingea loveste paleta".
+        bounce_8: Încercaţi din nou cu mai multe mingi.
+        bounce_9: Acum devine nebunie!
+        bounce_10: There is a now a goal at the top. Attach "increment score" blocks
+          to the the "when ball in goal" and "when ball misses paddle" blocks to make
+          a game.
+        Custom_builder: Drag blocks from the toolbox to the workspace to draw the
+          level you wish to create. Press "Run Program" when you are ready.
+        flappy_1: Attach a block to the "when click" block, then press "Run Program"
+          and click or tap to move Flappy to the target.
+        flappy_2: Now we've added some ground.  Attach a block to the "when hit the
+          ground" block, then press "Run Program". To pass this puzzle, your code
+          needs to 'END GAME' when Flappy crashes into the ground.
+        flappy_3: The "when Run is clicked" block allows you to run code when your
+          game first starts.  Try setting the level speed and flapping to the target.
+        flappy_4: Flappy will fly through obstacles unless you write code to make
+          him crash. Attach a block to the "when hit an obstacle" block. To pass the
+          puzzle, your code needs to 'END GAME' and make Flappy crash into the first
+          pipe so he can reach the target.
+        flappy_5: Let's add a scoreboard, and count points when Flappy makes it past
+          obstacles. Add to the "when pass an obstacle" block, and then score a point
+          by flying Flappy through the first set of pipes.
+        flappy_6: See if you can still score a point after making Flappy flap either
+          a smaller or larger amount.
+        flappy_7: Next, try changing the scene by attaching another block to the "when
+          Run is clicked".
+        flappy_11: Create your own Flappy game and share it. You can change the visuals,
+          or even the rules. Try changing visuals each time Flappy passes an obstacle.
+          Or make Flappy invincible so he never dies.
+      levelIncompleteError:
+        maze_2_8: 'Pentru a rezolva acesta, găsește modelul care repetă. Folosește
+          un bloc "repetă" care să conțină următoarele 3 blocuri în el: mută, mută,
+          întoarce la dreapta.'
+      other1StarError:
+        maze_2_14: Ai nevoie de un bloc "dacă" în interiorul unui bloc "repetă". Dacă
+          ai probleme, încearcă din nou nivelul anterior pentru a vedea cum a funcționat.
+      tooFewBlocksMsg:
+        maze_2_8: 'Pentru a rezolva acesta, găsește modelul care repetă. Folosește
+          un bloc "repetă" care să conțină următoarele 3 blocuri în el: mută, mută,
+          întoarce la dreapta.'
+    video:
+      name:
+        maze_intro: Intro Labirint
+        artist_intro: 'Intro Artist '
+        farmer_intro: Intro Fermier
+        flappy_intro: Flappy Intro
+        loop_times: Bloc Repetă ori
+        loop_until: Bloc Repetă Până La
+        if: Bloc Dacă
+        if_else: Bloc Dacă/Altfel
+        function: Funcții
+        loop_while: Bloc În timp ce
+        loop_for: Bloc Contor
+        parameters: Funcții cu Parametrii
+        hoc_wrapup: Încheierea Orei de Cod
+        20_wrapup: 'Încheirea celor 20 de ore '

@@ -1,0 +1,5 @@
+%h1 Editing level
+= render 'form'
+= link_to t('crud.show'), [@game, @level]
+|
+\#{link_to t('crud.back'), game_levels_path(@game)}

@@ -1,0 +1,4 @@
+%h1 Create a new Script
+= form_for :script, :url => {:action => 'create'} do |f|
+  = f.text_field :name, placeholder: "Name"
+  = f.submit "Create"

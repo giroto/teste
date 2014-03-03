@@ -1,0 +1,102 @@
+- @page_title = t('redeem_prizes.title', name: current_user.name)
+
+%h1= @page_title
+
+%br/
+- if current_user.students.length > 0
+  %h4 #{t('home.classroom')}:
+
+  %p
+    = link_to t('home.teacher_student_count', count: current_user.students.length), manage_followers_path
+    = t('home.teacher_averages', trophy_average: ("%.1f" % current_user.average_student_trophies), trophy_max: Trophy::TROPHY_MAX)
+    %br/
+    %br/
+
+  - if current_user.teacher_prize_earned
+    %h4= t('redeem_prizes.msg.teacher.earned', num_trophies: Trophy::TROPHY_MAX)
+    - if current_user.teacher_prize
+      = render partial: 'shared/redeemed_prize', locals: { prize: current_user.teacher_prize }
+      
+      = link_to t('redeem_prizes.donorschoose_how_to'), 'http://www.donorschoose.org/docs/how-to-use-gift-code-2.pdf', target: "_blank"
+    - elsif !current_user.confirmed?
+      %h5
+        #{t('redeem_prizes.teacher_email_required')} #{link_to t('nav.user.settings'), edit_user_registration_url}
+    - elsif current_user.school.blank? || current_user.full_address.blank?
+      %h5
+        #{t('redeem_prizes.teacher_info_required')} #{link_to t('nav.user.settings'), edit_user_registration_url}
+    - else
+      = t('redeem_prizes.msg.choose_teacher')
+      %br/
+      %br/
+      = render partial: 'shared/choose_prize', locals: { prize_collection: TeacherPrize, prize_type: 'teacher' }
+  - else
+    %h4= sanitize(t('redeem_prizes.msg.teacher.not_earned_title').html_safe, tags: %w(a), attributes: %w(href target))
+    = sanitize(t('redeem_prizes.msg.teacher.not_earned', num_trophies: Trophy::TROPHY_MAX).html_safe, tags: %w(a), attributes: %w(href target))
+  %div{style:"clear:left;"}
+    %br/
+
+  - if current_user.teacher_prize_earned
+    - if current_user.teacher_bonus_prize_earned
+      %h4= t('redeem_prizes.msg.teacher.bonus.earned', num_trophies: Trophy::TROPHY_MAX)
+      - if current_user.teacher_bonus_prize
+        = render partial: 'shared/redeemed_prize', locals: { prize: current_user.teacher_bonus_prize }
+      
+        = link_to t('redeem_prizes.donorschoose_how_to'), 'http://www.donorschoose.org/docs/how-to-use-gift-code-2.pdf', target: "_blank"
+      - elsif !current_user.confirmed?
+        %h5
+          #{t('redeem_prizes.teacher_email_required')} #{link_to t('nav.user.settings'), edit_user_registration_url}
+      - elsif current_user.school.blank? || current_user.full_address.blank?
+        %h5
+          #{t('redeem_prizes.teacher_info_required')} #{link_to t('nav.user.settings'), edit_user_registration_url}
+      - else
+        = t('redeem_prizes.msg.choose_teacher')
+        %br/
+        %br/
+        = render partial: 'shared/choose_prize', locals: { prize_collection: TeacherBonusPrize, prize_type: 'teacher_bonus' }
+    - else
+      %h4= sanitize(t('redeem_prizes.msg.teacher.bonus.not_earned_title').html_safe, tags: %w(a), attributes: %w(href target))
+      = sanitize(t('redeem_prizes.msg.teacher.bonus.not_earned', num_trophies: Trophy::TROPHY_MAX).html_safe, tags: %w(a), attributes: %w(href target))
+    %div{style:"clear:left;"}
+  %hr/
+%h4 #{t('home.student_progress')}:
+= t('home.student_stats', trophy_count: current_user.trophy_count, trophy_max: Trophy::TROPHY_MAX)
+%br/
+%br/
+
+- if current_user.prize_earned
+  %h4= t('redeem_prizes.msg.earned')
+  - if current_user.prize
+    = render partial: 'shared/redeemed_prize', locals: { prize: current_user.prize }
+  - else
+    = t('redeem_prizes.msg.choose')
+    %br/
+    %br/
+    = render partial: 'shared/choose_prize', locals: { prize_collection: Prize, prize_type: 'student' }
+  %div{style:"clear:left;"}
+    %br/
+    = render partial: 'shared/student_finished', locals: { include_prize_link: false }
+- else
+  %h4= t('redeem_prizes.msg.not_earned_title')
+  = t('redeem_prizes.msg.not_earned', num_trophies: Trophy::TROPHY_MAX)
+  %br/
+  %br/
+  = render partial: 'shared/student_prize_mini_grid'
+  %br/
+  %br/
+  = render partial: 'shared/student_continue', locals: { include_finished: false }
+
+%br/
+:javascript
+  $(document).ready(function() {
+    $('a[data-confirm]').click(function(ev) {
+      var href = $(this).attr('href');
+
+      if (!$('#dataConfirmModal').length) {
+        $('body').append('<div id="dataConfirmModal" tabindex="-1" class="modal" role="dialog" aria-labelledby="dataConfirmLabel" aria-hidden="true"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 id="dataConfirmLabel">#{t('redeem_prizes.confirm.title')}</h3></div><div class="modal-body"></div><div class="modal-footer"><button class="btn" data-dismiss="modal" aria-hidden="true">#{t('redeem_prizes.confirm.no')}</button><a class="btn btn-primary" id="dataConfirmOK">#{t('redeem_prizes.confirm.yes')}</a></div></div>');
+      }
+      $('#dataConfirmModal').find('.modal-body').html($(this).attr('data-confirm'));
+      $('#dataConfirmOK').attr('href', href);
+      $('#dataConfirmModal').modal({show:true});
+      return false;
+    });
+  });

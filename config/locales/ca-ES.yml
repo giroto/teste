@@ -1,0 +1,370 @@
+"ca":
+  activerecord:
+    attributes:
+      user:
+        name: Nom
+        email: Correu electrònic
+        username: Nom d'usuari
+        password: Contrasenya
+        password_confirmation: Confirma la contrasenya
+        current_password: Contrasenya actual
+        locale: Llengua
+        gender: Sexe
+        edit_header: Edita les dades del compte
+  hello: Hola món
+  welcome_back: Benvingut de nou, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: 'Afegeix un mestre per codi o per correu electrònic:'
+      placeholder: Codi (ABCDEF) o correu electrònic (teacher@school.edu)
+    submit: Afegeix un professor
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: Etapa
+  puzzle: Puzzle
+  trophies: Trofeus
+  courses: Cursos
+  of: de
+  more: MÉS
+  less: MENYS
+  try_hoc: 'Prova l''Hora de Codi, fes clic aquí >> '
+  try_k8intro: O prova el nostre curs d'introducció a la Informàtica per a K-8 (15-25
+    hores)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 'Ja has començat? Continua aquí >> '
+  demos: 'Admin: Totes les demos'
+  continue: Continua
+  prize: premi
+  more_info: Més informació
+  auth:
+    sign_in_with: Registra't amb %{provider}
+    signed_in: Registrat!
+    already_signedup: Ja t'has registrat?
+    notyet_signedup: No t'has unit encara?
+    google_oauth2: Google+
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Has oblidat la constrasenya?
+    need_confirmation: No has rebut les instruccions de confirmació?
+    need_unlock: No has rebut les instruccions de desbloqueig?
+  signup_form:
+    overview: Aquest curs de 20 hores és una introducció als conceptes bàsics d'informàtica
+      i programació. El curs ha estat dissenyat per impartir a alumnes de 1er d'ESO,
+      però és divertit d'aprendre a qualsevol edat.
+    no_signup_header: No vols registrar-te?
+    no_signup_message: Pots <a target="_blank" href="http://learn.code.org">navegar
+      pels diversos puzzles i nivells</a>, però necessitaràs registrar-te per a desar
+      el teu progrés.
+    prizes_header: Els primers estudiants a completar el curs guanyaran premis! (només
+      estudiants EUA)
+    prizes_message: U.S. students who earn all %{num_trophies} concept trophies can
+      select a variety of prizes including free Dropbox space, Skype credits, and
+      downloadable games from Electronic Arts.
+    teacher_educator_guide: Mira la guia de l'educador
+    teacher_prize_header: Guanya 1,000$ en premis <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>,
+      Code.org will offer up to $1,000 in classroom funding to U.S. public school
+      teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See
+      educator guide for more info.</a> '
+    teacher_prize_limits: '(Limit: $1,000 per teacher. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">See
+      FAQ for more limits</a>)'
+    teacher_pitch: Ensenya la introducció K-8 d'Informàtica en la teua classe
+    teacher_title: Professor registrat
+    student_pitch: 'Més enllà d''una hora: prova la nostra introducció a la Informàtica'
+    student_title: Inscriure's
+    school_name: Nom de l'escola (opcional)
+    school_address: Adreça de l'escola (opcional)
+    address_placeholder: adreça, ciutat, estat, zip
+    gender: Sexe (opcional)
+    birthday: Aniversari (opcional)
+    submit: Inscriure's
+    teacher: És vostè un professor?
+    valid_username: Disponible!
+    invalid_username: El nom d'usuari ha de tenir almenys 5 caràcters
+    taken_username: El nom d'usuari ja existeix
+    valid_password: Contrasenya vàlida!
+    invalid_password: La contrasenya ha de tenir almenys 6 caràcters
+    mismatch_password: Les dues contrasenyes que has introduït no coincideixen
+    student_terms: Estic d'acord i accept els termes de Code.org. Si sóc menor de
+      13 anys, confirm mitjançant aquesta presentació que tenc el permís dels meus
+      pares o tutors legals per utilitzar els serveis de Code.org.
+    teacher_terms: Estic d'acord en estar obligat pels termes de servei de Code.org.
+  signin_form:
+    title: Inicia la sessió
+    login: E-mail o nom d'usuari
+    password: Contrasenya
+    remember: Recorda'm
+    submit: Inicia la sessió
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: Has oblidat la constrasenya?
+      email: Correu electrònic
+      submit: Envia'm instruccions per reiniciar la contrasenya
+    change_form:
+      title: Canvia la contrasenya
+      new_password: Nova contrasenya
+      confirm_password: Confirma la nova contrasenya
+      submit: Canvia la contrasenya
+  welcome_email:
+    subject: Unir-se a la meva classe (en Code.org)
+    body: |
+      Clica el següent enllaç per inscriure't als tutorials d'informàtica de Code.org (amb mi com el teu "professor"):
+
+      %{link}
+
+      Els tutorials són divertits, visualment atractius, i ensenyen els conceptes bàsics de la informàtica utilitzant una senzilla i guiada experiència a l'estil videojoc. Aprèn a programar de Bill Gates, Mark Zuckerberg, Angry Birds, i Plants vs. Zombies! :-)
+
+      %{name}
+  follower:
+    invite_sent: S'ha enviat la invitació
+    added_teacher: S'ha afegit %{name} com el teu mestre
+    registered: T'has registrat a %{section_name}.
+    error:
+      signed_in: Tanca la sessió abans de continuar
+      username_not_found: Usuari %{username} no trobat
+      username_in_use: '%{username} ja existeix, tria''n un altre'
+      no_teacher: No s'ha trobat ningú registrat amb '%{teacher_email_or_code}'. Si
+        us plau, demana'ls que es registrin aquí i després, prova a afegir-los una
+        altra vegada
+      blank_code: Please enter a code or your teacher's email address
+    mail:
+      invite_student:
+        subject: Uneix-te a una classe amb %{teacher_name} en Code.org!
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} is no longer associated as
+          your student.'
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: No pots accedir a les estadístiques d'aquesta persona
+  redeem_prizes:
+    title: 'Obtenir el premi: %{name}'
+    provider: 'Proveïdor:'
+    code: 'Codi:'
+    redeem_header: 'Per a reclamar-lo:'
+    donorschoose_how_to: How to use your code
+    success: El seu premi ha estat correctament canviat, vegeu codi sota.
+    error: El seu premi no podia ser canviat, intenteu-ho novament.
+    error_us_only: L'oferta de premis només és vàlida per als usuaris dels EUA.
+    error_not_earned: You have not yet earned this prize.
+    error_already_redeemed: Your prize has already been redeemed.
+    no_prizes_available: We're sorry, but we currently have no prizes available.
+    teacher_info_required: 'Teacher prizes require school name and address information:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: Si us plau, confirmar
+      'no': false
+      'yes': Sí
+      msg: Esteu segur que voleu reclamar el Premi %{prize_name}?
+      msg_student: 'Nota: Només podeu triar un tipus de premi.'
+      msg_publicschool: Please confirm that you are a U.S. public school teacher.
+      msg_visit_website: Visita el lloc
+    providers:
+      apple_itunes: Targeta de regal iTunes de 10$
+      donors_choose: Crèdit de 750$ a DonorsChoose.org
+      donors_choose_bonus: Crèdit de 250$ a DonorsChoose.org
+      dropbox: 10GB of Dropbox Space
+      valve: Portal 2 (baixada del joc per a PC o Mac)
+      ea_bejeweled: Bejeweled 3 (baixada del joc per a PC)
+      ea_fifa: FIFA 2013 (baixada del joc per a PC)
+      ea_simcity: SimCity 4 Deluxe Edition (baixada del joc per a PC)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: Crèdit de 10$ per a Skype
+    msg:
+      choose: 'Tria un premi:'
+      choose_teacher: 'Fes clic al logo de sota per a reclamar el teu premi:'
+      earned: Has guanyat un premi! (només estudiants EUA)
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'Learn all the computer science concepts, collect all %{num_trophies}
+        trophies, and earn real-world prizes. You can choose between 10GB of free
+        Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer
+        only valid to U.S. students, and only as long as supplies last.'
+      teacher:
+        earned: 10 estudiants o més han obtingut tots els %{num_trophies} trofeus.
+          Has guanyat el premi del professor! (Només professors dels EUA)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: Per premiar els professors d'informàtica, pots guanyar fins a
+          $1,000 en <a href="http://DonorsChoose.org"> DonorsChoose.org</a> crèdits
+          per portar aquest curs a la teva classe de K-8 . Per accedir al premi has
+          de tenir una classe de com a mínim 15 alumnes que passin aquest curs d'introducció
+          de K-8 i tots ells obtinguin tots els trofeus %{num_trophies}. Si 7 o més
+          dels alumnes són nenes, el premi és de $1.000 en <a target="_blank" href="http://DonorsChoose.org">
+          DonorsChoose.org</a> crèdits. En cas contrari, la recompensa és $750 <a
+          target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a> crèdits.  Els
+          crèdits <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>
+          només poden ser utilitzats per mestres a les escoles públiques dels Estats
+          Units.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 7 o més dels alumnes que han obtingut tots els %{num_trophies} trofeus
+            son nenes. Has guanyat el premi suplementari! (Només professors dels EUA)
+          not_earned: Si  com a mínim 7 dels alumnes que obtinguin tots els %{num_trophies}
+            trofeus son nenes, tindràs una premi addicional de 250$ en <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> crèdits. El scràdits
+            de <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+            només poden ser utilitzats per professos de les escoles publiques dels
+            Estats Units.
+  crud:
+    new_model: Crea %{model}
+    show: Mostra
+    edit: Edita
+    edit_model: Edita %{model}
+    update: Actualitza
+    destroy: Destrueix
+    back: Torna
+    confirm: Estàs segur?
+    created: '%{model} s''ha creat correctament.'
+    updated: '%{model} s''ha actualitzat correctament.'
+    destroyed: '%{model} was successfully deleted.'
+    access_denied: You do not have access to this %{model}.
+  nav:
+    header:
+      finished_hoc: He acabat la meva Hora de Codi
+      sign_in_to_save: Inicia la sessió per a desar el progrés
+    user:
+      classroom: Els meus alumnes
+      label: Hola %{username}
+      stats: El meu progrés
+      settings: El meu compte
+      prizes: Premis
+      logout: Tanca la sessió
+      signin: Inicia la sessió
+      signup: Registra't
+    popup:
+      progress: El teu progrés
+      lines: 'Línies totals de codi: %{lines}'
+      close: TANCA
+      mastery: Conceptes
+      puzzle_map: Etapes
+      prizes: Recull els %{total_trophies} trofeus i guanya premis!
+      prize_earned: Has agafat els %{total_trophies} trofeus. El premi és teu!
+      prize_us_only: (només estudiants EUA)
+      prizes_link: més informació
+  teacher:
+    title:
+      one: El teu mestre és %{name}
+      other: 'Els teus mestres:'
+    remove: (remove teacher)
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: Eines del mestre
+    students:
+      manage: Gestiona els estudiants
+      add: Afegeix estudiants
+    rollup: Quadre de progrés
+    activity: Activitat recent de la classe
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: (deixa-ho en blanc si no vols canviar-lo)
+    current_password_hint: (necessitem la teva contrasenya actual per a confirmar
+      els canvis)
+    cancel:
+      title: Cancel·la el meu compte
+      hint: Insatisfet?
+      button: Cancel·la el meu compte
+  user_level:
+    completed: Completat
+    tried: Provat
+  user_stats:
+    recent_activity: Activitat recent
+    show_more: Mostra més
+  home:
+    signin_message: O si ja estàs registrat, %{link}
+    student_reg_link: Estudiant
+    teacher_reg_link: Mestre
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: Ves al quadre de progrés
+    teacher_student_count_one: Tens %{count} estudiant.
+    teacher_student_count: Tens %{count} estudiants.
+    teacher_averages: "Els teus estudiants han guanyat de mitjana %{trophy_average}
+      fora del \n%{trophy_max} \"Concepte de Domini\" de trofeus.\n"
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: La teva classe
+    student_progress: El teu progrés d'aprenentatge
+    student_stats: Has guanyat %{trophy_count} fora del %{trophy_max} "Concepte de
+      Domini" de trofeus.
+    student_left_off: 'On ho vas deixar:'
+    student_finished_prize: You've completed all tutorials, claim your %{prize_link}
+      and pick another class %{online_link} or at a %{local_school_link}
+    student_finished: You've completed all tutorials, pick another class %{online_link}
+      or at a %{local_school_link}
+    local_school: escola local
+    online: en línia
+    see_details: Veure detalls
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: Home
+    female: Dona
+    none: Prefereixo no respondre
+  footer:
+    help_from_html: Enginyers de <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>,
+      <a href="http://www.facebook.com">Facebook</a>, and <a href="http://www.twitter.com">Twitter</a>
+      van ajudar a crear aquest tutorial.
+    art_from_html: Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. Tots els drets reservats.<br/> Plants vs. Zombies&trade;
+      & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Tots els
+      drets reservats.
+    feedback: Proporcionar comentari
+    translate: Ajuda'ns a traduir al teu idioma
+    tos: Condicions del servei
+    privacy: Política de Privacitat
+  prize_mail:
+    prize_earned:
+      subject: Reclama el teu premi a Code.org!
+    teacher_prize_earned:
+      subject: Reclama el teu premi a Code.org!
+    teacher_bonus_prize_earned:
+      subject: Reclama el teu premi de bonificació a Code.org!
+  reference_area:
+    title: Necessites ajuda?
+    subtitle: Mira aquests vídeos i consells
+    teacher: See the solution
+    auth_error: You are not authorized to see the solution.
+  video:
+    tab: Vídeo.
+    notes: Cap vídeo? Mostra les notes.
+    autoplay_option: Reprodueix automàticament els vídeos
+    download: Descarregar vídeo
+  compatability:
+    working: Estem treballant per a afegir suport per al teu navegador.
+    upgrade: Si us plau, actualitza el teu navegador.
+  slow_loading: Això està trigant més de l'habitual...
+  try_reloading: Prova de tornar a carregar la pàgina
+  next_stage: Has acabat! Continua amb la següent etapa
+  download_pdf: Obre el planning de la lliçó
+  share_code:
+    title: Click 'Run program' to see my program in action
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

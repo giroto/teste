@@ -1,0 +1,5 @@
+- @notes.each do |index, note|
+  .note
+    = image_tag(@note_paths[index][:image])
+    %p= note[:text]
+    .clear

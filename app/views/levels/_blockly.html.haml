@@ -1,0 +1,116 @@
+#blocklyApp
+  .loading
+  .slow_load
+    = t(:slow_loading)
+    %br
+    %a{href: 'javascript: location.reload();'}= t(:try_reloading)
+
+- content_for :body_scripts do
+  -# Common scripts and styles
+  - blockly_path = "#{ActionController::Base.asset_host}/blockly/"
+  -# If no param, take default
+  - pretty = params.fetch(:pretty, Rails.configuration.pretty_blockly)
+  %link{href: "#{blockly_path}css/common.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
+  %link{href: "#{blockly_path}css/#{app}.css?v=#{blockly_cache_bust}", rel: 'stylesheet', type: 'text/css'}
+
+  %script{src: "#{blockly_path}js/#{js_locale}/vendor.js?v=#{blockly_cache_bust}"}
+  %script{src: "#{blockly_path}js/#{js_locale}/#{app}#{pretty ? '' : '.min'}.js?v=#{blockly_cache_bust}"}
+
+  - @instructions = data_t('level.instructions', "#{@level.game.app}_#{@level.level_num}")
+  - @instructions ||= data_t('level.instructions', "#{@level.game.name}_#{@level.level_num}")
+  -# Get instructions from db if available.
+  - @instructions ||= @level.instructions
+
+  - @levelIncompleteError = data_t('level.levelIncompleteError', "#{@level.game.app}_#{@level.level_num}")
+  - @levelIncompleteError ||= data_t('level.levelIncompleteError', "#{@level.game.name}_#{@level.level_num}")
+
+  - @other1StarError = data_t('level.other1StarError', "#{@level.game.app}_#{@level.level_num}")
+  - @other1StarError ||= data_t('level.other1StarError', "#{@level.game.name}_#{@level.level_num}")
+
+  - @tooFewBlocksMsg = data_t('level.tooFewBlocksMsg', "#{@level.game.app}_#{@level.level_num}")
+  - @tooFewBlocksMsg ||= data_t('level.tooFewBlocksMsg', "#{@level.game.name}_#{@level.level_num}")
+
+  - if @autoplay_video_info
+    :javascript
+      showVideo(#{@autoplay_video_info.to_json})
+
+  - share = false if local_assigns[:share].nil?
+  - builder = false if local_assigns[:builder].nil?
+  - hide_source = false if local_assigns[:hide_source].nil?
+  - start_blocks = false if local_assigns[:start_blocks].nil?
+  - slider_speed = false if local_assigns[:slider_speed].nil?
+  - no_padding = false if local_assigns[:no_padding].nil?
+
+  :javascript
+    // See assets/javascripts/sendReport for definition of nextRedirect etc.
+    #{app}Main({
+      locale: '#{js_locale}',
+      containerId: 'blocklyApp',
+      baseUrl: '#{blockly_path}',
+      cacheBust: '#{blockly_cache_bust}',
+      onAttempt: function(report) {
+        report.fallbackResponse = #{@fallback_response.to_json};
+        report.callback = '#{@callback}';
+        if (#{builder}) {
+          report.onComplete = function(response) {
+            alert("Give this link to your students: " + response.url);
+          };
+        }
+        sendReport(report);
+      },
+      onContinue: function() {
+        if (videoInfo) {
+          showVideo(videoInfo);
+        } else if (nextRedirect) {
+          window.location.href = nextRedirect;
+        }
+      },
+      backToPreviousLevel: function() {
+        if (previousLevelRedirect) {
+          window.location.href = previousLevelRedirect;
+        }
+      },
+      Dialog: Dialog,
+      referenceArea: function() {
+        var referenceDiv = $('#{escape_javascript(render partial: "levels/reference_area")}');
+        referenceDiv.find('.video_link').each(function() {
+          addClickTouchEvent($(this), $.proxy(function() {
+            showVideo({
+              src: $(this).attr('data-src'),
+              name: $(this).attr('data-name'),
+              key: $(this).attr('data-key'),
+              download: $(this).attr('data-download')
+            });
+          }, this));
+        });
+        return referenceDiv[0];
+      },
+      levelId: '#{@level.level_num}',
+      showInstructionsWrapper: function(showInstructions) {
+        if (#{not share}) {
+          if ('#{@autoplay_video_info}') {
+            $('.video-modal').on('hidden.bs.modal', function () {
+              showInstructions();
+            });
+          } else {
+            showInstructions();
+          }
+        }
+      },
+      hide_source: #{hide_source},
+      share: #{share},
+      no_padding: #{no_padding},
+      level: {
+        puzzle_number: #{@script_level ? @script_level.game_chapter : 1},
+        stage_total: #{@script ? @script.script_levels_from_game(@level.game_id).length : @level.game.levels.count},
+        instructions: '#{escape_javascript(@instructions)}',
+        levelIncompleteError: '#{escape_javascript(@levelIncompleteError)}',
+        other1StarError: '#{escape_javascript(@other1StarError)}',
+        tooFewBlocksMsg: '#{escape_javascript(@tooFewBlocksMsg)}',
+        builder: #{builder},
+        #{("startBlocks: '" + start_blocks + "',") if start_blocks}
+        #{("solutionBlocks: '" + @solution_blocks + "',") if @solution_blocks}
+        #{("sliderSpeed: '" + slider_speed + "',") if slider_speed}
+      },
+      skinId: '#{@level.skin}'
+    });

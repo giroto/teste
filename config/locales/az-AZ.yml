@@ -1,0 +1,375 @@
+"az":
+  activerecord:
+    attributes:
+      user:
+        name: Ad
+        email: E-poçt
+        username: İstifadəçi adı
+        password: Parol
+        password_confirmation: Parolun təsdiqi
+        current_password: Cari parol
+        locale: Dil
+        gender: Cins
+        edit_header: Hesab Detallarına düzəliş edin
+  hello: Salam, dünya
+  welcome_back: Bir daha xoş gəldiniz, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: 'Kod və ya e-poçt ünvanına görə bir müəllim əlavə edin:'
+      placeholder: Kod (ABCDEF) və ya e-poçt (muellim@mekteb.edu.az)
+    submit: Müəllim əlavə edin
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: Mərhələ
+  puzzle: Tapmaca
+  trophies: Kuboklar
+  courses: Kurslar
+  of: /
+  more: DAHA ÇOX
+  less: DAHA AZ
+  try_hoc: Kod Saatında özünüzü sınayın, buraya klikləyin >> 
+  try_k8intro: Yaxud da bizim K-8 İnformatikaya Giriş kursunu (15-25 saat) sınaqdan
+    keçirin
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 'Artıq başlamısınız? Burada davam edin >> '
+  demos: 'Admin: bütün demolar'
+  continue: Davam et
+  prize: mükafat
+  more_info: Daha geniş məlumat
+  auth:
+    sign_in_with: '%{provider} ilə daxil olun'
+    signed_in: Daxil oldunuz!
+    already_signedup: Artıq qeydiyyatdan keçmisiniz?
+    notyet_signedup: Hələ qoşulmamısınız?
+    google_oauth2: Google +
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Parolunuzu unutmusunuz?
+    need_confirmation: Təsdiq göstərişlərini almamisiniz?
+    need_unlock: Kilidaçma göstərişlərini almamisiniz?
+  signup_form:
+    overview: Bu 20 saatlıq kurs informatikanın əsasları və proqramlaşdırmanın əsas
+      anlayışlarını təqdim edir. Kurs K-8 yaş qrupunda (12-13 yaşlılar) olan siniflərdə
+      istifadə olunmaq üçün hazırlanıb, lakin öyrənmək hər yaşda əyləncəlidir.
+    no_signup_header: Qeydiyyatdan keçmək istəmirsiniz?
+    no_signup_message: Siz <a target="_blank" href="http://learn.code.org">müxtəlif
+      mərhələ və tapmacalar</a>ı nəzərdən keçirə bilərsiniz, lakin nəticələrinizi
+      yadda saxlamaq üçün qeydiyyatdan keçməyiniz lazım olacaq.
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: U.S. students who earn all %{num_trophies} concept trophies can
+      select a variety of prizes including free Dropbox space, Skype credits, and
+      downloadable games from Electronic Arts.
+    teacher_educator_guide: Təhsil işçisi üçün göstərişlərə baxın
+    teacher_prize_header: <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a>
+      mükafatları şəklində 1000 dollar qazanın
+    teacher_prize_message: '<a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a>la
+      tərəfdaşlıq edərək "Code.org" bu kursu ən azı 15 şagirdə keçən ABŞ-dakı müəllimlərə
+      dərs fondu şəklində 1000 dollara qədər maliyyə dəstəyi təklif edəcək. <a href="http://code.org/educate/20hr">Təlimçi
+      üçün göstərişlərdə daha geniş məlumat alın.</a> '
+    teacher_prize_limits: '(Limit: $1,000 per teacher. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">See
+      FAQ for more limits</a>)'
+    teacher_pitch: Öz sinfinizdə K-8 İnformatikaya Giriş kursunu tədris edin
+    teacher_title: Müəllim kimi qeydiyyatdan keçin
+    student_pitch: '1 saat bitəndən sonra: K-8 İnformatikaya Giriş kursumuzu sınaqdan
+      keçirin'
+    student_title: Qeydiyyatdan keçin
+    school_name: Məktəbin Adı (vacib deyil)
+    school_address: Məktəbin ünvanı (vacib deyil)
+    address_placeholder: ünvan, şəhər, vilayət, poçt indeksi
+    gender: Cins (vacib deyil)
+    birthday: Ad günü (vacib deyil)
+    submit: Qeydiyyatdan keçin
+    teacher: Müəllimsiniz?
+    valid_username: Olar!
+    invalid_username: İstifadəçi adı ən azı 5 simvoldan ibarət olmalıdır
+    taken_username: Bu istifadəçi adı artıq götürülüb
+    valid_password: Düzgün parol!
+    invalid_password: Parol ən azı 6 simvol olmalıdır
+    mismatch_password: Daxil etdiyiniz iki parol üst-üstə düşmür
+    student_terms: Mən "Code.org"un xidmət şərtlərinə riayət etməyə razıyam. Əgər
+      yaşım 13-dən azdırsa, bu formanı göndərməklə təsdiq edirəm ki, "Code.org" xidmətlərindən
+      istifadə etmək üçün valideynim və ya qanuni qəyyumumun icazəsini almışam.
+    teacher_terms: Mən "Code.org"un xidmət şərtlərinə riayət etməyə razıyam.
+  signin_form:
+    title: Daxil olun
+    login: E-poçt və ya istifadəçi adı
+    password: Parol
+    remember: Məni yadda saxla
+    submit: Daxil olun
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: Parolunuzu unutmusunuz?
+      email: E-poçt ünvanı
+      submit: Parol yeniləmə təlimatlarını mənə göndərin
+    change_form:
+      title: Parolunuzu dəyişin
+      new_password: Yeni parol
+      confirm_password: Yeni parolu təsdiqləyin
+      submit: Parolumu dəyişin
+  welcome_email:
+    subject: Sinifimizə qoşulun ("Code.org"da)
+    body: |
+      "Code.org"dakı informatika dərslərinə qeydiyyatdan keçmək üçün aşağıdakı keçidi klikləyin (mən sizin "müəlliminiz" olacağam):
+
+      %{link}
+
+      Bu dərsliklər əyləncəli, baxımlıdır və sadə, göstərişlərlə müşayiət olunan, oyunabənzər tapşırıqlar vasitəsilə informatikanın əsas anlayışlarını öyrədir. Kod yazmağı Bill Qeyts, Mark Tsukerberq, "Angry Birds" və "Plants vs. Zombies"dən öyrənin! :-)
+
+      %{name}
+  follower:
+    invite_sent: Dəvətnamə göndərildi
+    added_teacher: '%{name} müəlliminiz kimi əlavə olundu'
+    registered: Siz %{section_name} üçün qeydiyyatdan keçdiniz.
+    error:
+      signed_in: Zəhmət olmasa, davam etməzdən öncə sistemdən çıxın
+      username_not_found: '%{username} istifadəçi adı tapılmadı'
+      username_in_use: '%{username} artıq istifadə olunur, zəhmət olmasa, digərini
+        seçin'
+      no_teacher: '''%{teacher_email_or_code}'' ilə daxil olan heç kim tapılmadı.
+        Zəhmət olmasa, onlardan burada qeydiyyatdan keçməyi xahiş edin və sonra onları
+        yenidən əlavə etməyə çalışın'
+      blank_code: Lütfən, kodu və ya müəlliminizin e-poçt ünvanını daxil edin
+    mail:
+      invite_student:
+        subject: Code.org-da %{teacher_name} ilə dərsə qoşulun!
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} is no longer associated as
+          your student.'
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: Bu şəxsin statistikasına icazəniz yoxdur
+  redeem_prizes:
+    title: 'Mükafatları xərcləyin: %{name}'
+    provider: 'Təminatçı:'
+    code: 'Kod:'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: How to use your code
+    success: Mükafatınızı müvəffəqiyyətlə xərclədiniz, aşağıdakı koda baxın.
+    error: Mükafatınızı xərcləmək mümkün olmadı, lütfən bir də cəhd edin.
+    error_us_only: Mükafat almaq imkanı ancaq ABŞ-dan olan istifadəçilər üçün etibarlıdır.
+    error_not_earned: Siz hələ bu mükafatı qazanmamısınız.
+    error_already_redeemed: Mükafatınız artıq xərclənib.
+    no_prizes_available: Üzr istəyirik, hazırda mükafatlar qalmayıb.
+    teacher_info_required: 'Teacher prizes require school name and address information:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: Zəhmət olmazsa, təsdiq edin
+      'no': Xeyr
+      'yes': Bəli
+      msg: '%{prize_name} mükafatını tələb emək istədiyinizə əminsiniz?'
+      msg_student: 'QEYD: Ancaq bir növ mükafat seçə bilərsiniz.'
+      msg_publicschool: Zəhmət olmasa, ABŞ dövlət məktəbinin müəllimi olduğunuzu təsdiq
+        edin.
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10GB "Dropbox" yaddaş sahəsi
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'Mükafat seçin:'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: Siz bir mükafat qazandınız! (yalnız ABŞ-dan olan şagirdlər)
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'İnformatikanın bütün əsas anlayışlarını öyrənin, %{num_trophies}
+        kubokun hamısını toplayın və həqiqi mükafatlar qazanın. Siz 10GB "Dropbox"
+        yaddaş sahəsi, 10 dollarlıq "Skype" krediti və pulsuz oyun endirmək imkanından
+        birini seçə bilərsiniz. QEYD: təklif yalnız ABŞ-dan olan şagirdlər üçün və
+        yalnız mükafatlar verildiyi müddətdə etibarlıdır.'
+      teacher:
+        earned: 10 və ya daha çox şagird %{num_trophies} kubokun hamısını topladı.
+          Siz bir müəllim mükafatı qazandınız! (yalnız ABŞ-dan olan müəllimlər)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: İlk dəfə informatika müəllimliyi edənləri mükafatlandırmaq üçün
+          bir sinfə K-8 giriş kursunu keçdiyinizə görə siz 1000 dollara qədər <a href="http://DonorsChoose.org">"DonorsChoose.org"</a>
+          krediti qazana bilərsiniz. Bunun üçün siz ən azı 15 şagirddən ibarət bir
+          sinfə müvəffəqiyyətlə bütün K-8 giriş kursunu keçməlisiniz və 15 (və ya
+          daha çox) şagirdin hamısı bütün dərslikləri başa vuraraq %{num_trophies}
+          kubokun hamısını toplamalıdır. Bütün kubokları əldə etmiş şagirdlərinizdən
+          ən azı 7-si qızlardırsa, sizin mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a>
+          kreditləri ilə 1000 dollardır. Əks halda isə mükafatınız <a target="_blank"
+          href="http://DonorsChoose.org">"DonorsChoose.org"</a> kreditləri ilə 750
+          dollardır. <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a>
+          kreditlərindən yalnız ABŞ dövlət məktəblərindəki müəllimlər istifadə edə
+          bilər.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: '%{num_trophies} kubokun hamısını toplamış şagirdlərinizdən 7 və
+            ya daha çoxu qızlardır. Siz bir bonus mükafat qazandınız! (yalnız ABŞ-dan
+            olan müəllimlər)'
+          not_earned: Əgər %{num_trophies} kubokun hamısını toplamış şagirdlərinizdən
+            ən azı 7-si qızlardırsa, sizin mükafatınız <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a>
+            kreditləri ilə əlavə 250 dollardır. <a target="_blank" href="http://DonorsChoose.org">"DonorsChoose.org"</a>
+            kreditlərindən yalnız ABŞ dövlət məktəblərindəki müəllimlər istifadə edə
+            bilər.
+  crud:
+    new_model: Yeni %{model}
+    show: Göstər
+    edit: Düzəliş et
+    edit_model: '%{model} düzəliş et'
+    update: Yenilə
+    destroy: Məhv et
+    back: Geri
+    confirm: Əminsiniz?
+    created: '%{model} müvəffəqiyyətlə yaradıldı.'
+    updated: '%{model} müvəffəqiyyətlə yeniləndi.'
+    destroyed: '%{model} was successfully deleted.'
+    access_denied: You do not have access to this %{model}.
+  nav:
+    header:
+      finished_hoc: Kod Saatımı bitirdim
+      sign_in_to_save: Nəticələri itirməmək üçün daxil olun
+    user:
+      classroom: Mənim tələbələrim
+      label: Salam %{username}
+      stats: Mənim nəticələrim
+      settings: Mənim hesabım
+      prizes: Mükafatlar
+      logout: Çıxın
+      signin: Daxil olun
+      signup: Qeydiyyatdan keçin
+    popup:
+      progress: Sizin nəticələriniz
+      lines: 'Yekun kod sətiri: %{lines}'
+      close: BAĞLA
+      mastery: Anlayışlar
+      puzzle_map: Mərhələlər
+      prizes: '%{total_trophies} kubokun hamısını yığ və hədiyyələr qazan!'
+      prize_earned: Siz %{total_trophies} kubokun hamısımı topladınız. Mükafatı qazandınız!
+      prize_us_only: (Yalnız ABŞ-dan olan şagirdlər)
+      prizes_link: daha ətraflı
+  teacher:
+    title:
+      one: '%{name} sizin müəlliminizdir'
+      other: 'Müəllimləriniz:'
+    remove: (remove teacher)
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: Müəllim üçün alətlər
+    students:
+      manage: Tələbələri idarə edin
+      add: Tələbələri əlavə edin
+    rollup: Gedişat paneli
+    activity: Ən son sinif işləri
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: (dəyişmək istəmirsinizsə, boş buraxın)
+    current_password_hint: (dəyişikliklərinizi təsdiq etmək üçün cari parolunuz lazımdır)
+    cancel:
+      title: Hesabımı ləğv et
+      hint: Narazısiniz?
+      button: Hesabımı ləğv et
+  user_level:
+    completed: Tamamlandı
+    tried: Yoxlanıldı
+  user_stats:
+    recent_activity: Son fəaliyyət
+    show_more: Daha çox göstər
+  home:
+    signin_message: və ya əgər siz artıq qeydiyyatdan keçmisinizsə, %{link}
+    student_reg_link: Şagird
+    teacher_reg_link: Müəllim
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: Gedişat panelinə baxın
+    teacher_student_count_one: Sizin %{count} tələbəniz var.
+    teacher_student_count: Sizin %{count} tələbəniz var.
+    teacher_averages: Tələbələriniz %{trophy_max} "Anlayışların mənimsənilməsi" kubokundan
+      orta hesabla %{trophy_average} dənəsini qazandılar.
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: Sizin sinfiniz
+    student_progress: Sizin təlim nəticələriniz
+    student_stats: Siz %{trophy_max} "Anlayışların mənimsənilməsi" kubokundan %{trophy_count}
+      dənəsini qazandınız.
+    student_left_off: 'Sonuncu qaldığınız yer:'
+    student_finished_prize: Bütün dərslikləri başa vurdunuz, %{prize_link}ınızı əldə
+      edərək %{online_link} və ya %{local_school_link}də başqa bir dərs seçin
+    student_finished: Bütün dərslikləri başa vurdunuz, %{online_link} və ya %{local_school_link}də
+      başqa bir dərs seçin
+    local_school: yerli məktəb
+    online: onlayn
+    see_details: Təfərrüatına baxın
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: Kişi
+    female: Qadın
+    none: Cavab verməməyə üstünlük verirəm
+  footer:
+    help_from_html: <a href="http://www.google.com">"Google"</a>, <a href="http://www.microsoft.com">"Microsoft"</a>,
+      <a href="http://www.facebook.com">"Facebook"</a> və <a href="http://www.twitter.com">"Twitter"</a>dən
+      olan mühəndislər bu dərsliyi düzəltməyə kömək etdilər.
+    art_from_html: Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. Bütün hüquqları qorunur.<br/> Plants vs. Zombies&trade;
+      & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Bütün hüquqları
+      qorunur.
+    feedback: Rəy verin
+    translate: Sizin dilinizə tərcümə etməkdə bizə kömək edin
+    tos: Xidmətin şərtləri
+    privacy: Məxfilik siyasəti
+  prize_mail:
+    prize_earned:
+      subject: Mükafatınızı "Code.org"da xərcləyin!
+    teacher_prize_earned:
+      subject: Mükafatınızı "Code.org"da xərcləyin!
+    teacher_bonus_prize_earned:
+      subject: Bonus mükafatınızı "Code.org"da xərcləyin!
+  reference_area:
+    title: Kömək lazımdır?
+    subtitle: Bu videolara və məsləhətlərə baxın
+    teacher: Həlli gör
+    auth_error: Həlli görməyə səlahiyyətiniz yoxdur.
+  video:
+    tab: Video.
+    notes: Video yoxdur? Qeydləri göstər.
+    autoplay_option: Videoların avtoifası
+    download: Videonu endir
+  compatability:
+    working: Biz sizin naviqatorun dəstəklənməsi üzərində işləyirik.
+    upgrade: Zəhmət olmasa, naviqatorunuzu yeniləyin.
+  slow_loading: Bu, adi halda olduğundan daha çox vaxt aparır...
+  try_reloading: Səhifəni yenidən yükləməyə cəhd edin
+  next_stage: Qurtardı! Növbəti mərhələyə keçin
+  download_pdf: Dərs planını aç
+  share_code:
+    title: Mənim proqramımı fəaliyyətdə görmək üçün 'Proqramı icra et' - ə klikləyiniz
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

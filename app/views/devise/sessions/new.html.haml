@@ -1,0 +1,29 @@
+%h2= t('signin_form.title')
+.row
+  .span8
+    = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+      = f.text_field :login, autofocus: true, placeholder: t('signin_form.login')
+      = f.password_field :password, placeholder: t('signin_form.password')
+      %br/
+      - if devise_mapping.rememberable?
+        %label
+          = f.check_box :remember_me, { style: 'margin: 0;'}
+          = t('signin_form.remember')
+      = f.submit t('signin_form.submit'), class: "btn btn-primary"
+
+    %br/
+    %br/
+    
+    .row
+      .span3
+        %a{:href=>hoc_reset_path}
+          %button.btn.btn-info.medium-height-button #{t('signin.try_hoc')}
+      .span3
+        %a{:href=>root_path}
+          %button.btn.btn-info.medium-height-button #{t('signin.try_20hours')}
+
+  .span4
+    %div{ style: 'padding-left: 20px;  border-left: 1px solid black;' }= render "devise/shared/links"
+
+:javascript
+  $( "#user_login" ).placeholder();

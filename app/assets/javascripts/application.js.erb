@@ -1,0 +1,237 @@
+// This is a manifest file that'll be compiled into application.js, which will include all the files
+// listed below.
+//
+// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
+// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
+//
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// compiled file.
+//
+// Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
+// about supported directives.
+//
+//= require jquery
+//= require jquery_ujs
+//= require jquery.ui.all
+//= require_tree .
+// Loads all Bootstrap javascripts
+//= require bootstrap
+
+var KEY_ESCAPE = 27;
+
+// Prevent escape from canceling page loads.
+$(document).keydown(function(e) {
+  if (e.keyCode === KEY_ESCAPE) {
+    e.stopPropagation();
+    e.preventDefault();
+  }
+});
+
+setTimeout(function() {
+  $('#blocklyApp .slow_load').show();
+}, 10000);
+
+function getShowNotes(key, container) {
+  var callback = function(data) {
+    container.html(data);
+  };
+
+  $.ajax({
+    url: '/notes/' + key,
+    success: callback
+  });
+}
+
+// Options include:
+//   src - the url to the video
+//   key - an uid.
+//   name - a string.
+//   redirect - the redirect page after the video is dismissed.
+function showVideo(options) {
+  var widthRatio = .8;
+  var heightRatio = .8;
+  var aspectRatio = 16 / 9;
+
+  var body = $('<div/>');
+  var content = $('#notes-content').contents().clone();
+  content.find('.video-name').text(options.name);
+  body.append(content);
+
+  var video = $('<iframe id="video"/>').addClass('video-player').attr({
+    src: options.src,
+    scrolling: 'no'
+  });
+  body.append(video);
+
+  var notesDiv = $('<div id="notes-outer"><div id="notes"/></div>');
+  body.append(notesDiv);
+  getShowNotes(options.key, notesDiv.children('#notes'));
+
+  var dialog = new Dialog({ body: body, redirect : options.redirect });
+  $div = $(dialog.div);
+  $div.addClass('video-modal');
+
+  var tabHandler = function(event, ui) {
+    var tab = ui.tab || ui.newTab;  // Depends on event.
+    var videoElement = $('#video');
+    if (tab.find('a').attr('href') === "#video") {
+      // If it is the video page, restor the src
+      videoElement.attr('src', options.src);
+    } else {
+      videoElement.attr('src', '');
+    }
+    // Remember which tab is selected.
+    var selected = tab.parents('.ui-tabs').tabs('option', 'active');
+    window.sessionStorage.setItem('lastTab', selected);
+  };
+
+  var lastTab = window.sessionStorage.getItem('lastTab');
+  body.tabs({
+    event : 'click touchend',
+    activate: tabHandler,
+    create: tabHandler,
+    active: (lastTab !== null) ? lastTab : 0  // Set starting tab.
+  });
+
+  var download = $('<a/>').append($('<img src="<%= asset_path 'download_button.png' %>"/>'))
+                          .addClass('download-video')
+                          .attr('href', options.download);
+  var nav = $('.ui-tabs-nav');
+  nav.append(download);
+  
+  // Resize modal to fit constraining dimension.
+  var height = $(window).height() * widthRatio,
+      width = $(window).width() * heightRatio;
+
+  if (height * aspectRatio < width) {
+    $div.height(height);
+    $div.width(height * aspectRatio);
+  } else {
+    $div.height(width / aspectRatio);
+    $div.width(width);
+  }
+
+  // Standard css hack to center a div within the viewport.
+  $div.css({
+    top: '50%',
+    left: '50%',
+    marginTop: ($div.height() / -2) + 'px',
+    marginLeft: ($div.width() / -2) + 'px'
+  });
+
+  var divHeight = $div.innerHeight() - nav.outerHeight();
+  $(video).height(divHeight);
+  
+  notesDiv.height(divHeight);
+
+  dialog.show();
+}
+
+function embed_thumbnail_image(data) {
+  var thumbnails = data.entry.media$group.media$thumbnail;
+  var video_code = data.entry.media$group.yt$videoid.$t;
+  if (thumbnails && thumbnails.length > 0) {
+      $("#thumbnail_" + video_code).attr('src', thumbnails[0].url);
+  }
+}
+
+var addClickTouchEvent = function(element, handler) {
+  var wrapper = function(e) {
+    handler(e);
+    e.preventDefault();
+  };
+  element.on({
+    'touchstart': wrapper,
+    'click': wrapper
+  });
+};
+
+/**
+ * Create a custom modal dialog box which takes a configurable options object.
+ * Currently supported options include 'header' and 'body', which are DOM
+ * elements; 'redirect', which specifies the redirect page after the video is
+ * dismissed if provided.
+ */
+function Dialog(options) {
+  var body = options.body;
+  var header = options.header;
+  var close = $('<div id="x-close"/>').append($('<img src="<%= asset_path 'x_button.png' %>"/>'))
+                         .addClass('x-close')
+                         .attr('data-dismiss', 'modal');
+  this.div = $('<div tabindex="-1"/>').addClass('modal');
+  this.div.addClass('dash_modal');
+  var modalBody = $('<div/>').addClass('modal-body');
+  modalBody.addClass('dash_modal_body');
+  if (header) {
+    var modalHeader = $('<div/>').addClass('modal-header')
+                                 .append(close)
+                                 .append(header);
+    this.div.append(modalHeader);
+  } else {
+    modalBody.append(close);
+  }
+  modalBody.append(body);
+  this.div.append(modalBody).appendTo($(document.body));
+
+  // When the dialog is hidden, unhook the keydown event handler.
+  // If onHidden option is passed in, call that as well.
+  // If redirect option is passed in, redirect the page.
+  // After that, close the dialog.
+  $(this.div).on(
+      'hidden.bs.modal',
+      function() {
+        if (options.onKeydown) {
+          $(this.div).off('keydown', options.onKeydown);
+        }
+        if (options.onHidden) {
+          options.onHidden();
+        }
+        if (options.redirect) {
+          window.location.href = options.redirect;
+        }
+        $(this).remove();
+  });
+
+  if (options.onKeydown) {
+    $(this.div).on('keydown', options.onKeydown);
+  }
+
+  addClickTouchEvent(close, $.proxy(function(e) {
+    this.hide();
+  }, this));
+}
+
+/**
+ * Options is configurable with a top and left properties, both are integers.
+ * Also includes staticBackdrop.  When true, modal dialog's backdrop will not
+ * close the dialog when clicked.
+ */
+Dialog.prototype.show = function(options) {
+  options = options || {};
+
+  if (options.staticBackdrop) {
+    $(this.div).modal({
+      'show': true,
+      'backdrop': 'static'
+    });
+  } else {
+    $(this.div).modal('show');
+  }
+
+  if (!options.staticBackdrop) {
+    addClickTouchEvent($(this.div).next(), $.proxy(function() {
+      this.hide();
+    }, this));
+  }
+
+  this.div.offset(options);
+}
+
+Dialog.prototype.hide = function() {
+  // Hide let's bootstrap cleanup first, then we remove.
+  $(this.div).modal('hide');
+}
+
+function cache_bust_only() {
+    return 'bust cache';
+}

@@ -1,0 +1,377 @@
+"fr":
+  activerecord:
+    attributes:
+      user:
+        name: Nom
+        email: E-mail
+        username: Nom d'utilisateur
+        password: Mot de passe
+        password_confirmation: Confirmation du mot de passe
+        current_password: Mot de passe actuel
+        locale: Langue
+        gender: Sexe
+        edit_header: Modifier les détails du compte
+  hello: Salut monde entier
+  welcome_back: Bienvenue, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: 'Ajoutez un professeur par code ou adresse email :'
+      placeholder: Code (ABCDEF) ou email (professeur@école.edu)
+    submit: Ajouter un professeur
+  add_hint_form:
+    placeholder: Entrer votre indice ici
+    submit: Ajouter indice
+  appname: Code.org
+  stage: Etape
+  puzzle: Puzzle
+  trophies: Trophées
+  courses: Cours
+  of: de
+  more: PLUS
+  less: MOINS
+  try_hoc: 'Essaye l''heure de Code, clique ici >> '
+  try_k8intro: Ou, essaye l'Intro K-8 au cours d'informatique (15-25 heures)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 'Déjà commencé ? Reprends ici >> '
+  demos: 'Admin : Tous les démos'
+  continue: Continue
+  prize: prix
+  more_info: Plus d'informations
+  auth:
+    sign_in_with: Se connecter avec %{provider}
+    signed_in: Connecté!
+    already_signedup: Déjà inscrit ?
+    notyet_signedup: Pas encore rejoint?
+    google_oauth2: Google+
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Mot de passe oublié ?
+    need_confirmation: Vous n'avez pas reçu les instructions de confirmation ?
+    need_unlock: Pas encore reçu les instructions de déverrouillage ?
+  signup_form:
+    overview: Ce cours de 20 heures introduit les notions de base de l'informatique
+      et les concepts de la programmation. Il est conçu pour les classes à l'élémentaire
+      (13 ans et moins), mais il n'y a pas d'âge pour apprendre.
+    no_signup_header: Vous ne voulez pas vous inscrire ?
+    no_signup_message: Vous pouvez <a target="_blank" href="http://learn.code.org">
+      parcourir les différentes étapes et puzzles</a>, mais vous devez vous inscrire
+      pour pouvoir sauvegarder votre progression.
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: Les étudiants aux États-Unis qui ont gagné tous les %{num_trophies}
+      trophées peuvent choisir parmi des prix incluant de l'espace Dropbox, des crédits
+      Skype, et des téléchargements de jeux d'Electronic Arts.
+    teacher_educator_guide: Consultez le guide de l'enseignant
+    teacher_prize_header: Gagner 1000 $ en récompenses <a target="_blank" href="http://DonorsChoose.org">
+      DonorsChoose.org</a>
+    teacher_prize_message: 'En partenariat avec <a target="_blank" href="http://DonorsChoose.org">
+      DonorsChoose.org</a>, Code.org offrira jusqu''à 1 000 $ en financement aux enseignants
+      des écoles publiques américaines qui guideront au moins 15 étudiants à compléter
+      ce cours. <a href="http://code.org/educate/20hr">Voir le guide de l''éducateur
+      pour plus d''informations.</a> '
+    teacher_prize_limits: '(Limite: 1 000 $ par enseignant. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">
+      Consulter les FAQ pour d''autres limites</a>)'
+    teacher_pitch: Enseignez l'introduction à l'informatique pour l'école primaire
+      dans votre classe
+    teacher_title: Inscription Enseignants
+    student_pitch: 'Au delà d''une heure: essayez notre introduction à l''informatique
+      pour l''école primaire'
+    student_title: Inscription
+    school_name: Nom de l'école (facultatif)
+    school_address: Adresse de l'école (facultatif)
+    address_placeholder: adresse, ville, état, code postal
+    gender: Sexe (facultatif)
+    birthday: Date de naissance (optionnel)
+    submit: S’inscrire
+    teacher: Etes-vous un professeur?
+    valid_username: Disponible !
+    invalid_username: Le nom d'utilisateur doit contenir au moins 5 caractères
+    taken_username: Nom d'utilisateur déjà pris
+    valid_password: Mot de passe valide !
+    invalid_password: Le mot de passe doit comporter au moins 6 caractères
+    mismatch_password: Les deux mots de passe que tu as entré ne correspondent pas
+    student_terms: J'accepte d'être lié par les termes du contrat Code.org . Si j'ai
+      moins de 13 ans, je confirme en soumettant ce formulaire que j'ai l'autorisation
+      de mes parents ou de mon tuteur légal pour utiliser les services de Code.org.
+    teacher_terms: J'accepte d'être lié par les termes du contrat Code.org.
+  signin_form:
+    title: Connexion
+    login: E-mail ou nom d'utilisateur
+    password: Mot de passe
+    remember: Se souvenir de moi
+    submit: Connexion
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: Mot de passe oublié ?
+      email: Adresse email
+      submit: Envoie-moi des instructions de réinitialisation de mot de passe
+    change_form:
+      title: Modifier votre mot de passe
+      new_password: Nouveau mot de passe
+      confirm_password: Confirmer le nouveau mot de passe
+      submit: Changer mon mot de passe
+  welcome_email:
+    subject: Rejoindre ma classe (sur Code.org)
+    body: |
+      Cliques sur le lien ci-dessous pour t'inscrire aux tutoriaux d'informatique sur Code.org ( avec moi comme "professeur"):
+
+      %{link}
+
+      Les tutoriaux sont amusants, impliquant la visualisation, et t'apprend les concepts basiques de l'informatique en utilisant une simple expérience guidée comme un jeu. Apprend à écrire en code de Bill Gates, Mark Zuckerberg, Angry Birds, et Plantes vs. Zombies! :-)
+
+      %{name}
+  follower:
+    invite_sent: Invitation envoyée
+    added_teacher: '%{name} ajouté en tant que professeur'
+    registered: Vous vous êtes inscrit à %{section_name}.
+    error:
+      signed_in: Veuillez vous déconnecter avant de procéder
+      username_not_found: Nom d'utilisateur %{username} introuvable
+      username_in_use: '%{username} est déjà pris, veuillez en choisir un autre'
+      no_teacher: N'a pu trouver personne connecté avec  '%{teacher_email_or_code}'.
+        Veuillez leur demander de s'inscrire ici et ensuite de réessayer de le ajouter
+        encore une fois
+      blank_code: Veuillez saisir un code ou l'adresse email de votre enseignant
+    mail:
+      invite_student:
+        subject: Rejoins une classe avec %{teacher_name} à Code.org !
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} n''est plus associé à vous.'
+      teacher_disassociated:
+        subject: 'Note de Code.org: %{teacher_name} n''est plus ton professeur.'
+  reports:
+    error:
+      access_denied: Vous n'avez pas accès aux stats de cette personne
+  redeem_prizes:
+    title: 'Obtenir les Prix: %{name}'
+    provider: 'Fournisseur :'
+    code: 'Code :'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: Comment utiliser votre code
+    success: Your prize was succesfully redeemed, see code below.
+    error: Your prize could not be redeemed, please try again.
+    error_us_only: Les prix ne sont disponibles que pour les utilisateurs américains.
+    error_not_earned: Vous n'avez pas encore gagné ce prix.
+    error_already_redeemed: Votre prix a déjà été réclamé.
+    no_prizes_available: Nous sommes désolés, mais nous n'avons actuellement pas de
+      prix disponibles.
+    teacher_info_required: 'Fournir le nom et l''adresse de l''école pour recevoir
+      les prix pour enseignants:'
+    teacher_email_required: 'Il faut confirmer une adresse e-mail pour obtenir un
+      des prix d''enseignant:'
+    confirm:
+      title: Please Confirm
+      'no': Non
+      'yes': Oui
+      msg: Are you sure you want to claim the %{prize_name} prize?
+      msg_student: 'NOTE: You can only choose one type of prize.'
+      msg_publicschool: Veuillez confirmer que vous êtes enseignant d'école publique
+        aux États-Unis.
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10Go d'espace Dropbox
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'Choisis un prix :'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: Vous avez gagné un prix! (Etudiants américains uniquement)
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'Apprenez tous les concepts de l''informatique, gagnez l''ensemble
+        des %{num_trophies} trophées, et gagnez des prix. Vous pouvez choisir entre
+        une carte-cadeau iTunes de 10 $,  10 Go de stockage gratuit chez Dropbox,
+        10 $ en crédits Skype, et des téléchargements de jeux gratuits. Remarque :
+        offre uniquement valable pour les élèves aux États-Unis, et dans la limite
+        des stocks disponibles.'
+      teacher:
+        earned: 15 étudiants ou plus ont recueillis tous les %{num_trophies}. Vous
+          avec gagné un prix de l'enseignant! (enseignant américains seulement)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: Afin de récompenser les nouveaux enseignants en informatique,
+          vous pouvez gagner jusqu'à 1 000 $ en crédits de <a href="http://DonorsChoose.org">
+          DonorsChoose.org</a> pour guider une classe à travers le cours d'intro de
+          K-8. Pour être admissible, vous devez tenir avec succès une classe d'au
+          moins 15 étudiants à travers tout le cours d'into K-8, avec ces 15 élèves
+          (ou plus) remplissant tous les tutoriels et gagner tous les trophées %{num_trophies}.
+          Si 7 ou plus des étudiants qui gagnent tous les trophées sont des filles,
+          votre récompense est de 1 000 $ en crédits de <a target="_blank" href="http://DonorsChoose.org">
+          DonorsChoose.org</a>. Dans le cas contraire, votre récompense est de 750
+          $ en crédits de <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>.  Les
+          crédits <a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>
+          sont utilisables uniquement par les enseignants des écoles publiques américaines.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 7 étudiants ou plus ayant recueillis tous les %{num_trophies} sont
+            des filles. Vous avec gagné un bonus! (enseignant américains seulement)
+          not_earned: Si parmi vos élèves, 7 filles au moins gagnent tous les %{num_trophies},
+            votre récompense sera une prime de $250 au crédit de <a target="_blank"
+            href="http://DonorsChoose.org"> DonorsChoose.org</a>. Les crédits de <a
+            target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a> sont
+            seulement utilisables par les enseignants des écoles publiques américaines.
+  crud:
+    new_model: Nouveau %{model}
+    show: Afficher
+    edit: Modifier
+    edit_model: Modifier %{model}
+    update: Mise à jour
+    destroy: Détruire
+    back: Retour
+    confirm: Etes-vous sûr?
+    created: '%{model} a été créé avec succès.'
+    updated: '%{model} a été mis à jour avec succès.'
+    destroyed: Suppression de %{model} réussie.
+    access_denied: Vous n'avez pas accès à ce %{model}.
+  nav:
+    header:
+      finished_hoc: J'ai fini mon heure de Code
+      sign_in_to_save: Connectez-vous pour enregistrer les progrès
+    user:
+      classroom: Mes élèves
+      label: Salut %{username}
+      stats: Mon progrès
+      settings: Mon compte
+      prizes: Prix
+      logout: Déconnexion
+      signin: Connexion
+      signup: Inscription
+    popup:
+      progress: Votre progrès
+      lines: 'Lignes en total de code: %{lines}'
+      close: FERMER
+      mastery: Conceptes
+      puzzle_map: Etapes
+      prizes: Collecte tous les %{total_trophies} trophées et gagne des prix!
+      prize_earned: Tous les %{total_trophies} trophées collectés. Prix gagné!
+      prize_us_only: (Etudiants américains uniquement)
+      prizes_link: plus d'informations
+  teacher:
+    title:
+      one: 'Ton professeur:'
+      other: 'Vos professeurs:'
+    remove: (enlever le professeur)
+    confirm:
+      remove: Êtes-vous sûr de vouloir supprimer ce professeur?
+    tools: Outils du professeur
+    students:
+      manage: Gérer les élèves
+      add: Ajouter des élèves
+    rollup: Tableau de bord de progression
+    activity: Activité récente de la classe
+    user_not_found: Le professeur ou l'étudiant est introuvable
+    student_teacher_disassociated: '%{teacher_name} a été supprimé en tant que professeur
+      de %{student_name}'
+  user:
+    email_confirm_needed: 'L''adresse de courriel n''a pas été confirmée:'
+    email_resend_confirm: Envoyer à nouveau les instructions de confirmation
+    new_password_hint: (laissez vide si vous ne voulez pas changer)
+    current_password_hint: (nous avons besoin de votre mot de passe actuel pour confirmer
+      vos modifications)
+    cancel:
+      title: Annuler mon compte
+      hint: Malheureux ?
+      button: Annuler mon compte
+  user_level:
+    completed: Terminé
+    tried: Essayé
+  user_stats:
+    recent_activity: Activité récente
+    show_more: Voir plus
+  home:
+    signin_message: ou si vous êtes déjà inscrit %{link}
+    student_reg_link: Étudiant
+    teacher_reg_link: Enseignant
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: Voir le tableau de bord de progression
+    teacher_student_count_one: Vous avez %{count} étudiants.
+    teacher_student_count: Vous avez %{count} étudiants.
+    teacher_averages: En moyenne, vos élèves ont acquis  %{trophy_average} sur  %{trophy_max}
+      trophées "Concept de Maîtrise".
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: Votre classe
+    student_progress: Votre progression d'apprentissage
+    student_stats: Tu as gagné %{trophy_count} sur %{trophy_max} trophées "Concept
+      de Maîtrise".
+    student_left_off: 'Où vous vous êtes arrêté:'
+    student_finished_prize: Tu as terminé toutes les leçons, reçois tes %{prize_link}
+      et choisis une autre classe  %{online_link} ou à une %{local_school_link}
+    student_finished: Tu as terminé toutes les leçons, choisis une autre classe  %{online_link}
+      ou à une %{local_school_link}
+    local_school: école locale
+    online: en ligne
+    see_details: Voir les détails
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: Homme
+    female: Femme
+    none: Préfère ne pas répondre
+  footer:
+    help_from_html: Des ingénieurs de  <a href="http://www.google.com">Google</a>,
+      <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>,
+      et <a href="http://www.twitter.com">Twitter</a>ont aidé à créer ce tutorial.
+    art_from_html: Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. Tous droits réservés.<br/> Plants vs. Zombies&trade;
+      & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Tous droits
+      réservés.
+    feedback: Donner un FeedBack
+    translate: Aidez-nous à traduire dans votre langue
+    tos: Conditions d'utilisation
+    privacy: Politique de confidentialité
+  prize_mail:
+    prize_earned:
+      subject: Réclame ton prix sur Code.org !
+    teacher_prize_earned:
+      subject: Réclame ton prix sur Code.org !
+    teacher_bonus_prize_earned:
+      subject: Réclame ton prix bonus sur Code.org !
+  reference_area:
+    title: Besoin d'aide ?
+    subtitle: Voir ces vidéos et conseils
+    teacher: Voir la solution
+    auth_error: Vous n'êtes pas autorisé à voir la solution.
+  video:
+    tab: Vidéo.
+    notes: Pas de vidéo ? Montrer les notes.
+    autoplay_option: AutoPlay les vidéos
+    download: Télécharger la vidéo
+  compatability:
+    working: Nous sommes en train de travailler pour le support de votre navigateur.
+    upgrade: Veuillez mettre à jour votre navigateur.
+  slow_loading: Cela prend plus longtemps que d'habitude...
+  try_reloading: Essayez de recharger la page
+  next_stage: Terminé! Continuer l'étape suivante
+  download_pdf: Ouvrir le plan de la leçon
+  share_code:
+    title: Cliquez sur « Exécuter le programme » pour voir mon programme en action
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

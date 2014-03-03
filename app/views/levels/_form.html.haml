@@ -1,0 +1,37 @@
+= form_for([@game, @level]) do |f|
+  - if @level.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@level.errors.count, "error")
+        prohibited this level from being saved:
+      %ul
+        - @level.errors.full_messages.each do |msg|
+          %li= msg
+  .field
+    = f.label :name
+    %br/
+    = f.text_field :name
+  .field
+    = f.label :level_url
+    %br/
+    = f.text_field :level_url
+  .field
+    = f.label :level_num
+    %br/
+    = f.text_field :level_num
+  .field
+    = f.label :ideal_level_source_id
+    %br/
+    = f.text_field :ideal_level_source_id
+  .field
+    = f.label :skin
+    %br/
+    = f.number_field :skin
+  .field
+    = f.label 'concepts'
+    %br/
+    = f.collection_select :concept_ids, Concept.cached, :id, :name, { :selected => @level.concept_ids }, { :multiple => true, :name => 'level[concept_ids][]', :style => 'height: 160px' }
+    %br/
+    (shift-click to select multiple)
+  .actions
+    = f.submit

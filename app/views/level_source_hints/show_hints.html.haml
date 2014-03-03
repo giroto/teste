@@ -1,0 +1,22 @@
+%div
+  %h1 Here are the list of hints
+  %table
+    %tr
+      %th ID
+      %th Hint
+      %th Number of Times Proposed
+      %th Priority
+    - @hints.each do |level_source_hint|
+      %tr
+        %td{:align => "center"}= level_source_hint.id
+        %td= level_source_hint.hint
+        %td{:align => "center"}= level_source_hint.times_proposed
+        %td{:align => "center"}= level_source_hint.priority
+  %br
+  = link_to 'Add Hint', add_hint_path(params[:level_source_id])
+  %br
+  = link_to 'Back', level_stats_path(LevelSource.find(params[:level_source_id]).level_id)
+
+= render partial: "levels/blockly", locals: { start_blocks: @start_blocks, app: @game.app, hide_source: @hide_source, share: @share }
+
+.fb-comments{:data=> {:href => request.original_url, :numposts => 10, :colorscheme => "light"} }

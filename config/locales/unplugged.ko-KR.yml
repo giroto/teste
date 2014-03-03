@@ -1,0 +1,97 @@
+"ko":
+  data:
+    unplugged:
+      Unplug1:
+        title: 컴퓨터과학(Computer Science, 정보과학) 소개
+        desc: 이 과정은 컴퓨터과학(정보과학)에서 배우게 되는 기초 개념들을 소개하는 과정으로서, 컴퓨터과학자들이 하는 역할들에 대해서
+          설명합니다. 활동의 마지막 부분에서는 학생들이 배운 내용을 이용해 수행할 수 있는 과제가 제시됩니다. 관련 용어에 대해서 설명하지
+          않고 넘어갈 수도 있지만, 용어들을 제시하고 설명하는 것이 더 많은 것을 이해할 수 있도록 할 수 있습니다.
+        video: HsXaVV6fFDY
+        download: https://s3.amazonaws.com/cdo-videos/new/1-whatisCS-unpluggedactivity.mp4
+        pdfs:
+        - unplug1
+      Unplug2:
+        title: 컴퓨터과학적(정보과학적)사고
+        desc: '종이와 펜만 가지고도, 학생들은 4단계의 컴퓨터과학(정보과학)적 사고를 배울 수 있습니다. 간단한 설명을 들은 후, 각
+          학생들은 모둠을 만들고 몬스터 하나를 선택해 그려 내도록하는 활동을 할 것 입니다. 전체 그림은 몬스터를 그려낼 수 있는 패턴,
+          추상적 표현, 방법이나 알고리즘 등으로 분해될 것입니다. 모둠을 바꾼 후, 분해되어진 알고리즘과 방법으로 몬스터를 그려내게 됩니다.
+          원래 모둠이 의도했던데로 그림이 그려질까요? '
+        video: injJWiSA0pw
+        download: https://s3.amazonaws.com/cdo-videos/new/3-computational-thinking-activity.mp4
+        pdfs:
+        - unplug2
+      Unplug3:
+        title: 모눈종이 프로그래밍
+        desc: 다른 사람이 그림을 그려내기 위해서 프로그래밍을 하는 과정에서, 학생들은 프로그래밍이 무엇인지 깨닫게 될 것입니다. 학생들은
+          어떤 그림을 만들어내기 위해 모눈종이에 채워져야하는 색들을 지시하면서 시작될 것입니다. 시간이 흐르면, 학생들은 그림을 완성하게
+          될 것입니다.
+        video: 4e3fi_ls8CA
+        download: https://s3.amazonaws.com/cdo-videos/new/4-graphpaperprog-activity.mp4
+        pdfs:
+        - unplug3
+      Unplug4:
+        title: 알고리즘
+        desc: 이 내용은 알고리즘에 대한 내용입니다. 탱그램 조각과 모눈 종이를 활용하는 가운데에서, 학생들은 구체적이며 명확하게 표현하는
+          것이 얼마나 중요한지 깨닫게 될 것입니다. 나중에 사각형으로 접는 방법이 얼마나 다양하게 있는지 생각하게 되고, 어떤 방법이 더
+          효과적인지 생각하게 될 것입니다.
+        video: gW_aPXjgBTc
+        download: https://s3.amazonaws.com/cdo-videos/new/6-Algorithms-activity.mp4
+        pdfs:
+        - unplug4
+      Unplug5:
+        title: 함수
+        desc: 이 활동에서 학생들은 실, 구슬, 특별한 조각들을 이용해 창문 장식 유리를 만들게 될 것입니다. 반복적인 과정을 통해서,
+          미리 정해져 있는 세트들을 반복적으로 만드는 과정을 진행하게 됩니다. 일단, 어떤 세트가 정의되면, 그것을 이용해 예쁜 것을 만들
+          수 있는 내용들을 종이에 기록할 수 있게 됩니다. 마지막 프로그램은 학급 전체를 위한 것입니다. 활동을 효과적으로 수행하기 위해서
+          학생들은 "추상화 시킬" 필요가 있습니다. 변수의 개념을 이해하는데 도움이 될 것입니다.
+        video: NAViNTHS3LU
+        download: https://s3.amazonaws.com/cdo-videos/new/8-functions-activity.mp4
+        pdfs:
+        - unplug5
+      Unplug6:
+        title: 조건/선택
+        desc: '이 것은 학급 게임입니다. 조건/선택, 반복 실행의 개념을 소개한 후에, 미리 작성해 둔 프로그램이나 카드, 제비뽑기 등을
+          이용해 연습할 수 있습니다. '
+        video: yr6g0AWE7yw
+        download: https://s3.amazonaws.com/cdo-videos/new/10-conditionals-activity.mp4
+        pdfs:
+        - unplug6
+      Unplug7:
+        title: 노래 만들기
+        desc: 대부분의 학생들에게 있어서 노래 가사를 읽는 것은 의미적이기라기보다는 직감(느낌)적 입니다. 이러한 것을 함수의 정의와 사용에
+          적용시킬 수 있습니다. 함수를 정의하고 호출하는 과정에 익숙해지면, 그러한 함수에 변수를 전달하는 방법을 설명할 수 있습니다.
+        video: hx0tBso08aA
+        download: https://s3.amazonaws.com/cdo-videos/new/12-songwriting-activity.mp4
+        pdfs:
+        - unplug7
+      Unplug8:
+        title: 추상화
+        desc: 이 과정은 컴퓨터과학(정보과학)에서 배우게 되는 기초 개념들을 소개하는 과정으로서, 컴퓨터과학자들이 하는 역할들에 대해서
+          설명합니다. 활동의 마지막 부분에서는 학생들이 배운 내용을 이용해 수행할 수 있는 과제가 제시됩니다. 관련 용어에 대해서 설명하지
+          않고 넘어갈 수도 있지만, 용어들을 제시하고 설명하는 것이 더 많은 것을 이해할 수 있도록 할 수 있습니다.
+        video: FGpzpYD9ZVs
+        download: https://s3.amazonaws.com/cdo-videos/new/14-abstraction-activity.mp4
+        pdfs:
+        - unplug8
+      Unplug9:
+        title: 릴레이 프로그래밍
+        desc: 이 활동은 이전의 모눈종이 프로그래밍을 응용한 것으로, 버그를 찾아내 오류를 수정하는 것과 관련된 활동입니다.
+        video: FFpvtooUrzg
+        download: https://s3.amazonaws.com/cdo-videos/new/16-relay-programming-activity.mp4
+        pdfs:
+        - unplug9
+      Unplug10:
+        title: 인터넷
+        desc: 이 활동에서 학생들은  IP 주소, DNS 와 같은 개념들을 이용해 인터넷 흐름을 따라 움직이게 됩니다.
+        video: Zs26JgnWbTE
+        download: https://s3.amazonaws.com/cdo-videos/new/18-internet-activity.mp4
+        pdfs:
+        - unplug10
+      Unplug11:
+        title: 마무리
+        desc: 20 시간 과정의 마지막 마무리에서는 학생들의 흥미와 동기를 일깨우기 위한 것으로, 컴퓨터과학(정보과학)에 대한 계속적인
+          관심과 학습을 도와줍니다.
+        video: Rbi7keldjZY
+        download: https://s3.amazonaws.com/cdo-videos/new/20-wrapup-activity.mp4
+        pdfs:
+        - unplug11

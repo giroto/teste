@@ -1,0 +1,365 @@
+"cs":
+  activerecord:
+    attributes:
+      user:
+        name: Jméno
+        email: E-mail
+        username: Uživatelské jméno
+        password: Heslo
+        password_confirmation: Potvrzení hesla
+        current_password: Současné heslo
+        locale: Jazyk
+        gender: Pohlaví
+        edit_header: Upravit Podrobnosti Účtu
+  hello: Ahoj světe
+  welcome_back: Vítej zpět, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: 'Přidej učitele zadáním kódu či e-mailové adresy:'
+      placeholder: Kód (ABCDEF) nebo email (ucitel@skola.cz)
+    submit: Přidat učitele
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: Fáze
+  puzzle: Hádanka
+  trophies: Trofeje
+  courses: Kurzy
+  of: z
+  more: VÍCE
+  less: MÉNĚ
+  try_hoc: Zkus Hodinu Kódu kliknutím zde >> 
+  try_k8intro: Nebo zkus náš kurz K-8 Úvod do Počítačových Věd (15-25 hodin)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 'Už jsi začal? Pokračuj zde >> '
+  demos: 'Admin: Všechny Ukázky'
+  continue: Pokračovat
+  prize: cena
+  more_info: Více informací
+  auth:
+    sign_in_with: Přihlásit přes %{provider}
+    signed_in: Přihlášen!
+    already_signedup: Již jsi zaregistrován?
+    notyet_signedup: Ještě ses nepřidal?
+    google_oauth2: Google+
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Zapomněl jsi heslo?
+    need_confirmation: Nedostal jsi instrukce pro potvrzení?
+    need_unlock: Nezískal si instrukce pro odemčení?
+  signup_form:
+    overview: Tento 20-ti hodinový kurz představuje základní koncepty počítačových
+      věd a programování. Kurz je navrhnut pro děti od 1. po 7. třídu (stupeň K-8),
+      ale jistě bude bavit studenty jakéhokoliv věku.
+    no_signup_header: Nechceš se registrovat?
+    no_signup_message: Můžeš si <a target="_blank" href="http://learn.code.org">prohlédnout
+      různé úrovně a hádanky</a>, ale budeš se muset zaregistrovat, aby se uložil
+      tvůj pokrok.
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: Studenti z USA, kteří získají všech %{num_trophies} trofejí v
+      pojmech mohou vybírat z nabídky cen obsahující např. volné místo na Dropbox,
+      Skype kredity a stáhnutelné hry od Electronic Arts.
+    teacher_educator_guide: Podívat se na průvodce učitele
+    teacher_prize_header: Vyhraj 1,000$ v odměnách na <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+    teacher_prize_message: Ve spolupráci s <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>,
+      Code.org nabízí dotaci až 1,000$ učitelům veřejných škol v USA, kteří provedou
+      tímto kurzem alespoň 15 studentů. <a href="http://code.org/educate/20hr">Shlédnout
+      pedagogický průvodce pro více informací.</a> 
+    teacher_prize_limits: '(Limit: $1,000 per teacher. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">See
+      FAQ for more limits</a>)'
+    teacher_pitch: Vyučuj K-8 Úvod do Počítačových Věd ve své třídě
+    teacher_title: Registrace učitele
+    student_pitch: 'Po 1 hodině: vyzkoušej náš K-8 Úvod do Počítačových Věd'
+    student_title: Registrace
+    school_name: Název školy (volitelné)
+    school_address: Adresa školy (volitelné)
+    address_placeholder: adresa, město, stát, psč
+    gender: Pohlaví (volitelné)
+    birthday: Narozeniny (volitelné)
+    submit: Registrace
+    teacher: Jsi učitel?
+    valid_username: K dispozici!
+    invalid_username: Uživatelské jméno musí mít nejméně 5 znaků
+    taken_username: Uživatelské jméno je již obsazeno
+    valid_password: Platné heslo!
+    invalid_password: Heslo musí obsahovat nejméně 6 znaků
+    mismatch_password: Zadaná hesla se neshodují
+    student_terms: Závazně souhlasím s podmínkami služeb Code.org. Je-li mi méně než
+      13 let, stvrzuji odesláním tohoto formuláře, že mám svolení svých rodičů či
+      právních zástupců k používání služeb na Code.org.
+    teacher_terms: Závazně souhlasím s podmínkami služeb Code.org.
+  signin_form:
+    title: Přihlásit
+    login: Uživatelské jméno nebo e-mail
+    password: Heslo
+    remember: Zapamatuj si mne
+    submit: Přihlásit se
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: Zapomněl si heslo?
+      email: E-mailová adresa
+      submit: Zašlete mi instrukce pro reset hesla
+    change_form:
+      title: Změň si heslo
+      new_password: Nové heslo
+      confirm_password: Potvrď nové heslo
+      submit: Změnit heslo
+  welcome_email:
+    subject: Připojit se do mé třídy (na Code.org)
+    body: |
+      Klikni na odkaz níže, aby ses registroval do cvičení počítačových věd na Code.org (se mnou jako "učitelem"):
+
+      %{link}
+
+      Cvičení jsou zábavná, vzhledově poutavá a učí základy počítačových věd pomocí jednoduchých, řízených herních hádanek. Naučíš se programovat s pomocí Billa Gatese, Marka Zuckerberga, Angry Birds a Plants vs. Zombies! :-)
+
+      %{name}
+  follower:
+    invite_sent: Pozvánka odeslána
+    added_teacher: '%{name} přidán jako tvůj učitel'
+    registered: Zaregistroval ses k %{section_name}.
+    error:
+      signed_in: Dříve než budeš pokračovat se, prosím, odhlas
+      username_not_found: Uživatelské jméno %{username} nebylo nalezeno
+      username_in_use: '%{username} je již zabráno, prosím, vyber si jiné'
+      no_teacher: Nenalezen nikdo přihlášený jako '%{teacher_email_or_code}'. Prosím
+        požádej ho, aby se zde přihlásil, a poté jej zkus přidat znovu
+      blank_code: Prosím, zadej kód nebo emailovou adresu svého učitele
+    mail:
+      invite_student:
+        subject: Přidat se do třídy s %{teacher_name} na Code.org!
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} is no longer associated as
+          your student.'
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: Nemáš přístup k statistikám této osoby
+  redeem_prizes:
+    title: 'Získat ceny: %{name}'
+    provider: 'Poskytovatel:'
+    code: 'Kód:'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: How to use your code
+    success: Your prize was succesfully redeemed, see code below.
+    error: Your prize could not be redeemed, please try again.
+    error_us_only: Nabízená odměna platí pouze pro uživatele z USA.
+    error_not_earned: Zatím sis nevysloužil tuto cenu.
+    error_already_redeemed: Tvá cena již byla vybrána.
+    no_prizes_available: Je nám líto, ale momentálně nejsou k dispozici žádné ceny.
+    teacher_info_required: 'Teacher prizes require school name and address information:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: Prosím, potvrď
+      'no': Ne
+      'yes': Ano
+      msg: Jste si jistí, že si chcete nárokovat %{prize_name} ocenění?
+      msg_student: 'NOTE: You can only choose one type of prize.'
+      msg_publicschool: Prosím potvrďte, že jste učitel veřejné školy v USA.
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10BG Místa na Dropbox
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'Zvol cenu:'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: Získal jsi odměnu! (Pouze studenti z USA)
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'Nauč se všechny pojmy počítačové vědy, posbírej všech %{num_trophies}
+        trofejí a získej reálné ceny. Můžeš vybírat mezi 10GB volného místa na Dropbox,
+        Skype kredity v hodnotě 10$ nebo volně stažitelné hry. POZNÁMKA: nabídka platí
+        pouze pro studenty z USA a pouze do využití zásob.'
+      teacher:
+        earned: 10 nebo více studentů získalo všech %{num_trophies} trofejí. Vyhrál
+          jsi cenu učitele! (pouze učitele z USA)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: Abychom odměnili novopečené učitele počítačových věd, můžeš vyhrát
+          až 1000$ v  <a href="http://DonorsChoose.org">DonorsChoose.org</a> kreditech
+          za vedení třídy v K-8 úvodním kurzu. Aby jsi byl kvalifikován, musíš úspěšně
+          provést třídu alespoň 15ti studentů přes celý K-8 úvodní kurz, kde všech
+          15 studentů (nebo více) splní všechna cvičení a získají všech %{num_trophies}
+          trofejí. Pokud 7 nebo více studentů, kteří získali všechny trofeje, jsou
+          dívky, tvoje odměna je 1000$ v  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+          kreditech. Jinak tvoje odměna je 750$ v  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+          kreditech. <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+          kredity mohou být využity pouze učiteli ve veřejných školách USA.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 7 nebo více studentů, kteří získali všech %{num_trophies} trofejí
+            jsou dívky. Vyhrál jsi bonusovou cenu! (pouze učitele v USA)
+          not_earned: Pokud alespoň 7 tvých studentů, kteří získají všech %{num_trophies}
+            trofejí jsou dívky, jako odměnu získáš dalších 250$ v  <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a>  kreditech. <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> kredity mohou být
+            využity pouze učiteli ve veřejných školách USA.
+  crud:
+    new_model: Nový %{model}
+    show: Zobrazit
+    edit: Upravit
+    edit_model: Upravit %{model}
+    update: Aktualizovat
+    destroy: Zničit
+    back: Zpět
+    confirm: Jsi si jistý?
+    created: '%{model} byl úspěšně vytvořen.'
+    updated: '%{model} byl úspěšně aktualizován.'
+    destroyed: '%{model} was successfully deleted.'
+    access_denied: You do not have access to this %{model}.
+  nav:
+    header:
+      finished_hoc: Dokončil jsem svou Hodinu Kódu
+      sign_in_to_save: Přihlaš se pro uložení pokroku
+    user:
+      classroom: Moji studenti
+      label: Ahoj %{username}
+      stats: Můj pokrok
+      settings: Můj účet
+      prizes: Ceny
+      logout: Odhlásit se
+      signin: Přihlásit se
+      signup: Registrace
+    popup:
+      progress: Tvůj pokrok
+      lines: 'Celkem řádků kódu: %{lines}'
+      close: ZAVŘÍT
+      mastery: Pojmy
+      puzzle_map: Fáze
+      prizes: Posbírej všech %{total_trophies} trofejí a vyhraj ceny!
+      prize_earned: Všech %{total_trophies} trofejí získáno. Vyhrál jsi!
+      prize_us_only: (Pouze studenti z USA)
+      prizes_link: více informací
+  teacher:
+    title:
+      one: Tvůj učitel je %{name}
+      other: 'Tví učitelé:'
+    remove: (remove teacher)
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: Nástroje pro učitele
+    students:
+      manage: Správa studentů
+      add: Přidat studenty
+    rollup: Panel pokroku
+    activity: Nedávné aktivity třídy
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: (zanech prázdné, pokud nechceš provést změnu)
+    current_password_hint: (potřebujeme tvé aktuální heslo pro potvrzení změny)
+    cancel:
+      title: Zrušit účet
+      hint: Nešťastný?
+      button: Zrušit účet
+  user_level:
+    completed: Dokončeno
+    tried: Snažil se
+  user_stats:
+    recent_activity: Nedávná aktivita
+    show_more: Zobrazit více
+  home:
+    signin_message: Nebo pokud jsi již registrován, %{link}
+    student_reg_link: Student
+    teacher_reg_link: Učitel
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: Zobrazit tabulku pokroku
+    teacher_student_count_one: Máš %{count} studenta.
+    teacher_student_count: Máš %{count} studentů.
+    teacher_averages: Tví studenti v průměru získali %{trophy_average} z %{trophy_max}
+      trofejí "Mistrovství Pojetí".
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: Tvá třída
+    student_progress: Tvůj pokrok v učení
+    student_stats: Získal jsi %{trophy_count} z možných %{trophy_max} trofejí "Mistrovství
+      Pojetí".
+    student_left_off: 'Kde jsi přestal:'
+    student_finished_prize: Dokončil jsi všechna cvičení, vyzvedni si %{prize_link}
+      a vyber si další třídu %{online_link} nebo v %{local_school_link}
+    student_finished: Dokončil jsi všechna cvičení, vyber si další třídu %{online_link}
+      nebo v %{local_school_link}
+    local_school: místní škola
+    online: online
+    see_details: Viz podrobnosti
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: Muž
+    female: Žena
+    none: Raději bych neodpovídal/a
+  footer:
+    help_from_html: Inženýři z <a href="http://www.google.com">Googlu</a>, <a href="http://www.microsoft.com">Microsoftu</a>,
+      <a href="http://www.facebook.com">Facebooku</a> a <a href="http://www.twitter.com">Twitteru</a>
+      pomohli vytvořit toto cvičení.
+    art_from_html: Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. Všechna práva vyhrazena.<br/> Plants vs. Zombies&trade;
+      & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Všechna
+      práva vyhrazena.
+    feedback: Poskytnout zpětnou vazbu
+    translate: Pomož nám v překladu do tvého jazyka
+    tos: Podmínky služby
+    privacy: Zásady ochrany osobních údajů
+  prize_mail:
+    prize_earned:
+      subject: Získej tvou cenu na Code.org!
+    teacher_prize_earned:
+      subject: Získej tvou cenu na Code.org!
+    teacher_bonus_prize_earned:
+      subject: Získej tvou bonusovou cenu na Code.org!
+  reference_area:
+    title: Potřebuješ pomoc?
+    subtitle: Podívej se na tyto videa a tipy
+    teacher: Zobraz řešení
+    auth_error: Nemáš oprávnění zobrazovat řešení.
+  video:
+    tab: Video.
+    notes: Žádné video? Zobraz poznámky.
+    autoplay_option: Automatické přehrávání videa
+    download: Stáhnout Video
+  compatability:
+    working: Pracujeme na podpoře pro tvůj prohlížeč.
+    upgrade: Prosím aktualizuj si svůj prohlížeč.
+  slow_loading: Trvá to déle než obvykle...
+  try_reloading: Zkus znovu načíst stránku
+  next_stage: Hotovo! Pokračuj do další fáze
+  download_pdf: Otevři Učební Plán
+  share_code:
+    title: Klikni na "Spustit program" a uvidíš můj program v akci
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

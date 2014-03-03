@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require 'dbi'
+require 'mysql'
+
+DIR = '/mnt/backups/'
+
+c = DBI.connect('DBI:Mysql:dashboard_production:drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com', 'db', 'Az3GjKlP')
+#c = DBI.connect('DBI:Mysql:dashboard_development:localhost', 'root', '')
+
+#raise c.execute("select now()").inspect
+
+Dir.glob(DIR + 'dash*/log/milestone.log-20131211.gz') do |i|
+  puts "gunzip -c #{i} > /tmp/milestone.log"
+  puts "mysql --local-infile -u db -pAz3GjKlP -h drupal-east-1d.ceidnfhvpbck.us-east-1.rds.amazonaws.com dashboard_production"
+  puts "load data local infile '/tmp/milestone.log' into table temp_logs;"
+  puts "exit"
+end
+

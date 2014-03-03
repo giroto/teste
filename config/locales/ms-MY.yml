@@ -1,0 +1,366 @@
+"ms":
+  activerecord:
+    attributes:
+      user:
+        name: Nama
+        email: E-mel
+        username: Nama pengguna
+        password: Kata laluan
+        password_confirmation: Pengesahan kata laluan
+        current_password: Kata laluan semasa
+        locale: Bahasa
+        gender: Jantina
+        edit_header: Edit Maklumat Akaun
+  hello: Helo dunia
+  welcome_back: Selamat datang kembali, % {nama}
+  add_teacher_form:
+    code_or_email:
+      label: 'Tambah seorang guru melalui kod atau alamat email:'
+      placeholder: Kod (ABCDEF) atau e-mel (teacher@school.edu)
+    submit: Tambah guru
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: Peringkat
+  puzzle: Teka-teki
+  trophies: Piala
+  courses: Kursus
+  of: dari
+  more: LAGI
+  less: KURANG
+  try_hoc: 'Cuba Kod Sejam, klik di sini >> '
+  try_k8intro: Atau cuba Kursus K-8, Pengenalan kepada Komputer Sains (15-25 jam)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 'Sudah mulakan? Sambung di sini >> '
+  demos: 'Admin: Semua Demo'
+  continue: Teruskan
+  prize: hadiah
+  more_info: More info
+  auth:
+    sign_in_with: Daftar Masuk dengan % {pembekal}
+    signed_in: Daftar masuk!
+    already_signedup: Sudah mendaftar?
+    notyet_signedup: Belum menyertai lagi?
+    google_oauth2: Google +
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Lupa kata laluan anda?
+    need_confirmation: Tidak menerima arahan pengesahan?
+    need_unlock: Tidak menerima kunci arahan?
+  signup_form:
+    overview: This 20-hour course introduces core computer science and programming
+      concepts. The course is designed for use in classrooms for grades K-8, but it
+      is fun to learn at all ages.
+    no_signup_header: Don't want to sign up?
+    no_signup_message: You can <a target="_blank" href="http://learn.code.org">browse
+      the various stages and puzzles</a>, but you will need to sign up to save your
+      progress.
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: U.S. students who earn all %{num_trophies} concept trophies can
+      select a variety of prizes including free Dropbox space, Skype credits, and
+      downloadable games from Electronic Arts.
+    teacher_educator_guide: See educator guide
+    teacher_prize_header: Win $1,000 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+      rewards
+    teacher_prize_message: 'In partnership with <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>,
+      Code.org will offer up to $1,000 in classroom funding to U.S. public school
+      teachers who lead at least 15 students through this course. <a href="http://code.org/educate/20hr">See
+      educator guide for more info.</a> '
+    teacher_prize_limits: '(Limit: $1,000 per teacher. <a target="_blank" href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">See
+      FAQ for more limits</a>)'
+    teacher_pitch: Teach the K-8 Intro to Computer Science in your classroom
+    teacher_title: Teacher sign up
+    student_pitch: 'Beyond 1 hour: try our K-8 Intro to Computer Science'
+    student_title: Sign up
+    school_name: Nama sekolah (pilihan)
+    school_address: Alamat sekolah (pilihan)
+    address_placeholder: alamat, bandar, Negeri, zip
+    gender: Jantina (pilihan)
+    birthday: Hari Lahir (pilihan)
+    submit: Mendaftar
+    teacher: Adakah anda seorang guru?
+    valid_username: Available!
+    invalid_username: Username must be at least 5 characters
+    taken_username: Username is already taken
+    valid_password: Valid password!
+    invalid_password: Password must be at least 6 characters
+    mismatch_password: The two passwords you entered do not match
+    student_terms: I agree to be bound by the Code.org terms of service. If I am under
+      13 years of age, I confirm by submitting this form that I have my parent or
+      legal guardian's permission to use the Code.org services.
+    teacher_terms: I agree to be bound by the Code.org terms of service.
+  signin_form:
+    title: Log masuk
+    login: E-mel atau nama pengguna
+    password: Kata laluan
+    remember: Ingat saya
+    submit: Log masuk
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: Lupa kata laluan anda?
+      email: Alamat e-mel
+      submit: Hantar set semula kata laluan arahan
+    change_form:
+      title: Tukar kata laluan
+      new_password: Kata laluan baru
+      confirm_password: Sahkan kata laluan baru
+      submit: Tukar kata laluan
+  welcome_email:
+    subject: Sertai kelas saya (di Code.org)
+    body: 'Klik pautan di bawah untuk mendaftar bagi tutorial Sains Komputer di Code.org
+      (dengan saya sebagai "guru"): % {link} tutorial ini adalah menyeronokkan, penglibatan
+      visual, dan mengajar konsep asas sains komputer melalui pendekatan mudah, berpandu,
+      seperti-permainan. Belajar kod dari Bill Gates, Mark Zuckerberg, Angry Birds,
+      dan Plants vs Zombie! :-) % {nama}'
+  follower:
+    invite_sent: Jemputan dihantar
+    added_teacher: '%{name} ditambah sebagai guru anda'
+    registered: You've registered for %{section_name}.
+    error:
+      signed_in: Sila daftar keluar sebelum teruskan
+      username_not_found: Pengguna %{username} tidak dijumpai
+      username_in_use: '%{username} telah dipilih, silih pilih yang lain'
+      no_teacher: Tidak dapat menemui sesiapa yang mendaftar masuk  dengan '%{teacher_email_or_code}'.
+        Sila minta mereka untuk mendaftar di sini dan cuba tambah mereka lagi
+      blank_code: Please enter a code or your teacher's email address
+    mail:
+      invite_student:
+        subject: Sertai kelas dengan  %{teacher_name} di Code.org!
+      student_disassociated:
+        subject: 'Code.org notification: %{student_name} is no longer associated as
+          your student.'
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: Anda tidak mempunyai akses kepada statistik orang ini
+  redeem_prizes:
+    title: 'Redeem Prizes: %{name}'
+    provider: 'Provider:'
+    code: 'Code:'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: How to use your code
+    success: Your prize was succesfully redeemed, see code below.
+    error: Your prize could not be redeemed, please try again.
+    error_us_only: The prize offer is only valid for U.S. users.
+    error_not_earned: You have not yet earned this prize.
+    error_already_redeemed: Your prize has already been redeemed.
+    no_prizes_available: We're sorry, but we currently have no prizes available.
+    teacher_info_required: 'Teacher prizes require school name and address information:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: Please Confirm
+      'no': false
+      'yes': true
+      msg: Are you sure you want to claim the %{prize_name} prize?
+      msg_student: 'NOTE: You can only choose one type of prize.'
+      msg_publicschool: Please confirm that you are a U.S. public school teacher.
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10GB of Dropbox Space
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'Choose a prize:'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: You have earned a prize! (U.S. students only)
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'Learn all the computer science concepts, collect all %{num_trophies}
+        trophies, and earn real-world prizes. You can choose between 10GB of free
+        Dropbox space, $10 in Skype credits, and free game downloads. NOTE: offer
+        only valid to U.S. students, and only as long as supplies last.'
+      teacher:
+        earned: 10 or more students collected all %{num_trophies} trophies. You have
+          won a teacher prize! (U.S. teachers only)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: To reward first-time computer science teachers, you can earn up
+          to $1,000 in <a href="http://DonorsChoose.org">DonorsChoose.org</a> credits
+          for guiding a classroom through the K-8 intro course. To qualify, you need
+          to successfully host a classroom of at least 15 students through the entire
+          K-8 intro course, with all 15 students (or more) completing all tutorials
+          and earning all %{num_trophies} trophies. If 7 or more of the students who
+          earn all of the trophies are girls, your reward is $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits. Otherwise,
+          your reward is $750 in <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+          credits.  <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+          credits can only be used by teachers in U.S. public schools.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 7 or more of the students who collected all %{num_trophies} trophies
+            are girls. You have won a bonus prize! (U.S. teachers only)
+          not_earned: If at least 7 of your students who earn all %{num_trophies}
+            trophies are girls, your reward is an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits. <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits can only be
+            used by teachers in U.S. public schools.
+  crud:
+    new_model: Baru %{model}
+    show: Papar
+    edit: Edit
+    edit_model: Edit %{model}
+    update: Kemas kini
+    destroy: Hapuskan
+    back: Belakang
+    confirm: Adakah anda pasti?
+    created: '%{model} telah berjaya dicipta.'
+    updated: '%{model} telah berjaya diperbaharui.'
+    destroyed: '%{model} was successfully deleted.'
+    access_denied: You do not have access to this %{model}.
+  nav:
+    header:
+      finished_hoc: Saya telah menyelesaikan Hour of Code saya
+      sign_in_to_save: Daftar Masuk untuk menyimpan kemajuan
+    user:
+      classroom: Pelajar-pelajar saya
+      label: Hi %{username}
+      stats: Kemajuan saya
+      settings: Akaun saya
+      prizes: Hadiah-hadiah
+      logout: Daftar keluar
+      signin: Log masuk
+      signup: Mendaftar
+    popup:
+      progress: Kemajuan anda
+      lines: 'Total baris kod: %{lines}'
+      close: TUTUP
+      mastery: Konsep-konsep
+      puzzle_map: Peringkat
+      prizes: Kumpul semua %{total_trophies} trofi dan menangi hadiah-hadiah!
+      prize_earned: All %{total_trophies} trophies collected. Prize won!
+      prize_us_only: (U.S. students only)
+      prizes_link: maklumat lanjut
+  teacher:
+    title:
+      one: Guru anda ialah %{name}
+      other: 'Guru anda:'
+    remove: (remove teacher)
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: Peralatan Guru
+    students:
+      manage: Mengurus pelajar
+      add: Menambah pelajar
+    rollup: Dasbor Perkembangan
+    activity: Aktiviti kelas terkini
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: (biarkan kosong jika anda tidak mahu mengubahnya)
+    current_password_hint: (kami memerlukan kata laluan semasa anda untuk mengesahkan
+      perubahan anda)
+    cancel:
+      title: Batalkan akaun saya
+      hint: Tidak berpuas hati?
+      button: Batalkan akaun saya
+  user_level:
+    completed: Lengkap
+    tried: Telah dicuba
+  user_stats:
+    recent_activity: Aktiviti terkini
+    show_more: Tunjukkan Lagi
+  home:
+    signin_message: Or if you're already registered, %{link}
+    student_reg_link: Student
+    teacher_reg_link: Teacher
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: Lihat dashboard kemajuan
+    teacher_student_count_one: You have %{count} student.
+    teacher_student_count: Anda mempunyai %{count} pelajar.
+    teacher_averages: Secara puratanya, pelajar anda mendapat %{trophy_average} daripada
+      %{trophy_max} "Concept Mastery" trofi.
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: Kelas anda
+    student_progress: Your learning progress
+    student_stats: Anda telah memperolehi %{trophy_count} daripada %{trophy_max} "Concept
+      Mastery" trofi.
+    student_left_off: 'Mana anda tinggalkan:'
+    student_finished_prize: You've completed all tutorials, claim your %{prize_link}
+      and pick another class %{online_link} or at a %{local_school_link}
+    student_finished: You've completed all tutorials, pick another class %{online_link}
+      or at a %{local_school_link}
+    local_school: sekolah tempatan
+    online: online
+    see_details: See details
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: Lelaki
+    female: Perempuan
+    none: Memilih untuk tidak menjawab
+  footer:
+    help_from_html: Jurutera daripada <a href="http://www.google.com">Google</a>,
+      <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>,
+      and <a href="http://www.twitter.com">Twitter</a> telah membantu mencipta tutorial
+      ini.
+    art_from_html: Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. All Rights Reserved.<br/> Plants vs. Zombies&trade; &
+      &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. All Rights
+      Reserved.
+    feedback: Sediakan maklum balas
+    translate: Bantu kami menterjemahkan ke bahasa anda
+    tos: Syarat-syarat perkhidmatan
+    privacy: Privacy Policy
+  prize_mail:
+    prize_earned:
+      subject: Redeem your prize at Code.org!
+    teacher_prize_earned:
+      subject: Redeem your prize at Code.org!
+    teacher_bonus_prize_earned:
+      subject: Redeem your bonus prize at Code.org!
+  reference_area:
+    title: Perlukan bantuan?
+    subtitle: Lihat video dan petunjuk ini
+    teacher: See the solution
+    auth_error: You are not authorized to see the solution.
+  video:
+    tab: Video.
+    notes: Tiada video? Lihat nota.
+    autoplay_option: Video AutoMain
+    download: Download Video
+  compatability:
+    working: Kami sedang berusaha menyokong pelayar anda.
+    upgrade: Sila naik taraf pelayar anda.
+  slow_loading: This is taking longer than usual...
+  try_reloading: Try reloading the page
+  next_stage: Finished! Continue to next stage
+  download_pdf: Open Lesson Plan
+  share_code:
+    title: Click 'Run program' to see my program in action
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

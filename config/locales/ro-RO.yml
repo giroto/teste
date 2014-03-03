@@ -1,0 +1,378 @@
+"ro":
+  activerecord:
+    attributes:
+      user:
+        name: Nume
+        email: Email
+        username: Nume de utilizator
+        password: Parolă
+        password_confirmation: Confirmarea parolei
+        current_password: Parolă curentă
+        locale: Limbă
+        gender: Sex
+        edit_header: Editează detaliile contului
+  hello: Salutare lume
+  welcome_back: Bine ai revenit, %{name}
+  add_teacher_form:
+    code_or_email:
+      label: 'Adaugă un profesor prin cod sau adresă de email:'
+      placeholder: Cod (ABCDEF) sau e-mail (profesor@școală.edu)
+    submit: Adaugă profesor
+  add_hint_form:
+    placeholder: Introdu indiciul tau aici
+    submit: Adauga indiciu
+  appname: Code.org
+  stage: Etapă
+  puzzle: Puzzle
+  trophies: Trofee
+  courses: Cursuri
+  of: de
+  more: MAI MULT
+  less: MAI PUŢIN
+  try_hoc: 'Încearcă Ora de Cod, faceți clic aici >> '
+  try_k8intro: Sau, încearcă Cursul nostru K-8 de introducere în Informatică (15-25
+    ore)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: Ai început deja? Rezumă aici >>
+  demos: 'Admin: Toate demo-urile'
+  continue: Continuă
+  prize: premiu
+  more_info: Mai multe informaţii
+  auth:
+    sign_in_with: Loghează-te cu %{provider}
+    signed_in: Înregistrat!
+    already_signedup: Te-ai înscris deja?
+    notyet_signedup: Nu te-ai alăturat încă?
+    google_oauth2: Google+
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: Ai uitat parola?
+    need_confirmation: Nu ai primit instrucţiuni de confirmare?
+    need_unlock: Nu ai primit instrucţiuni de deblocare?
+  signup_form:
+    overview: Acest curs de 20 de ore prezintă concepte de bază din informatică şi
+      programare. Cursul este creat pentru utilizarea în săli de clasă pentru clasele
+      K-8, dar este distractiv de învăţat la toate vârstele.
+    no_signup_header: Nu vrei să te înregistrezi?
+    no_signup_message: Poţi <a target="_blank" href="http://learn.code.org"> parcurge
+      diverse stadii şi puzzle-uri</a>, dar va trebui să te înregistrezi pentru a-ți
+      salva progresul.
+    prizes_header: Primii studenți care termină cursul de câștigă premii! (Numai pentru
+      studenţi din SUA)
+    prizes_message: Studentii din S.U.A. care castiga toate %{num_trophies} trofeele
+      isi pot alege unul dintre premiile oferite precum spatiu pe Dropbox, credite
+      Skype, si posibilitatea de a descarca jocuri de la Electronic Arts.
+    teacher_educator_guide: Consultă ghidul educatorului
+    teacher_prize_header: Câștigă $1000 în cadrul premiilor <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>
+    teacher_prize_message: 'În parteneriat cu <a target="_blank" href="http://DonorsChoose.org">
+      DonorsChoose.org</a>, Code.org va oferi până la 1.000 dolari, drept finanţare
+      către clase, acelor profesori de şcoală publică din U.S.A. care coordonează
+      cel puţin 15 elevi prin acest curs. <a href="http://code.org/educate/20hr">
+      a se vedea Ghidul educatorului pentru mai multe informaţii.</a> '
+    teacher_prize_limits: '(Limita: $1.000 pentru fiecare profesor. <a target="_blank"
+      href="http://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">
+      A se vedea FAQ pentru mai multe limite</a>)'
+    teacher_pitch: Predă Introducerea K-8 în Informatică în clasa ta
+    teacher_title: Înregistrare Profesor
+    student_pitch: 'Peste 1 oră: încearcă Introducerea noastră K-8 în Informatică'
+    student_title: Înregistrează-te
+    school_name: Numele şcolii (opţional)
+    school_address: Adresa şcolii (opţional)
+    address_placeholder: adresă, oraş, județ, cod poștal
+    gender: Sex (opţional)
+    birthday: Ziua de naştere (opţional)
+    submit: Înscrie-te
+    teacher: Ești profesor?
+    valid_username: Disponibil!
+    invalid_username: Numele de utilizator trebuie să aibe cel puțin 5 caractere
+    taken_username: Numele de utilizator este deja luat
+    valid_password: Parolă validă!
+    invalid_password: Parola trebuie să conţină cel puțin 6 caractere
+    mismatch_password: Cele două parole introduse nu se potrivesc
+    student_terms: Sunt de acord cu termenii și condițiile Code.org. Dacă am vârsta
+      sub 13 ani, atunci eu confirm prin trimiterea acestui formular că am permisiunea
+      părinților mei sau a tutorelui legal pentru a folosi serviciile Code.org.
+    teacher_terms: Sunt de acord să respect termenii și condițiile serviciului Code.org.
+  signin_form:
+    title: Loghează-te
+    login: Email sau nume de utilizator
+    password: Parolă
+    remember: Ține-mă minte
+    submit: Loghează-te
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: Ai uitat parola?
+      email: Adresă de email
+      submit: Trimite-mi instrucțiuni de resetare a parolei
+    change_form:
+      title: Schimbă-ți parola
+      new_password: Parolă nouă
+      confirm_password: Confirmă noua parolă
+      submit: Schimbă-mi parola
+  welcome_email:
+    subject: Alătură-te clasei mele (pe Code.org)
+    body: |
+      Dă clic pe linkul de mai jos pentru a te înscrie la tutorialele de informatică pe Code.org (cu mine ca "Profesorul" tău):
+
+       %{link}
+
+      Tutorialele sunt distractive, captivante vizual şi te învaţă conceptele de bază din informatică folosind o metodă simplă, ghidată, similară jocului. Învață să codezi de la Bill Gates, Mark Zuckerberg, Angry-Birds și Plants vs. Zombies! :-)
+
+      %{name}
+  follower:
+    invite_sent: Invitație trimisă
+    added_teacher: '%{name} adăugat(ă) ca și profesorul tău'
+    registered: Te-ai înregistrat pentru  %{section_name}.
+    error:
+      signed_in: Te rugăm să te deloghezi înainte de a continua
+      username_not_found: Utilizatorul %{username} nu a fost găsit
+      username_in_use: '%{username} este deja luat, te rugăm să alegi altul'
+      no_teacher: Nu am găsit pe nimeni logat cu '%{teacher_email_or_code}'. Te rugăm
+        să le ceri să se înregistreze aici și apoi încearcă să-i mai adăugi o dată
+      blank_code: Te rugăm să introduci un cod sau adresa de e-mail a profesorului
+    mail:
+      invite_student:
+        subject: Alătură-te clasei cu %{teacher_name} la Code.org!
+      student_disassociated:
+        subject: 'Code.org notificare: %{student_name} nu mai este asociat ca student.'
+      teacher_disassociated:
+        subject: 'Code.org notificare: %{teacher_name} nu mai este asociat ca profesorul
+          tău.'
+  reports:
+    error:
+      access_denied: Nu ai acces la statisticile de progress ale acestei persoane
+  redeem_prizes:
+    title: 'Revendică Premii: %{name}'
+    provider: 'Furnizor:'
+    code: 'Cod:'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: Cum sa-ti utilizezi codul
+    success: Ți-ai revendicat cu succes premiul, vezi codul de mai jos.
+    error: Premiul tău nu a putut fi revendicat, te rugăm să încerci din nou.
+    error_us_only: Premiile oferite sunt valabile doar pentru utilizatorii din Statele
+      Unite.
+    error_not_earned: Nu ai câștigat încă acest premiu.
+    error_already_redeemed: Premiul tău a fost deja răscumpărat.
+    no_prizes_available: Ne pare rău, dar nu avem niciun premiu disponibil în prezent.
+    teacher_info_required: 'Premiile pentru profesori necesita informatii despre numele
+      scolii si adresa:'
+    teacher_email_required: 'Premiile profesorilor necesita confirmarea adresei de
+      email:'
+    confirm:
+      title: Te rugăm să confirmi
+      'no': Nu
+      'yes': Da
+      msg: Ești sigur(ă) ca vrei să revendici premiul %{prize_name}?
+      msg_student: 'NOTĂ: Poți să alegi doar unul din aceste premii.'
+      msg_publicschool: Te rugăm să confirmi că ești un profesor la o școală de stat
+        din SUA.
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10GB de spațiu pe Dropbox
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'Alege un premiu:'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: Aţi câştigat un premiu! (Numai pentru studenţii din SUA)
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 'Învață toate conceptele de informatică, colectează toate %{num_trophies}
+        trofeele, şi câştigă premii reale. Poţi alege între 10GB de spaţiu liber pe
+        Dropbox, 10$ în credit pe Skype, şi descărcări gratuite de jocuri. Notă: Oferta
+        valabilă numai pentru studenţii din SUA, şi numai atât timp cât încă mai sunt
+        pe stoc.'
+      teacher:
+        earned: 15 sau mai mulți studenţii au colectat toate %{num_trophies} trofee.
+          Ai câștigat un premiu pentru profesor! (Numai pentru profesorii din SUA)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: Pentru a răsplăti primii profesori de informatică, puteți câștiga
+          până la 1.000$ in credite pe <a href="http://DonorsChoose.org"> DonorsChoose.org</a>
+          pentru coordonarea unei clase prin cursul introductiv K-8. Pentru a te califica,
+          trebuie să găzduiești cu succes o clasă de cel puțin 15 studenți de-a lungul
+          cursului de introducere K-8, cu toți cei 15 studenți (sau mai mulți) care
+          au completat toate tutorialele și au câștigat toate %{num_trophies} trofeele.
+          În cazul în care 7 sau mai mulți dintre studenți care câștigă toate trofeele
+          sunt fete, atunci răsplata ta este de 1.000$ în credite pe <a target="_blank"
+          href="http://DonorsChoose.org"> DonorsChoose.org</a>. În caz contrar, răsplata
+          ta este de 750$în credite pe<a target="_blank" href="http://DonorsChoose.org">
+          DonorsChoose.org</a>. Creditele de pe<a target="_blank" href="http://DonorsChoose.org">
+          DonorsChoose.org</a> pot fi utilizate numai de profesori din școlile de
+          stat din SUA.
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 7 sau mai mulți dintre studenți care au completat toate cele  %{num_trophies}
+            trofee sunt fete. AI câștigat un premiu bonus! (numai pentru profesorii
+            din SUA)
+          not_earned: Dacă cel puțin 7 dintre studenții care câștigă toate %{num_trophies}
+            trofeele sunt fete, atunci recompensa ta este suplimentată cu 250$ în
+            credite pe<a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>.
+            Creditele de pe<a target="_blank" href="http://DonorsChoose.org"> DonorsChoose.org</a>
+            pot fi utilizate numai de profesori din școlile de stat din SUA.
+  crud:
+    new_model: '%{model} nou'
+    show: Arată
+    edit: Editează
+    edit_model: Editează %{model}
+    update: Actualizează
+    destroy: Distruge
+    back: Înapoi
+    confirm: Eşti sigur(ă)?
+    created: '%{model} a fost creat cu succes.'
+    updated: '%{model} a fost actualizat cu succes.'
+    destroyed: '%{model} a fost şters cu succes.'
+    access_denied: Nu aveţi acces la această %{model}.
+  nav:
+    header:
+      finished_hoc: Am terminat Ora mea de Cod
+      sign_in_to_save: Loghează-te pentru a salva progresul
+    user:
+      classroom: Elevii mei
+      label: Salut %{username}
+      stats: Progresul meu
+      settings: Contul meu
+      prizes: Premii
+      logout: Deloghează-te
+      signin: Loghează-te
+      signup: Înregistrează-te
+    popup:
+      progress: Progresul tău
+      lines: 'Total linii de cod: %{lines}'
+      close: ÎNCHIDE
+      mastery: Concepte
+      puzzle_map: Etape
+      prizes: Colectează toate cele %{total_trophies} trofee și câștigă premii!
+      prize_earned: Toate cele %{total_trophies} trofee au fost colectate. Premiu
+        câștigat!
+      prize_us_only: (Numai pentru studenţii din SUA)
+      prizes_link: mai multe informaţii
+  teacher:
+    title:
+      one: 'Profesorul tău:'
+      other: 'Profesorii tăi:'
+    remove: (eliminaţi profesor)
+    confirm:
+      remove: Esti sigur ca vrei sa elimini acest profesor?
+    tools: Instrumente pentru profesor
+    students:
+      manage: Gestionează elevi
+      add: Adaugă elevi
+    rollup: Grilă de progress
+    activity: Activitatea recentă a clasei
+    user_not_found: Profesorul sau studentul nu pot fi găsit
+    student_teacher_disassociated: '%{teacher_name} a fost eliminat ca profesor pentru
+      %{student_name}'
+  user:
+    email_confirm_needed: 'Adresa de email nu a fost confirmata:'
+    email_resend_confirm: Retrimite instructiunile de confirmare
+    new_password_hint: (lasă necompletat dacă nu dorești să schimbi)
+    current_password_hint: (avem nevoie de parola ta curentă pentru a confirma modificările)
+    cancel:
+      title: Anulează-mi contul
+      hint: Nefericit?
+      button: Anulează-mi contul
+  user_level:
+    completed: Finalizat
+    tried: Încercat
+  user_stats:
+    recent_activity: Activitate recentă
+    show_more: Arată mai multe
+  home:
+    signin_message: Sau dacă sunteţi deja înregistrat, % {link}
+    student_reg_link: Student
+    teacher_reg_link: Profesor
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: Vezi grila de progres
+    teacher_student_count_one: Ai %{count} elevi.
+    teacher_student_count: Ai %{count} elevi.
+    teacher_averages: În medie, elevii tăi au câștigat %{trophy_average} din cele
+      %{trophy_max} trofee de "Concept de Măestrie"
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: Clasa ta
+    student_progress: Progresul tău de învățare
+    student_stats: Ai câştigat %{trophy_count} din cele %{trophy_max} trofee de "Concept
+      de Măestrie"
+    student_left_off: 'Unde ai rămas:'
+    student_finished_prize: Ai completat toate tutorialele, revendică-ți %{prize_link}
+      și alege o altă clasă %{online_link} sau la o %{local_school_link}
+    student_finished: Ai completat toate tutoriale, alege o altă clasă %{online_link}
+      sau la o altă școală %{local_school_link}
+    local_school: şcoală locală
+    online: online
+    see_details: Vezi detalii
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: De sex masculin
+    female: De sex feminin
+    none: Prefer să nu răspund
+  footer:
+    help_from_html: Ingineri de la <a href="http://www.google.com">Google</a>, <a
+      href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.facebook.com">Facebook</a>
+      și <a href="http://www.twitter.com">Twitter</a> au ajutat la crearea acestui
+      tutorial.
+    art_from_html: Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. Toate drepturile rezervate.<br/> Plants vs. Zombies&trade;
+      & &copy; 2013 <a href="http://www.ea.com">Electronic Arts Inc.</a>. Toate drepturile
+      rezervate.
+    feedback: Oferă feedback
+    translate: Ajută-ne să  traducem în limba ta
+    tos: Termeni de utilizare a serviciului
+    privacy: Politică de confidențialitate
+  prize_mail:
+    prize_earned:
+      subject: Revendică-ți premiul la Code.org!
+    teacher_prize_earned:
+      subject: Revendică-ți premiul la Code.org!
+    teacher_bonus_prize_earned:
+      subject: Revendică-ți premiul bonus la Code.org!
+  reference_area:
+    title: Ai nevoie de ajutor?
+    subtitle: Vezi aceste clipuri video şi sugestii
+    teacher: Vezi soluția
+    auth_error: Nu ești autorizat pentru a vedea soluția.
+  video:
+    tab: Video.
+    notes: Nici un video? Arată note.
+    autoplay_option: Redare Automată clipuri video
+    download: Descarcă Video
+  compatability:
+    working: Momentan efectuăm lucrări de susținere a browser-ului tău.
+    upgrade: Te rugăm să-ți actualizezi browser-ul.
+  slow_loading: Aceasta durează mai mult decât de obicei...
+  try_reloading: Încearcă să reîncarci pagina
+  next_stage: Ai terminat! Mergi la următoarea etapă
+  download_pdf: Plan de lecţie deschisă
+  share_code:
+    title: Dă clic pe 'Rulează program' pentru a-ți vedea programul în acţiune
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

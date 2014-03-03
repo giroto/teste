@@ -1,0 +1,337 @@
+"zh-TW":
+  activerecord:
+    attributes:
+      user:
+        name: 你的名字
+        email: 電子郵件
+        username: '使用者名稱 '
+        password: 密碼
+        password_confirmation: 密碼確認
+        current_password: 目前的密碼：
+        locale: 語言
+        gender: 性別
+        edit_header: 編輯帳戶的詳細資訊
+  hello: 世界您好
+  welcome_back: 歡迎回來，%{name}
+  add_teacher_form:
+    code_or_email:
+      label: 通過代碼或電子郵件指定一個教師：
+      placeholder: 代碼 (ABCDEF) 或電子郵件 (teacher@school.edu)
+    submit: 指定教師
+  add_hint_form:
+    placeholder: Please enter your hint here
+    submit: Add hint
+  appname: Code.org
+  stage: 階段
+  puzzle: 關卡
+  trophies: 獎盃
+  courses: 課程
+  of: 的
+  more: 更多
+  less: 更少
+  try_hoc: 試試看一小時的程式設計課程，請按一下這裡 >>
+  try_k8intro: 或試試我們提供給 K-8 的電腦科學簡介課程 (15-25 小時)
+  k8intro: K-8 Intro to Computer Science Course (15-25 hours)
+  already_started: 已經開始了嗎？從這裡繼續 >>
+  demos: 管理者：範例展示
+  continue: '繼續 '
+  prize: prize
+  more_info: 更多的資訊
+  auth:
+    sign_in_with: 以 %{provider}帳號登入
+    signed_in: 登入!
+    already_signedup: 已經註冊了嗎？
+    notyet_signedup: 還未註冊嗎？
+    google_oauth2: Google+
+    twitter: Twitter
+    facebook: Facebook
+    windowslive: Windows Live
+    forgot_password: 忘記了您的密碼嗎？
+    need_confirmation: 沒有收到確認的說明嗎？
+    need_unlock: 沒收到解鎖說明嗎？
+  signup_form:
+    overview: 這 20 小時課程將介紹電腦科學和程式設計的核心概念。本課程是設計給 K-8 年級的學生在教室內使用，但對所有年齡的人來說，也能把本課程當成興趣來學習。
+    no_signup_header: 不想註冊嗎？
+    no_signup_message: 您可以從 <a target="_blank"href="HTTP://learn.code.org"> 瀏覽各個階段和關卡</a>，但您需要註冊一個帳號來保存您的進度。
+    prizes_header: The first students to complete the course win prizes! (U.S. students
+      only)
+    prizes_message: 贏得所有 %{num_trophies} 個概念獎盃的美國學生，可以以下項目中選取獎品，包括免費的DropBox空間、Skype點數及EA所提供的遊戲下載。
+    teacher_educator_guide: 請參閱教育者指南
+    teacher_prize_header: ' 贏取由<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>所提供的
+      $1,000 獎勵'
+    teacher_prize_message: 透過與 <a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>合作。
+      Code.org 將為帶領15位以上學生參加本次課程的全美公立學校教師提供高達$1000的教學基金。 <a href="http://code.org/educate/20hr">更詳細的訊息請參閱教師指南。</a> 
+    teacher_prize_limits: (每個教師獎金上限為 $1,000 。<a target="_blank"href="HTTP://help.donorschoose.org/app/answers/detail/a_id/454/kw/code.org">
+      請參閱常見問題</a>)
+    teacher_pitch: 在您的班上進行K-8電腦科學簡介課程。
+    teacher_title: 教師註冊
+    student_pitch: 在一小時之後：試試我們的K-8電腦科學簡介課程
+    student_title: 註冊帳號
+    school_name: 學校名稱 （選填）
+    school_address: 學校地址 （選填）
+    address_placeholder: 地址、 城市、 州、 郵遞區號
+    gender: 性別 （選填）
+    birthday: 生日 （選填）
+    submit: 註冊
+    teacher: 你是老師嗎？
+    valid_username: 可以使用!
+    invalid_username: 使用者名稱須 5 個字元以上
+    taken_username: 使用者名稱已被使用
+    valid_password: 有效的密碼 ！
+    invalid_password: 密碼必須要 6 個字元以上
+    mismatch_password: 您輸入的兩次密碼不一樣
+    student_terms: 我同意遵守Code.org的服務條款。如果我的年齡小於13歲，當我按下確認鈕送出此表單的同時，表示我已經取得父母或法定監護人的允許來使用
+      Code.org 的服務。
+    teacher_terms: 我同意接受 Code.org服務條款的約束。
+  signin_form:
+    title: 登入
+    login: 電子郵件或使用者名稱
+    password: 密碼
+    remember: 記住密碼
+    submit: 登入
+  signin:
+    try_hoc: Try one Hour of Code first
+    try_20hours: Try our 20 hour Intro to Computer Science
+  password:
+    reset_form:
+      title: 忘記密碼？
+      email: 電子郵件地址
+      submit: 將重設密碼的操作說明寄送給我
+    change_form:
+      title: 更改您的密碼
+      new_password: 新密碼
+      confirm_password: 確認新密碼
+      submit: 更改我的密碼
+  welcome_email:
+    subject: 加入我(在 Code.org)的班級
+    body: |
+      點選下方的超連結來報名參加在 Code.org 的電腦科學課程(我將成為你的"老師")：
+
+      %{link}
+
+      這是一個絕對會引起你注意的有趣課程，透過遊戲式的簡易引導，你將學會有關電腦科學的基本概念。快來跟比爾‧蓋茲(Bill Gates)，馬克‧佐柏克(Mark Zuckerberg)、奮怒鳥(Angry Birds)以及植物大戰殭屍(Plants vs. Zombies)一起學習程式設計吧！ :)
+
+      %{name}
+  follower:
+    invite_sent: 邀請已發送
+    added_teacher: '%{name} 已新增為你的老師'
+    registered: 你已經用 %{section_name}註冊。
+    error:
+      signed_in: 請在登出後在進行操作
+      username_not_found: 使用者名稱 %{username}找不到
+      username_in_use: '%{username} 已經被使用了，請重新挑選一個。'
+      no_teacher: 找不到以 %{teacher_email_or_code}註冊的使用者。請邀請他們到這註冊，然後再嘗試新增他們。
+      blank_code: 請輸入教師代碼或是電子信箱
+    mail:
+      invite_student:
+        subject: 加入%{teacher_name}老師在Code.org的班級。
+      student_disassociated:
+        subject: Code.org 通知： %{student_name} 將你從教師名單中移除。
+      teacher_disassociated:
+        subject: 'Code.org notification: %{teacher_name} is no longer associated as
+          your teacher.'
+  reports:
+    error:
+      access_denied: 您不能讀取此人的統計資訊
+  redeem_prizes:
+    title: 'Redeem Prizes: %{name}'
+    provider: 'Provider:'
+    code: 'Code:'
+    redeem_header: 'To redeem:'
+    donorschoose_how_to: How to use your code
+    success: Your prize was succesfully redeemed, see code below.
+    error: Your prize could not be redeemed, please try again.
+    error_us_only: 這個獎項只提供給美國使用者。
+    error_not_earned: 你還沒有獲得這一個獎項。
+    error_already_redeemed: 您獲得的獎項已經兌現。
+    no_prizes_available: 很抱歉，目前我們無法提供獎品。
+    teacher_info_required: '教師的獎勵需要學校名稱跟地址:'
+    teacher_email_required: 'Teacher prizes require a confirmed email address:'
+    confirm:
+      title: Please Confirm
+      'no': false
+      'yes': true
+      msg: Are you sure you want to claim the %{prize_name} prize?
+      msg_student: 'NOTE: You can only choose one type of prize.'
+      msg_publicschool: 請確認您是美國公立學校的老師。
+      msg_visit_website: Visit website
+    providers:
+      apple_itunes: $10 iTunes Gift Card
+      donors_choose: DonorsChoose.org $750 credit
+      donors_choose_bonus: DonorsChoose.org $250 credit
+      dropbox: 10 GB 的 Dropbox 空間
+      valve: Portal 2 (PC or Mac game download)
+      ea_bejeweled: Bejeweled 3 (PC game download)
+      ea_fifa: FIFA Soccer 13 (PC game download)
+      ea_simcity: SimCity 4 Deluxe Edition (PC game download)
+      ea_pvz: Plants vs. Zombies (PC game download)
+      skype: $10 Skype credit
+    msg:
+      choose: 'Choose a prize:'
+      choose_teacher: 'Click on the logo below to claim your prize:'
+      earned: 你贏得了獎品！（僅適用於美國學生）
+      not_earned_title: Finish the tutorial, earn rewards (U.S. students only)
+      not_earned: 學習所有的電腦科學概念，並收集完所有 %{num_trophies}個獎盃，就能獲得真實世界的獎品。您可以選擇 10 GB 的
+        Dropbox 空間，10美元的Skype儲值或是免費遊戲下載。注意：獎項僅適用於美國學生，並僅有在獎品供應持續的情況下適用。
+      teacher:
+        earned: 10個以上的學生已經收及完所有 %{num_trophies}個獎盃。你贏得了教師獎章！(僅限美國教師)
+        not_earned_title: Teach the class, earn up to $1,000 in <a target="_blank"
+          href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+          only)
+        not_earned: |
+          為了獎勵第一次參與電腦科學課程的教師，透過指導一整個班級進行K-8的入門課程，您將有機會贏取由<a href="http://DonorsChoose.org">DonorsChoose.org</a>所提供高達$1000美元的儲值。符合資格的門檻為，你必需指導班上超過15名學生完成K-8的入門課程，所有參加學生必需完成所有課程並獲取所有 %{num_trophies}個獎盃。如果有超過7個女學生獲得所有獎盃，獎勵為$1000美元<a href="http://DonorsChoose.org">DonorsChoose.org</a>儲值。其它情況獎勵為為$750美元<a href="http://DonorsChoose.org">DonorsChoose.org</a>儲值。<a target="_blank" href="http://DonorsChoose.org">DonorsChoose.org</a>儲值僅限美國公立學校教師使用。
+        bonus:
+          not_earned_title: You can still earn an additional $250 in <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a> credits (U.S. teachers
+            only)
+          earned: 7個或以上的女學生完成全部 %{num_trophies}個獎盃的收集。你已獲得額外的獎章！(僅限美國教師)
+          not_earned: 如果至少7個以上的女學生完成了所有 %{num_trophies}個獎盃的收集，你將獲得價值$250美元的 <a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a>儲值。<a target="_blank"
+            href="http://DonorsChoose.org">DonorsChoose.org</a>儲值僅限美國公立學校教師使用。
+  crud:
+    new_model: 新 %{model}
+    show: '顯示 '
+    edit: 编辑
+    edit_model: 編輯 %{model}
+    update: '更新 '
+    destroy: 銷毀
+    back: 返回
+    confirm: 是否確定？
+    created: '%{model} 已建立。'
+    updated: '%{model} 已更新。'
+    destroyed: '%{model} 已成功刪除。'
+    access_denied: 你沒有使用 %{model}的權限。
+  nav:
+    header:
+      finished_hoc: 我已經完成我的"一小時程式設計"課程。
+      sign_in_to_save: 登入以儲存進度
+    user:
+      classroom: 我的學生
+      label: 嗨 %{username}
+      stats: 我的進度
+      settings: 我的帳號
+      prizes: 獎項
+      logout: 登出
+      signin: 登入
+      signup: 登錄
+    popup:
+      progress: 您的進度
+      lines: '全部程式碼行數: %{lines}'
+      close: 關閉
+      mastery: 觀念
+      puzzle_map: 階段
+      prizes: 收集所有 %{total_trophies} 個獎盃，並贏取獎品 ！
+      prize_earned: 所有%{total_trophies}個獎盃都收集完成。恭喜你贏得獎品！（僅限美國公立學校學生）
+      prize_us_only: （僅適用于美國學生）
+      prizes_link: '更多資訊 '
+  teacher:
+    title:
+      one: 你的老師是 %{名字}
+      other: 你的老師：
+    remove: （將教師移除）
+    confirm:
+      remove: Are you sure you want to remove this teacher?
+    tools: 教師工具
+    students:
+      manage: 學生管理
+      add: 新增學生
+    rollup: 進度表
+    activity: 最近的班級活動
+    user_not_found: The teacher or student could not be found
+    student_teacher_disassociated: '%{teacher_name} has been removed as a teacher
+      for %{student_name}'
+  user:
+    email_confirm_needed: 'Email address has not been confirmed:'
+    email_resend_confirm: Resend confirmation instructions
+    new_password_hint: （如果你不想變更它就保留空白）
+    current_password_hint: （我們需要您現在的密碼以確認您的更改）
+    cancel:
+      title: 取消我的帳戶
+      hint: 不開心嗎？
+      button: 取消我的帳戶
+  user_level:
+    completed: 已完成
+    tried: 已試過
+  user_stats:
+    recent_activity: 最近的活動
+    show_more: 顯示更多
+  home:
+    signin_message: 或者你已經註冊過了，%{link}
+    student_reg_link: '學生 '
+    teacher_reg_link: 老師
+    signin_directions: Use an account to track progress and get rewards.<br/> Teachers,
+      track your entire class.
+    teacher_dashboard: 瀏覽進度表
+    teacher_student_count_one: 您有 %{count} 位學生.
+    teacher_student_count: 您有 %{count} 位學生.
+    teacher_averages: '你的學生平均下來獲得了 %{trophy_average}/%{trophy_max} "概念通達"獎盃。 '
+    teacher_print_certificates: Print certificates for students who finish this course
+    teacher_read_blog: Read about news and updates to our materials at our Educator
+      Blog
+    classroom: 您的教室
+    student_progress: 您的學習進度
+    student_stats: 你已經獲得 %{trophy_count}/%{trophy_max} "概念通達"獎盃
+    student_left_off: 你離開的地方：
+    student_finished_prize: 你已經完成所有練習課程，換取你的 %{prize_link}，並挑選另外的 %{online_link} 或到
+      {local_school_link} %學習
+    student_finished: 你已經完成所有練習課程，換取你的 %{prize_link}，並挑選另外的 %{online_link} 或到 {local_school_link}
+      %學習
+    local_school: 當地的學校
+    online: 在線上
+    see_details: 查看詳細資訊
+    prize_info: 'Prizes for participation (U.S. only): $10 gift cards for student
+      completion and up to $1,000 in classroom rewards for public school teachers'
+    tryfirst: 'Or, you can try it first, and sign up later:'
+    trynow: Try now
+  gender:
+    male: 男性
+    female: 女性
+    none: 不願回答
+  footer:
+    help_from_html: 本課程由來自 <a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>,
+      <a href="http://www.facebook.com">Facebook</a>, 和 <a href="http://www.twitter.com">Twitter</a>的工程師共同建立。.
+    art_from_html: Angry Birds&trade; & &copy; 2009 - 2013 <a href="http://www.rovio.com">Rovio
+      Entertainment Ltd</a>. 版權所有.<br/> Plants vs. Zombies&trade; & &copy; 2013 <a
+      href="http://www.ea.com">Electronic Arts Inc.</a>.版權所有.
+    feedback: 提供回饋
+    translate: 幫我們翻譯成您國家的語言
+    tos: 服務條款
+    privacy: 隱私權政策
+  prize_mail:
+    prize_earned:
+      subject: Redeem your prize at Code.org!
+    teacher_prize_earned:
+      subject: Redeem your prize at Code.org!
+    teacher_bonus_prize_earned:
+      subject: 贖回你在 Code.org 的額外獎勵 ！
+  reference_area:
+    title: 需要幫忙嗎？
+    subtitle: 看看這些影片和提示
+    teacher: 參考解決方案
+    auth_error: 您無權查看該解決方案。
+  video:
+    tab: 影片
+    notes: 看不到影片嗎？顯示文字說明。
+    autoplay_option: 自動播放影片
+    download: 下載影片
+  compatability:
+    working: 我們正在設法支援您的瀏覽器。
+    upgrade: 請升級您的瀏覽器。
+  slow_loading: 請在等等，這次讀取的時間比較久一點.......
+  try_reloading: 請嘗試重新載入網頁
+  next_stage: 完成 ！繼續邁向下一個階段
+  download_pdf: 開啟教學計畫
+  share_code:
+    title: 按一下'執行程式'來看看程式執行結果
+    flappy_og_title: Check out my Flappy Game
+    og_description: I wrote the code myself with Code.org
+  builder:
+    created: You created a new script.
+    destroyed: You destroyed a script.
+    manage: Manage Scripts
+    view: View
+    back: Back to scripts
+    level:
+      create: Create new level
+      current: Current Levels
+      unused: Unused Levels

@@ -1,0 +1,34 @@
+!!! 5
+%html{:dir => locale_dir}
+  %head
+    %title= @page_title ? "#{t(:appname)} - #{@page_title}" : t(:appname)
+    = tag :meta, name: "viewport"
+    /[if IE 9]
+      %meta{"http-equiv" => "X-UA-Compatible", :content => "IE=Edge"}
+    = stylesheet_link_tag    "application", media: "all"
+    - if serve_fonts?
+      = stylesheet_link_tag    "//cloud.typography.com/7425452/678642/css/fonts.css", media: "all"
+    = javascript_include_tag "application"
+    = javascript_include_tag "jquery.placeholder"
+    = javascript_include_tag "//cdn.optimizely.com/js/400912536.js" if Rails.env.production?
+    = csrf_meta_tags
+    = yield :head
+  %body{ style: 'padding  :0px;' }
+    - if !phone? || !@level
+      = render partial: 'layouts/header'
+    - if @full_width
+      .full_container{ style: @no_padding ? 'padding: 0px 0px 25px 0px;' : '' }
+        = yield
+    - else
+      .container.main{ style: 'padding: 10px;'}
+        - if notice
+          %p#notice= notice
+        - if alert
+          %p#alert= alert
+
+        = yield
+    = render partial: 'layouts/footer'
+
+    = yield :body_scripts
+
+    = render partial: 'layouts/analytics'
